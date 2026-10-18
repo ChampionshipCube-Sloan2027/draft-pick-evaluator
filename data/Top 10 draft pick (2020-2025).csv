@@ -1,0 +1,61 @@
+Draft Year (DY),Draft Pick (DP),Draft Team (DT),Name (N),Position (P),Age (A),League (L),PPG,RPG,APG,FG%,3Pt%,BPM,Outcome (O),Source (S),Date Checked
+2025,1,Selected by DAL,Cooper Flagg,PF/SF,18,NCAA,19.2,7.5,4.2,48.1,38.5,16.35,Provisional,BBRef,13/10/2026
+2025,2,Selected by SAS,Dylan Harper,PG/SG,19,NCAA,19.4,4.6,4,48.4,33.3,8.6,Provisional,DataBallr,13/10/2026
+2025,3,Selected by PHI,VJ Edgecombe,SG,19,NCAA,15,5.6,3.2,43.6,34,5.4,Provisional,NBA.com,13/10/2026
+2025,4,Selected by CHA,Kon Knueppel,SF/SG,19,NCAA,14.4,4,2.7,47.9,40.6,6.85,Provisional,BBRef,13/10/2026
+2025,5,Selected by UTA,Ace Bailey,SF,18,NCAA,12.4,3.9,1.7,45.5,34.7,4.1,Provisional,NBA.com,13/10/2026
+2025,6,Selected by WAS,Tre Johnson,SG,19,NCAA,19.9,3.1,2.7,42.7,39.7,7.2,Provisional,ESPN,13/10/2026
+2025,7,Selected by NOP,Jeremiah Fears,PG,18,NCAA,17.1,4.1,4.1,43.4,33,5.95,Provisional,SI College,13/10/2026
+2025,8,Selected by BKN,Egor Dëmin,PG,19,NCAA,10.6,3.9,5.5,39.9,38.5,5.1,Provisional,Tankathon,13/10/2026
+2025,9,Selected by TOR,Collin Murray-Boyles,PF,20,NCAA,8,4.2,1.1,51.3,31.4,6.25,Provisional,SBNation,13/10/2026
+2025,10,Traded to PHX,Khaman Maluach,C,18,NCAA,8.6,6.6,0.5,53.3,23.8,7.4,Provisional,NBA.com,13/10/2026
+2024,1,Selected by ATL,Zaccharie Risacher,SF,19,LNB Élite,13.1,3.6,1.1,56.6,36.8,4.9,Provisional,BBRef,13/10/2026
+2024,2,Selected by WSH,Alex Sarr,C/PF,19,NBL,9.4,4.3,0.9,52,29.8,3.1,Provisional,ESPN,13/10/2026
+2024,3,Selected by HOU,Reed Sheppard,SG,20,NCAA,12.5,4.1,4.5,53.6,52.1,12.1,Provisional,SR College,13/10/2026
+2024,4,Selected by SAS,Stephon Castle,SG/PG,19,NCAA,11.1,4.7,2.9,47.2,26.7,6.2,Provisional,SR College,13/10/2026
+2024,5,Selected by DET,Ron Holland II,SF,18,G League,18.5,6.7,3,46,23.9,1.8,Provisional,G-League,13/10/2026
+2024,6,Selected by CHA,Tidjane Salaün,PF,18,LNB Élite,9.6,3.9,0.8,40.6,32,0.9,Provisional,NBA.com,13/10/2026
+2024,7,Selected by POR,Donovan Clingan,C,20,NCAA,13,7.4,1.5,63.9,25,15.4,Provisional,SR College,13/10/2026
+2024,8,Traded to MIN,Rob Dillingham,PG,19,NCAA,15.2,2.9,3.9,47.5,44.4,7.4,Provisional,SR College,13/10/2026
+2024,9,Selected by MEM,Zach Edey,C,22,NCAA,25.2,12.2,2,62.3,50,14.2,Provisional,SR College,13/10/2026
+2024,10,Selected by UTA,Cody Williams,SF,19,NCAA,11.9,3,1.6,55.2,41.5,3.3,Provisional,SR College,14/10/2026
+2023,1,Selected by SAS,Victor Wembanyama,C,19,LNB Élite,21.6,10.4,2.4,47,27.5,8.4,Provisional,BBRef,14/10/2026
+2023,2,Selected by CHA,Brandon Miller,SF,20,NCAA,18.8,8.2,2.1,43,38.4,7.1,Provisional,SR College,14/10/2026
+2023,3,Selected by POR,Scoot Henderson,PG,19,G League,17.6,5.1,6.4,42.9,27.5,1.2,Provisional,Tankathon,14/10/2026
+2023,4,Selected by HOU,Amen Thompson,SG/SF,20,OTE,16.3,6.4,6.2,53.3,25,4.3,Provisional,NBA.com,14/10/2026
+2023,5,Selected by DET,Ausar Thompson,SF/SG,20,OTE,16.3,7.1,6.1,48.1,29.8,3.9,Provisional,NBA.com,14/10/2026
+2023,6,Selected by ORL,Anthony Black,PG/SG,19,NCAA,12.8,5.1,3.9,45.3,30.1,6.3,Provisional,SR College,14/10/2026
+2023,7,Traded to WAS,Bilal Coulibaly,SF,18,LNB Élite,10.9,4.2,1.4,52.8,35.4,2.8,Provisional,BBRef,14/10/2026
+2023,8,Traded to IND,Jarace Walker,PF,19,NCAA,11.2,6.8,1.8,46.5,34.7,8,Provisional,SR College,14/10/2026
+2023,9,Selected by UTA,Taylor Hendricks,PF,19,NCAA,15.1,7,1.4,47.8,39.4,7.3,Provisional,SR College,14/10/2026
+2023,10,Traded to OKC,Cason Wallace,PG/SG,19,NCAA,11.7,3.7,4.3,44.6,34.6,8.1,Provisional,SR College,14/10/2026
+2022,1,Selected by ORL,Paolo Banchero,PF,19,NCAA,17.2,7.8,3.2,47.8,33.8,7.2,Franchise Cornerstone,BBRef,14/10/2026
+2022,2,Selected by OKC,Chet Holmgren,C/PF,20,NCAA,14.1,9.9,1.9,60.7,39,11.3,All-Star Core Big,Tankathon,14/10/2026
+2022,3,Selected by HOU,Jabari Smith Jr.,PF,19,NCAA,16.9,7.4,2,42.9,42,8.9,High-End Impact Starter,SR College,14/10/2026
+2022,4,Selected by SAC,Keegan Murray,PF/SF,21,NCAA,23.5,8.7,1.5,55.4,39.8,12.2,Elite Dynamic Starter,SR College,14/10/2026
+2022,5,Selected by DET,Jaden Ivey,SG/PG,20,NCAA,17.3,4.9,3.1,46,35.8,8.2,Impact Starter,SR College,14/10/2026
+2022,6,Selected by IND,Bennedict Mathurin,SF/SG,20,NCAA,17.7,5.6,2.5,45,36.9,6.8,High-End Scoring Weapon,SR College,14/10/2026
+2022,7,Selected by POR,Shaedon Sharpe,SG,19,NCAA,-,-,-,-,-,-,Impact Starter,NBA.com,14/10/2026
+2022,8,Traded to NOP,Dyson Daniels,SG/PG,19,G League,12,7.1,5.1,44.9,30,1.8,Elite Defensive Starter,G-League,14/10/2026
+2022,9,Selected by SAS,Jeremy Sochan,PF/SF,19,NCAA,9.2,6.4,1.8,47.4,29.6,5.7,Versatile Impact Starter,SR College,14/10/2026
+2022,10,Selected by WSH,Johnny Davis,SG,20,NCAA,19.7,8.2,2.1,42.7,30.6,7.3,Draft Bust,SR College,14/10/2026
+2021,1,Selected by DET,Cade Cunningham,PG/SG,19,NCAA,20.1,6.2,3.5,43.8,40,10.2,Franchise Cornerstone,SR College,14/10/2026
+2021,2,Selected by HOU,Jalen Green,SG,19,G League,17.9,4.1,2.8,46.1,36.5,1.1,High-End Scoring Weapon,G-League,14/10/2026
+2021,3,Selected by CLE,Evan Mobley,C/PF,20,NCAA,16.4,8.7,2.4,57.8,30,9.1,All-Star Core Big,SR College,14/10/2026
+2021,4,Selected by TOR,Scottie Barnes,PF/SF,19,NCAA,10.3,4,4.1,50.3,27.5,7.3,Franchise Cornerstone,SR College,14/10/2026
+2021,5,Selected by ORL,Jalen Suggs,PG/SG,19,NCAA,14.4,5.3,4.5,50.3,33.7,8.1,Elite Defensive Starter,SR College,14/10/2026
+2021,6,Selected by OKC,Josh Giddey,PG/SF,18,NBL,10.9,7.3,7.6,42.5,29.3,1.4,Impact Starter,BBRef,14/10/2026
+2021,7,Selected by GSW,Jonathan Kuminga,SF/PF,18,G League,15.8,7.2,2.7,38.7,24.6,0.4,Impact Starter,G-League,14/10/2026
+2021,8,Selected by ORL,Franz Wagner,SF,19,NCAA,12,6.1,2,46.5,32.5,7.5,All-Star Core Wing,SR College,14/10/2026
+2021,9,Selected by SAC,Davion Mitchell,PG,22,NCAA,14,2.7,5.5,51.1,44.7,7.7,Reliable Role Player,BBRef,14/10/2026
+2021,10,Traded to MEM,Ziaire Williams,SF,19,NCAA,10.7,4.6,2.2,37.4,29.1,0.2,Backup Rotation Piece,BBRef,14/10/2026
+2020,1,Selected by MIN,Anthony Edwards,SG,19,NCAA,19.1,5.2,2.8,40.2,29.4,5.3,Franchise Cornerstone,BBRef,14/10/2026
+2020,2,Selected by GSW,James Wiseman,C,19,NCAA,19.7,10.7,0.3,76.9,-,11.2,Draft Bust,ESPN,14/10/2026
+2020,3,Selected by CHA,LaMelo Ball,PG,19,NBL,17,7.6,6.8,37.5,25,3.2,All-Star Lead Guard,NBA.com,14/10/2026
+2020,4,Selected by CHI,Patrick Williams,PF/SF,19,NCAA,9.2,4,1,48.3,32,4.9,Solid Rotational Starter,SR College,14/10/2026
+2020,5,Selected by CLE,Isaac Okoro,SF/SG,19,NCAA,12.9,4.4,2,51.4,29,4.1,Reliable Role Player,NBA.com,14/10/2026
+2020,6,Selected by ATL,Onyeka Okongwu,C/PF,19,NCAA,16.2,8.6,1.1,61.6,25,9.2,High-End Rotation Big,NBA.com,14/10/2026
+2020,7,Selected by DET,Killian Hayes,PG,19,EuroCup,11.6,2.8,5.4,48.2,21.8,1.4,Draft Bust,Tankathon,14/10/2026
+2020,8,Selected by NYK,Obi Toppin,PF,22,NCAA,20,7.5,2.2,63.3,39,11.1,Energy Bench Contributor,SR College,14/10/2026
+2020,9,Selected by WAS,Deni Avdija,SF,19,EuroLeague,12.3,5.9,2.5,50.5,33.3,2.9,Impact Starter,BBRef,14/10/2026
+2020,10,Selected by PHX,Jalen Smith,PF/C,20,NCAA,15.5,10.5,1.2,53.8,36.8,11.4,Backup Frontcourt Piece (Option declined by PHX; found rotation value in IND/CHI),NBA.com,14/10/2026
