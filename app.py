@@ -13,6 +13,7 @@ import pandas as pd
 import streamlit as st
 
 from data_loader import load_prospects, validate
+from explain import build_facts, explain
 from pdf_export import build_report
 from scoring import (
     BPM_CEILING, BPM_FLOOR, CLOSE_CALL_MARGIN, W_NEED, W_PROD, W_RANK,
@@ -49,6 +50,12 @@ st.markdown(CSS, unsafe_allow_html=True)
 
 def card(content):
     st.markdown(f'<div class="card">{content}</div>', unsafe_allow_html=True)
+
+
+@st.cache_data(show_spinner=False)
+def cached_explanation(facts):
+    # Errors are not cached, so a failed call can be retried.
+    return explain(facts)
 
 
 players = load_prospects(DATA_PATH)
@@ -129,6 +136,20 @@ else:
                                  index=[n for _, n, _ in ranked])
             st.markdown('<div class="label">Top five by score</div>', unsafe_allow_html=True)
             st.bar_chart(chart)
+
+        facts = build_facts(team or "Your team", pick, list(needs), top, alts, excluded, close)
+
+        st.markdown('<div class="label">Explanation (Nemotron, from the facts below only)</div>',
+                    unsafe_allow_html=True)
+        try:
+            with st.spinner("Asking Nemotron..."):
+                text = cached_explanation(facts)
+            card(f'<div class="sub">{html.escape(text)}</div>')
+        except Exception as e:
+            st.warning(f"Explanation unavailable: {e}")
+
+        with st.expander("Facts sent to the model"):
+            st.code(facts)
 
         full = rank_prospects(complete, needs, exclude=taken, max_rank=max_rank)
         pdf_bytes = build_report(team or "Your team", pick, needs, taken,
