@@ -8,9 +8,13 @@ Original file is located at
 """
 
 import html
+import os
 
 import pandas as pd
 import streamlit as st
+
+if "NEBIUS_API_KEY" in st.secrets:
+    os.environ["NEBIUS_API_KEY"] = st.secrets["NEBIUS_API_KEY"]
 
 from data_loader import load_prospects, validate
 from explain import build_facts, explain
@@ -53,9 +57,9 @@ def card(content):
 
 
 @st.cache_data(show_spinner=False)
-def cached_explanation(facts):
+def cached_explanation(facts, all_names):
     # Errors are not cached, so a failed call can be retried.
-    return explain(facts)
+    return explain(facts, tuple(all_names))
 
 
 players = load_prospects(DATA_PATH)
@@ -65,6 +69,7 @@ if problems:
     st.stop()
 
 names = sorted(p["name"] for p in players)
+all_names = [p["name"] for p in players]
 complete, incomplete = split_complete(players)
 max_rank = max(p["espn_rank"] for p in players)
 
@@ -143,7 +148,7 @@ else:
                     unsafe_allow_html=True)
         try:
             with st.spinner("Asking Nemotron..."):
-                text = cached_explanation(facts)
+                text = cached_explanation(facts, all_names)
             card(f'<div class="sub">{html.escape(text)}</div>')
         except Exception as e:
             st.warning(f"Explanation unavailable: {e}")

@@ -9,6 +9,7 @@ Original file is located at
 
 import argparse
 import os
+import re
 
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -25,7 +26,8 @@ MAX_TOKENS = 4000
 SYSTEM_PROMPT = (
     "You explain draft recommendations for an NBA front office. "
     "Use only the facts you are given, and copy numbers exactly as written. "
-    "Only say a prospect fills a team need if that prospect's facts include 'fills'. "
+    "Only say a prospect fills a team need if that prospect's facts include 'fills', "
+    "and name the specific position in the wording the facts use, such as 'fills SG'. "
     "Do not add statistics, awards, injuries, positions, or career outcomes that are not in the facts. "
     "Write three to four sentences. "
     "If the facts say 'Close call: yes', say that the order depends on how much "
@@ -50,8 +52,41 @@ def build_facts(team, pick, needs, top, alts, excluded, close):
     return "\n".join(lines)
 
 
-def explain(facts):
-    """Ask Nemotron on Token Factory to explain the recommendation."""
+def _verified_fills(facts):
+    """Names whose facts line contains 'fills', i.e. who the data says fill a need."""
+    verified = set()
+    for line in facts.splitlines():
+        if "fills" not in line:
+            continue
+        for prefix in ("Recommended: ", "Alternate: "):
+            if line.startswith(prefix):
+                verified.add(line[len(prefix):].split(",")[0].strip())
+    return verified
+
+
+def _fill_claims(text, all_names):
+    """Return (name, sentence) pairs where a prospect is said to fill a need."""
+    claims = []
+    for sentence in re.split(r"(?<=[.!?])\s+", text):
+        if re.search(r"\bfill", sentence, re.IGNORECASE):
+            for name in all_names:
+                if name in sentence:
+                    claims.append((name, sentence))
+    return claims
+
+
+def check_explanation(text, facts, all_names):
+    """Return (ok, problems). Rejects any explanation that claims an unsupported fill."""
+    verified = _verified_fills(facts)
+    problems = []
+    for name, sentence in _fill_claims(text, all_names):
+        if name not in verified:
+            problems.append(f"'{name}' is said to fill a need, but the facts do not show it")
+    return (not problems), problems
+
+
+def explain(facts, all_names):
+    """Ask Nemotron on Token Factory, then check the answer against the facts."""
     api_key = os.getenv("NEBIUS_API_KEY")
     if not api_key:
         raise RuntimeError("NEBIUS_API_KEY is not set. Check your .env file.")
@@ -72,7 +107,12 @@ def explain(facts):
             f"Empty response (finish reason: {choice.finish_reason}). "
             "The model may have used its token budget on reasoning."
         )
-    return text.strip()
+    text = text.strip()
+
+    ok, problems = check_explanation(text, facts, all_names)
+    if not ok:
+        raise RuntimeError("Explanation rejected: " + "; ".join(problems))
+    return text
 
 
 def main():
@@ -87,6 +127,7 @@ def main():
     problems = validate(players)
     if problems:
         raise SystemExit("Fix data problems first: " + "; ".join(problems))
+    all_names = [p["name"] for p in players]
 
     top, alts, excluded, close = scoring.recommend(players, args.needs, exclude=args.taken)
     if top is None:
@@ -99,7 +140,7 @@ def main():
     print()
     print("EXPLANATION")
     try:
-        print(explain(facts))
+        print(explain(facts, all_names))
     except Exception as e:
         print(f"Explanation unavailable: {e}")
 
