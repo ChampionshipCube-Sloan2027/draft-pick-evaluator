@@ -23,16 +23,11 @@ MODEL = "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B"
 BASE_URL = "https://api.tokenfactory.nebius.com/v1/"
 MAX_TOKENS = 4000
 
-SYSTEM_PROMPT = (
-    "You explain draft recommendations for an NBA front office. "
-    "Use only the facts you are given, and copy numbers exactly as written. "
-    "Only say a prospect fills a team need if that prospect's facts include 'fills', "
-    "and name the specific position in the wording the facts use, such as 'fills SG'. "
-    "Do not add statistics, awards, injuries, positions, or career outcomes that are not in the facts. "
-    "Write three to four sentences. "
-    "If the facts say 'Close call: yes', say that the order depends on how much "
-    "the team's needs count. "
-    "If any prospects are excluded, mention that in one short sentence."
+CONNECTOR_PROMPT = (
+    "You write one or two plain sentences that link the facts below. "
+    "Use only the names and numbers exactly as given. "
+    "Do not add any statistic, skill, award, injury, or career outcome. "
+    "Do not describe playing style. Do not say a player fills a need unless the facts say so."
 )
 
 
@@ -52,81 +47,93 @@ def build_facts(team, pick, needs, top, alts, excluded, close):
     return "\n".join(lines)
 
 
-def _verified_fills(facts):
-    """Names whose facts line contains 'fills', i.e. who the data says fill a need."""
-    verified = set()
-    for line in facts.splitlines():
-        if "fills" not in line:
-            continue
-        for prefix in ("Recommended: ", "Alternate: "):
-            if line.startswith(prefix):
-                verified.add(line[len(prefix):].split(",")[0].strip())
-    return verified
+def template_explanation(team, pick, needs, top, alts, excluded, close):
+    """Build the explanation from the scoring output. Every figure comes from the scores."""
+    score, name, reasons = top
+    team_label = team or "The team"
+    needs_text = ", ".join(needs)
+
+    parts = [
+        f"{team_label} at pick {pick} with needs in {needs_text}: "
+        f"{name} is the top score at {score} out of 100. "
+        f"Scoring breakdown: {'; '.join(reasons)}."
+    ]
+
+    if alts:
+        alt_text = "; ".join(f"{n} at {s}" for s, n, _ in alts)
+        parts.append(f"Next scores: {alt_text}.")
+
+    if close:
+        parts.append(
+            "The top two are within one point, so the order depends on how much "
+            "the team's needs count."
+        )
+
+    if excluded:
+        parts.append(
+            f"{len(excluded)} prospects have no recorded BPM and are excluded from the ranking."
+        )
+
+    return " ".join(parts)
 
 
-def _fill_claims(text, all_names):
-    """Return (name, sentence) pairs where a prospect is said to fill a need."""
-    claims = []
-    for sentence in re.split(r"(?<=[.!?])\s+", text):
-        if re.search(r"\bfill", sentence, re.IGNORECASE):
-            for name in all_names:
-                if name in sentence:
-                    claims.append((name, sentence))
-    return claims
+def _numbers(text):
+    """Every number written in a piece of text, as a string."""
+    return set(re.findall(r"\d+(?:\.\d+)?", text))
 
 
-def check_explanation(text, facts, all_names):
-    """Return (ok, problems). Rejects any explanation that claims an unsupported fill."""
-    verified = _verified_fills(facts)
+def check_connector(text, facts, all_names):
+    """Return (ok, problems). Rejects any figure or name the facts do not contain."""
     problems = []
-    for name, sentence in _fill_claims(text, all_names):
-        if name not in verified:
-            problems.append(f"'{name}' is said to fill a need, but the facts do not show it")
+    fact_numbers = _numbers(facts)
+    for n in _numbers(text):
+        if n not in fact_numbers:
+            problems.append(f"figure {n} is not in the facts")
+    for name in all_names:
+        if name in text and name not in facts:
+            problems.append(f"name {name} is not in the facts")
     return (not problems), problems
 
 
-def explain(facts, all_names):
-    """Ask Nemotron, check the answer, and retry once with the specific problem named."""
+def connector_sentences(facts, all_names):
+    """Ask Nemotron for a short linking sentence, check it, and fall back to none if it fails."""
     api_key = os.getenv("NEBIUS_API_KEY")
     if not api_key:
         raise RuntimeError("NEBIUS_API_KEY is not set. Check your .env file.")
 
     client = OpenAI(base_url=BASE_URL, api_key=api_key)
-    messages = [
-        {"role": "system", "content": SYSTEM_PROMPT},
-        {"role": "user", "content": facts},
-    ]
+    response = client.chat.completions.create(
+        model=MODEL,
+        messages=[
+            {"role": "system", "content": CONNECTOR_PROMPT},
+            {"role": "user", "content": facts},
+        ],
+        max_tokens=MAX_TOKENS,
+    )
+    choice = response.choices[0]
+    text = choice.message.content
+    if not text or not text.strip():
+        return None, f"empty response (finish reason: {choice.finish_reason})"
 
-    problems = []
-    for _ in range(2):
-        response = client.chat.completions.create(
-            model=MODEL,
-            messages=messages,
-            max_tokens=MAX_TOKENS,
-        )
-        choice = response.choices[0]
-        text = choice.message.content
-        if not text or not text.strip():
-            raise RuntimeError(
-                f"Empty response (finish reason: {choice.finish_reason}). "
-                "The model may have used its token budget on reasoning."
-            )
-        text = text.strip()
+    text = text.strip()
+    ok, problems = check_connector(text, facts, all_names)
+    if not ok:
+        return None, "rejected: " + "; ".join(problems)
+    return text, None
 
-        ok, problems = check_explanation(text, facts, all_names)
-        if ok:
-            return text
 
-        messages = messages + [
-            {"role": "assistant", "content": text},
-            {"role": "user", "content": (
-                "Rewrite the explanation without these unsupported claims: "
-                + "; ".join(problems)
-                + ". Use only the facts above."
-            )},
-        ]
+def explain(team, pick, needs, top, alts, excluded, close, all_names):
+    """Return the template explanation, plus a checked connector sentence if one passes.
 
-    raise RuntimeError("Rejected after retry: " + "; ".join(problems))
+    The template is always returned. The connector is optional, so a failed model
+    call never leaves the user without an explanation.
+    """
+    facts = build_facts(team, pick, needs, top, alts, excluded, close)
+    base = template_explanation(team, pick, needs, top, alts, excluded, close)
+    connector, note = connector_sentences(facts, all_names)
+    if connector:
+        return f"{base} {connector}", note
+    return base, note
 
 
 def main():
@@ -148,15 +155,16 @@ def main():
         raise SystemExit("No eligible prospects left.")
 
     facts = build_facts(args.team, args.pick, args.needs, top, alts, excluded, close)
+    text, note = explain(args.team, args.pick, args.needs, top, alts, excluded, close, all_names)
 
     print("FACTS")
     print(facts)
     print()
     print("EXPLANATION")
-    try:
-        print(explain(facts, all_names))
-    except Exception as e:
-        print(f"Explanation withheld: {e}")
+    print(text)
+    if note:
+        print()
+        print(f"Connector sentence not used: {note}")
 
 
 if __name__ == "__main__":

@@ -78,9 +78,9 @@ def footage_block(player):
 
 
 @st.cache_data(show_spinner=False)
-def cached_explanation(facts, all_names):
-    # Errors are not cached, so a failed call can be retried.
-    return explain(facts, tuple(all_names))
+def cached_explanation(team, pick, needs, top, alts, excluded, close, all_names):
+    # The template always succeeds. The model's connector sentence is optional.
+    return explain(team, pick, needs, top, alts, excluded, close, all_names)
 
 
 players = load_prospects(DATA_PATH)
@@ -170,14 +170,14 @@ else:
 
         facts = build_facts(team or "Your team", pick, list(needs), top, alts, excluded, close)
 
-        st.markdown('<div class="label">Explanation (Nemotron, from the facts below only)</div>',
+        st.markdown('<div class="label">Explanation (built from the scores, checked)</div>',
                     unsafe_allow_html=True)
-        try:
-            with st.spinner("Asking Nemotron..."):
-                text = cached_explanation(facts, all_names)
-            card(f'<div class="sub">{html.escape(text)}</div>')
-        except Exception as e:
-            st.warning(f"Explanation withheld: {e}. The facts it was built from are shown below.")
+        with st.spinner("Asking Nemotron for a connecting sentence..."):
+            text, note = cached_explanation(team or "Your team", pick, list(needs), top,
+                                            alts, excluded, close, tuple(all_names))
+        card(f'<div class="sub">{html.escape(text)}</div>')
+        if note:
+            st.caption(f"Model sentence not used: {note}")
 
         with st.expander("Facts sent to the model"):
             st.code(facts)
