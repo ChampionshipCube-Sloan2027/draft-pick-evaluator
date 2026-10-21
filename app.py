@@ -155,7 +155,7 @@ else:
                 text = cached_explanation(facts, all_names)
             card(f'<div class="sub">{html.escape(text)}</div>')
         except Exception as e:
-            st.warning(f"Explanation unavailable: {e}")
+            st.warning(f"Explanation withheld: {e}. The facts it was built from are shown below.")
 
         with st.expander("Facts sent to the model"):
             st.code(facts)

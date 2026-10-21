@@ -86,33 +86,47 @@ def check_explanation(text, facts, all_names):
 
 
 def explain(facts, all_names):
-    """Ask Nemotron on Token Factory, then check the answer against the facts."""
+    """Ask Nemotron, check the answer, and retry once with the specific problem named."""
     api_key = os.getenv("NEBIUS_API_KEY")
     if not api_key:
         raise RuntimeError("NEBIUS_API_KEY is not set. Check your .env file.")
 
     client = OpenAI(base_url=BASE_URL, api_key=api_key)
-    response = client.chat.completions.create(
-        model=MODEL,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": facts},
-        ],
-        max_tokens=MAX_TOKENS,
-    )
-    choice = response.choices[0]
-    text = choice.message.content
-    if not text or not text.strip():
-        raise RuntimeError(
-            f"Empty response (finish reason: {choice.finish_reason}). "
-            "The model may have used its token budget on reasoning."
-        )
-    text = text.strip()
+    messages = [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": facts},
+    ]
 
-    ok, problems = check_explanation(text, facts, all_names)
-    if not ok:
-        raise RuntimeError("Explanation rejected: " + "; ".join(problems))
-    return text
+    problems = []
+    for _ in range(2):
+        response = client.chat.completions.create(
+            model=MODEL,
+            messages=messages,
+            max_tokens=MAX_TOKENS,
+        )
+        choice = response.choices[0]
+        text = choice.message.content
+        if not text or not text.strip():
+            raise RuntimeError(
+                f"Empty response (finish reason: {choice.finish_reason}). "
+                "The model may have used its token budget on reasoning."
+            )
+        text = text.strip()
+
+        ok, problems = check_explanation(text, facts, all_names)
+        if ok:
+            return text
+
+        messages = messages + [
+            {"role": "assistant", "content": text},
+            {"role": "user", "content": (
+                "Rewrite the explanation without these unsupported claims: "
+                + "; ".join(problems)
+                + ". Use only the facts above."
+            )},
+        ]
+
+    raise RuntimeError("Rejected after retry: " + "; ".join(problems))
 
 
 def main():
@@ -142,7 +156,7 @@ def main():
     try:
         print(explain(facts, all_names))
     except Exception as e:
-        print(f"Explanation unavailable: {e}")
+        print(f"Explanation withheld: {e}")
 
 
 if __name__ == "__main__":
