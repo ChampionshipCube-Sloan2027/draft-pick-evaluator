@@ -10,6 +10,7 @@ Original file is located at
 import html
 import os
 
+import altair as alt
 import pandas as pd
 import streamlit as st
 
@@ -22,6 +23,7 @@ except Exception:
 
 from data_loader import load_prospects, validate
 from explain import build_facts, explain
+from injury_map import render_injury_map
 from pdf_export import build_report
 from percentile import board_distributions, chart_colours, stat_table_rows
 from scoring import (
@@ -30,6 +32,7 @@ from scoring import (
 )
 
 DATA_PATH = "data/2027_nba_draft_big_board.csv"
+INJURY_PATH = "data/player_injuries.csv"
 POSITIONS = ["PG", "SG", "SF", "PF", "C"]
 TABLE_STATS = ["ppg", "rpg", "apg", "fg_pct", "three_pct", "bpm", "spg", "bpg"]
 
@@ -65,7 +68,7 @@ def card(content):
 
 
 def footage_block(player):
-    """Show the reference link and the author's note, only where both are filled in."""
+    """Show the reference link and the author's note, only where the link is filled in."""
     link = player.get("reference_video", "")
     if not link:
         return None
@@ -89,11 +92,28 @@ def stat_table_html(ranked_names, players, dists):
         for stat in TABLE_STATS:
             value, colour = cells[stat]
             shown = "" if value is None else value
-            cell_html += (f'<td style="padding:4px 8px;color:{colour};">{shown}</td>')
+            cell_html += f'<td style="padding:4px 8px;color:{colour};">{shown}</td>'
         rows += (f'<tr><td style="padding:4px 8px;color:#f4f4fb;">{html.escape(name)}</td>'
                  f'{cell_html}</tr>')
     return (f'<table style="width:100%;font-size:0.8rem;border-collapse:collapse;">'
             f'<tr>{head}</tr>{rows}</table>')
+
+
+def score_chart(ranked_names, scores, colours):
+    """Bar chart with one colour per bar."""
+    df = pd.DataFrame({"name": ranked_names, "score": scores, "colour": colours})
+    return (
+        alt.Chart(df)
+        .mark_bar()
+        .encode(
+            x=alt.X("name:N", sort=ranked_names, title=None,
+                    axis=alt.Axis(labelAngle=-30, labelLimit=160)),
+            y=alt.Y("score:Q", title="Score"),
+            color=alt.Color("colour:N", scale=None, legend=None),
+            tooltip=["name", "score"],
+        )
+        .properties(height=280)
+    )
 
 
 @st.cache_data(show_spinner=False)
@@ -110,6 +130,7 @@ if problems:
 
 names = sorted(p["name"] for p in players)
 all_names = [p["name"] for p in players]
+by_name = {p["name"]: p for p in players}
 complete, incomplete = split_complete(players)
 max_rank = max(p["espn_rank"] for p in players)
 dists = board_distributions(players)
@@ -158,10 +179,12 @@ else:
              f'<div class="sub">Score {score} out of 100</div>'
              f'<div>{chips}</div>')
 
-        recommended = next(p for p in players if p["name"] == name)
-        footage = footage_block(recommended)
+        footage = footage_block(by_name[name])
         if footage:
             card(footage)
+
+        with st.expander("Reported injuries (from the injury file)"):
+            render_injury_map(player_name=name, csv_path=INJURY_PATH)
 
         if close:
             st.info(f"Close call: the top two are within {CLOSE_CALL_MARGIN} point, "
@@ -184,10 +207,10 @@ else:
         with right:
             ranked = rank_prospects(complete, needs, exclude=taken, max_rank=max_rank)[:5]
             ranked_names = [n for _, n, _ in ranked]
-            chart = pd.DataFrame({"score": [s for s, _, _ in ranked]}, index=ranked_names)
+            scores = [s for s, _, _ in ranked]
             colours = chart_colours(ranked_names, players, dists)
             st.markdown('<div class="label">Top five by score</div>', unsafe_allow_html=True)
-            st.bar_chart(chart, color=colours)
+            st.altair_chart(score_chart(ranked_names, scores, colours), use_container_width=True)
             st.caption("Bar colour shows where each player's BPM sits on this board: "
                        "green top third, yellow middle, red bottom. A comparison within "
                        "the board, not a rating of the player.")
@@ -196,6 +219,16 @@ else:
              f'<div class="sub" style="margin-bottom:8px;">Each value is coloured by its place '
              f'on this board, using the same colours as the bars.</div>'
              f'{stat_table_html(ranked_names, players, dists)}')
+
+        footage_items = []
+        for top_name in ranked_names:
+            block = footage_block(by_name[top_name])
+            if block:
+                footage_items.append((top_name, block))
+        if footage_items:
+            with st.expander("Reference footage for the top five"):
+                for top_name, block in footage_items:
+                    card(f'<div class="name">{html.escape(top_name)}</div>' + block)
 
         facts = build_facts(team or "Your team", pick, list(needs), top, alts, excluded, close)
 

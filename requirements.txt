@@ -1,5 +1,7 @@
 streamlit
 pandas
+altair
 openai
 python-dotenv
-fpdf2\
+fpdf2
+plotly
