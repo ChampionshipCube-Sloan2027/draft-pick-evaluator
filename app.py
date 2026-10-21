@@ -13,8 +13,12 @@ import os
 import pandas as pd
 import streamlit as st
 
-if "NEBIUS_API_KEY" in st.secrets:
-    os.environ["NEBIUS_API_KEY"] = st.secrets["NEBIUS_API_KEY"]
+try:
+    if "NEBIUS_API_KEY" in st.secrets:
+        os.environ["NEBIUS_API_KEY"] = st.secrets["NEBIUS_API_KEY"]
+except Exception:
+    # No secrets file locally, so the key comes from .env instead.
+    pass
 
 from data_loader import load_prospects, validate
 from explain import build_facts, explain
