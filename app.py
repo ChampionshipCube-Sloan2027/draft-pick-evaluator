@@ -42,6 +42,7 @@ section[data-testid="stSidebar"] { background: #0e0e18; border-right: 1px solid 
 .label { color: #8b8ba7; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
 .big { color: #f4f4fb; font-size: 1.9rem; font-weight: 650; margin: 4px 0 6px; }
 .sub { color: #a6a6c0; font-size: 0.95rem; }
+.note { color: #c9c9da; font-size: 0.9rem; white-space: pre-line; margin-top: 8px; }
 .chip { display: inline-block; padding: 4px 12px; margin: 6px 6px 0 0; border-radius: 999px;
         font-size: 0.8rem; color: #cbbfff; background: rgba(124,92,255,0.18);
         border: 1px solid rgba(124,92,255,0.35); }
@@ -51,6 +52,7 @@ section[data-testid="stSidebar"] { background: #0e0e18; border-right: 1px solid 
 .name { color: #f4f4fb; font-weight: 600; }
 .reason { color: #8b8ba7; font-size: 0.82rem; }
 .score { color: #cbbfff; font-weight: 600; }
+a { color: #cbbfff; }
 </style>
 """
 st.markdown(CSS, unsafe_allow_html=True)
@@ -58,6 +60,21 @@ st.markdown(CSS, unsafe_allow_html=True)
 
 def card(content):
     st.markdown(f'<div class="card">{content}</div>', unsafe_allow_html=True)
+
+
+def footage_block(player):
+    """Show the reference link and the author's note, only where both are filled in."""
+    link = player.get("reference_video", "")
+    if not link:
+        return None
+    note = player.get("video_note", "")
+    body = ('<div class="label">Reference footage, not reviewed by us</div>'
+            f'<div class="sub"><a href="{html.escape(link)}" target="_blank">'
+            f'{html.escape(link)}</a></div>')
+    if note:
+        body += ('<div class="label" style="margin-top:14px">Author\'s notes from watching the clip</div>'
+                 f'<div class="note">{html.escape(note)}</div>')
+    return body
 
 
 @st.cache_data(show_spinner=False)
@@ -120,6 +137,11 @@ else:
              f'<div class="big">{html.escape(name)}</div>'
              f'<div class="sub">Score {score} out of 100</div>'
              f'<div>{chips}</div>')
+
+        recommended = next(p for p in players if p["name"] == name)
+        footage = footage_block(recommended)
+        if footage:
+            card(footage)
 
         if close:
             st.info(f"Close call: the top two are within {CLOSE_CALL_MARGIN} point, "
