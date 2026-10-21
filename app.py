@@ -23,6 +23,7 @@ except Exception:
 from data_loader import load_prospects, validate
 from explain import build_facts, explain
 from pdf_export import build_report
+from percentile import board_distributions, chart_colours, stat_table_rows
 from scoring import (
     BPM_CEILING, BPM_FLOOR, CLOSE_CALL_MARGIN, W_NEED, W_PROD, W_RANK,
     rank_prospects, recommend, split_complete,
@@ -30,6 +31,7 @@ from scoring import (
 
 DATA_PATH = "data/2027_nba_draft_big_board.csv"
 POSITIONS = ["PG", "SG", "SF", "PF", "C"]
+TABLE_STATS = ["ppg", "rpg", "apg", "fg_pct", "three_pct", "bpm", "spg", "bpg"]
 
 st.set_page_config(page_title="Draft Pick Evaluator", page_icon="🏀", layout="wide")
 
@@ -77,6 +79,23 @@ def footage_block(player):
     return body
 
 
+def stat_table_html(ranked_names, players, dists):
+    """The top-five stat table, each value coloured by its place on the board."""
+    head = "".join(f'<th style="padding:4px 8px;text-align:left;">{s}</th>'
+                   for s in ["Player"] + TABLE_STATS)
+    rows = ""
+    for name, cells in stat_table_rows(ranked_names, players, dists):
+        cell_html = ""
+        for stat in TABLE_STATS:
+            value, colour = cells[stat]
+            shown = "" if value is None else value
+            cell_html += (f'<td style="padding:4px 8px;color:{colour};">{shown}</td>')
+        rows += (f'<tr><td style="padding:4px 8px;color:#f4f4fb;">{html.escape(name)}</td>'
+                 f'{cell_html}</tr>')
+    return (f'<table style="width:100%;font-size:0.8rem;border-collapse:collapse;">'
+            f'<tr>{head}</tr>{rows}</table>')
+
+
 @st.cache_data(show_spinner=False)
 def cached_explanation(team, pick, needs, top, alts, excluded, close, all_names):
     # The template always succeeds. The model's connector sentence is optional.
@@ -93,6 +112,7 @@ names = sorted(p["name"] for p in players)
 all_names = [p["name"] for p in players]
 complete, incomplete = split_complete(players)
 max_rank = max(p["espn_rank"] for p in players)
+dists = board_distributions(players)
 
 with st.sidebar:
     st.markdown("### Team details")
@@ -163,10 +183,19 @@ else:
 
         with right:
             ranked = rank_prospects(complete, needs, exclude=taken, max_rank=max_rank)[:5]
-            chart = pd.DataFrame({"score": [s for s, _, _ in ranked]},
-                                 index=[n for _, n, _ in ranked])
+            ranked_names = [n for _, n, _ in ranked]
+            chart = pd.DataFrame({"score": [s for s, _, _ in ranked]}, index=ranked_names)
+            colours = chart_colours(ranked_names, players, dists)
             st.markdown('<div class="label">Top five by score</div>', unsafe_allow_html=True)
-            st.bar_chart(chart)
+            st.bar_chart(chart, color=colours)
+            st.caption("Bar colour shows where each player's BPM sits on this board: "
+                       "green top third, yellow middle, red bottom. A comparison within "
+                       "the board, not a rating of the player.")
+
+        card(f'<div class="label">Top five, stat by stat</div>'
+             f'<div class="sub" style="margin-bottom:8px;">Each value is coloured by its place '
+             f'on this board, using the same colours as the bars.</div>'
+             f'{stat_table_html(ranked_names, players, dists)}')
 
         facts = build_facts(team or "Your team", pick, list(needs), top, alts, excluded, close)
 
