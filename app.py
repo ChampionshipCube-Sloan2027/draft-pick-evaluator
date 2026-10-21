@@ -68,16 +68,16 @@ def card(content):
 
 
 def footage_block(player):
-    """Show the reference link and the author's note, only where the link is filled in."""
+    """Show the reference link and the author's scouting summary, only where the link is filled in."""
     link = player.get("reference_video", "")
     if not link:
         return None
-    note = player.get("video_note", "")
+    note = player.get("notes", "")
     body = ('<div class="label">Reference footage, not reviewed by us</div>'
             f'<div class="sub"><a href="{html.escape(link)}" target="_blank">'
             f'{html.escape(link)}</a></div>')
     if note:
-        body += ('<div class="label" style="margin-top:14px">Author\'s notes from watching the clip</div>'
+        body += ('<div class="label" style="margin-top:14px">Author\'s scouting summary</div>'
                  f'<div class="note">{html.escape(note)}</div>')
     return body
 
