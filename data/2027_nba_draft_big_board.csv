@@ -1,61 +1,2081 @@
-draft_year,stats_season,name,position,league,age,espn_rank,ppg,rpg,apg,fg_pct,three_pct,bpm,spg,bpg,source,date_checked
-2027,2025-26,Tyran Stokes,SF,NCAA,19,1,18.2,7.9,4.3,49.5,34.2,6.4,2.1,1.4,ESPN,16/10/2026
-2027,2025-26,Jordan Smith Jr.,SG,NCAA,19,2,16.5,5.2,3.1,46.8,31,4.95,2.4,1.1,ESPN,16/10/2026
-2027,2025-26,Caleb Holt,SG,NCAA,19,3,17,6.5,2.8,48,33.1,5.1,1.9,0.6,ESPN,16/10/2026
-2027,2025-26,Stefan Joksimovic,PG/SG,EuroLeague,18,4,14.8,3.9,5.5,45.1,35.8,,1.5,0.3,No Ceilings,16/10/2026
-2027,2025-26,Bruce Branch III,SF,NCAA,18,5,13.9,4.8,2.1,47.2,38,3.8,1.4,0.4,Tankathon,16/10/2026
-2027,2025-26,Anthony Thompson,PF,NCAA,19,6,12.4,6.2,1.8,51,36.5,4.2,0.9,1.5,No Ceilings,16/10/2026
-2027,2025-26,Quentin Coleman,PG,NCAA,19,7,11.4,4.1,4.9,43.5,32.7,3.1,1.8,0.2,ESPN,16/10/2026
-2027,2025-26,Colben Landrew,SF,NCAA,19,8,13.1,5,1.9,46.2,34,2.9,1.1,0.5,No Ceilings,16/10/2026
-2027,2025-26,Luigi Suigo,C,ABA League,20,9,7.5,4.8,0.4,49.2,27.8,5.6,0.6,1.8,BBRef,16/10/2026
-2027,2025-26,Braylon Mullins,SG,NCAA,20,10,15.3,3.8,2.5,47.9,41.2,7.2,1.3,0.3,ESPN,16/10/2026
-2027,2025-26,Thomas Haugh,PF,NCAA,21,11,11.8,7.1,1.6,49.1,35.4,6.8,1,1.1,ESPN,16/10/2026
-2027,2025-26,Jason Crowe Jr.,PG,NCAA,19,12,19.5,2.9,4.1,42.1,33.8,3.5,1.6,0.1,Tankathon,16/10/2026
-2027,2025-26,Cameron Williams,PF/C,NCAA,19,13,11,7.5,1.1,54,28.5,5.1,0.8,1.9,ESPN,16/10/2026
-2027,2025-26,Dylan Mingo,PG,NCAA,19,14,12.1,3.4,4.6,44.2,35,3.4,1.7,0.3,NBA Draft Room,16/10/2026
-2027,2025-26,Baba Oladotun,SF,NCAA,18,15,14.6,4.2,1.7,45.8,39.1,4,0.9,0.7,NBA Draft Room,16/10/2026
-2027,2025-26,Tounde Yessoufou,SF,NCAA,20,16,13.5,5.9,1.8,48.3,32.4,4.9,1.5,0.8,Tankathon,16/10/2026
-2027,2025-26,Stefan Vaaks,SG,ACB,20,17,11.2,2.6,2,46,38.5,,1.1,0.1,Hoops Sicko,16/10/2026
-2027,2025-26,Toni Bryant,C,NCAA,19,18,8.9,8.1,0.5,61.2,,5.3,0.4,2.5,Hoops Sicko,16/10/2026
-2027,2025-26,Billy Richmond,SG/SF,NCAA,20,19,10.4,4.1,2.2,45.1,31.6,2.8,1.4,0.4,Hoops Sicko,16/10/2026
-2027,2025-26,Bryson Howard,SF,NCAA,19,20,11.7,5.3,2,47,36.1,3.9,1.2,0.5,Bleacher Report,16/10/2026
-2027,2025-26,Shelton Henderson,SF,NCAA,19,21,12.8,6,2.4,49.3,33,4.3,1.3,0.6,NBA Draft Room,16/10/2026
-2027,2025-26,Patrick Ngongba II,C,NCAA,20,22,9.4,6.8,1.3,56.4,,4.7,0.5,1.7,Bleacher Report,16/10/2026
-2027,2025-26,Deron Rippey Jr.,PG,NCAA,19,23,11.1,3,4.8,43.1,34.5,2.7,1.9,0.1,Hoops Sicko,16/10/2026
-2027,2025-26,Trey McKenney,SG,NCAA,20,24,14.2,4,2.3,44.8,35.6,3.1,1.2,0.2,NBA Draft Room,16/10/2026
-2027,2025-26,Christian Collins,PF,NCAA,19,25,11.5,6.9,1.2,52.3,29,4,0.8,1.6,Tankathon,16/10/2026
-2027,2025-26,Bryson Tiller,PF,NCAA,21,26,12,7.2,1.5,48.9,31.4,3.6,0.7,1.2,Hoops Sicko,16/10/2026
-2027,2025-26,Brandon McCoy Jr.,PG,NCAA,19,27,13.4,3.7,4.5,45.2,34,3.8,1.8,0.3,Bleacher Report,16/10/2026
-2027,2025-26,Amare Bynum,C,NCAA,20,28,9,7.4,1.1,55.6,22,4.1,0.5,1.8,Hoops Sicko,16/10/2026
-2027,2025-26,Ivan Kharchenkov,SF,NCAA,20,29,10.3,4,1.7,44,34.9,2.9,1.1,0.3,Fansided,16/10/2026
-2027,2025-26,Dame Sarr,SG,NCAA,21,30,11.5,3.2,2.1,46.3,37,3.6,1.4,0.4,NBA Draft Room,16/10/2026
-2027,2025-26,Tyler Tanner,PG,NCAA,20,31,12.3,2.8,4.4,43.9,36.2,3,1.6,0.1,Fansided,16/10/2026
-2027,2025-26,Miikka Muurinen,PF,NCAA,20,32,10.8,5.7,1.3,49,37.8,3.3,0.8,1.4,Bleacher Report,16/10/2026
-2027,2025-26,Alex Wilkins,SF,NCAA,20,33,11,4.9,1.8,46.5,34.1,2.5,1.2,0.6,Hoops Sicko,16/10/2026
-2027,2025-26,Amari Allen,SF,NCAA,20,34,12.1,5.2,2,45,35.2,2.8,1.1,0.4,Fansided,16/10/2026
-2027,2025-26,David Punch,PF,NCAA,21,35,9.5,6.3,1.4,48.7,32,3.2,0.9,1,Hoops Sicko,16/10/2026
-2027,2025-26,Alijah Arenas,SG,NCAA,20,36,16.2,4,2.6,43.7,35.5,3,1.3,0.3,NBA Draft Room,16/10/2026
-2027,2025-26,Juke Harris,SG,NCAA,21,37,12,3.5,1.9,44.5,36.8,2.9,1,0.3,Hoops Sicko,16/10/2026
-2027,2025-26,Ikenna Alozie,SG,NCAA,20,38,11.4,4.3,2.2,45.6,31,2.4,1.6,0.5,Hoops Sicko,16/10/2026
-2027,2025-26,Malachi Moreno,C,NCAA,21,39,9.1,8.6,0.7,59.2,,5,0.4,2.3,NBA Draft Room,16/10/2026
-2027,2025-26,Alex Condon,C,NCAA,21,40,10.5,7.9,1.5,53.4,29.5,5.5,0.6,1.8,Hoops Sicko,16/10/2026
-2027,2025-26,Hugo Yimga Moukouri,SF,LNB Élite,19,41,11.9,4.5,1.6,47.1,33.8,,1,0.4,NBA Draft Room,16/10/2026
-2027,2025-26,Mackenzie Mgbako,SF/PF,NCAA,22,42,14.8,5.1,1.3,46.2,37.1,4.1,0.8,0.5,Hoops Sicko,16/10/2026
-2027,2025-26,Na'jai Hines,C,NCAA,20,43,8.4,7.6,0.6,57.1,,3.8,0.5,1.9,Fansided,16/10/2026
-2027,2025-26,Milan Momcilovic,PF,NCAA,22,44,12.5,4.2,1.4,44.9,38,4.4,0.6,0.9,Hoops Sicko,16/10/2026
-2027,2025-26,Motiejus Krivas,C,NCAA,22,45,8.8,6.9,0.9,56,,4.9,0.3,1.7,NBA Draft Room,16/10/2026
-2027,2025-26,Amani Hansberry,PF,NCAA,22,46,10.2,6.1,1.3,48.5,32.6,3.7,0.9,0.8,Hoops Sicko,16/10/2026
-2027,2025-26,Jeremy Fears Jr.,PG,NCAA,22,47,8.5,2.6,5.2,42.4,31,3,1.7,0.1,Bleacher Report,16/10/2026
-2027,2025-26,Ruben Prey,PF/C,NCAA,21,48,9,6.5,1.1,51.2,26.8,3.3,0.7,1.3,Bleacher Report,16/10/2026
-2027,2025-26,Tahaad Pettiford,PG,NCAA,21,49,11.2,2.5,3.8,43,34.5,2.6,1.5,0.2,Tankathon,16/10/2026
-2027,2025-26,Terrance Arceneaux,SG/SF,NCAA,23,50,8.1,4.3,1.2,45,35,3.5,1.4,0.7,Tankathon,16/10/2026
-2027,2025-26,Jalil Bethea,SG,NCAA,21,51,11.5,3,2.1,44.1,37.2,2.8,1.1,0.3,Tankathon,16/10/2026
-2027,2025-26,DJ Wagner,PG/SG,NCAA,22,52,11,2.4,3.5,42.3,31.5,2.1,1.3,0.1,Tankathon,16/10/2026
-2027,2025-26,Cameron Houindo,PF,LNB Élite,19,53,9.4,5.8,1,49.5,28,,0.9,1.1,NBA Draft Room,16/10/2026
-2027,2025-26,Pavle Backo,C,ABA League,19,54,8.7,6.4,0.7,55.1,,,0.4,1.4,NBA Draft Room,16/10/2026
-2027,2025-26,Jamari Phillips,SG,NCAA,21,55,10.1,3.2,1.9,43.7,35.4,2.1,0.9,0.2,NBA Draft Room,16/10/2026
-2027,2025-26,Rueben Chinyelu,C,NCAA,22,56,6.5,6.8,0.4,62,,4.5,0.3,2.1,NBA Draft Room,16/10/2026
-2027,2025-26,Moustapha Thiam,C,NCAA,20,57,7.2,7.1,0.3,58.3,,4.1,0.2,2.4,NBA Draft Room,16/10/2026
-2027,2025-26,Sayon Keita,C,NCAA,21,58,6.8,6.5,0.5,56.7,,3.9,0.4,2,NBA Draft Room,16/10/2026
-2027,2025-26,Cheickh Niang,SF,NCAA,21,59,9.8,4.5,1.3,45.2,31.2,2.2,1.2,0.5,NBA Draft Room,16/10/2026
-2027,2025-26,Silas Demary Jr.,PG,NCAA,21,60,9.7,3.8,2.5,43.4,30.4,3.2,1.5,0.4,ESPN,16/10/2026
+draft_year,stats_season,name,position,league,age,espn_rank,ppg,rpg,apg,fg_pct,three_pct,bpm,spg,bpg,source,reference_video,video_note,date_checked
+2027,2025-26,Tyran Stokes,SF,NCAA,19,1,18.2,7.9,4.3,49.5,34.2,6.4,2.1,1.4,ESPN,https://youtu.be/xQb7KVJw05w?si=YTS9NrlIRv7oiN4R,"Overview
+Tyran Stokes shows a polished, physical, and versatile offensive game against Pittsburg State. His highlights combine powerful finishes, creative ball handling, rebounding, foul drawing, and underrated passing—traits that suggest he can contribute immediately as a freshman.
+
+The key takeaway is that Stokes does not rely on one scoring method. He creates advantages through strength, size, skill, and decision-making, then either finishes himself or finds teammates when the defense reacts.
+
+Key Points
+Stokes uses his strong frame effectively, including a spin move and physical lane finish early in the reel [00:00:00–00:00:05].
+His passing stands out as an important secondary skill. He creates an easy Reeves finish after drawing defensive attention [00:00:08–00:00:15; 00:01:18].
+He contributes on the glass before converting a right-handed finish for the Jayhawks [00:00:25–00:00:28].
+Team ball movement and spacing help create favorable driving opportunities, forcing defenders into difficult closeouts [00:00:33].
+Stokes scores in several ways: a backboard finish, free throw, aggressive drive that draws a foul, and later another successful finish [00:00:41–00:00:53; 00:02:24].
+His height and high shooting release give him an advantage as a wing, allowing him to get shots off over defenders [00:01:10].
+He flashes advanced handle, including a behind-the-back recovery move after losing control of the ball [00:02:10; 00:02:17–00:02:23].
+Explanation
+Stokes’s value comes from his ability to make multiple kinds of plays. A player who can score only from one area is easier to defend; Stokes can drive, finish through contact, make free throws, use post-related actions, and set up teammates.
+
+His high release point matters because it makes his shot harder to contest. Combined with wing mobility and a sturdy build, it gives him tools to attack smaller defenders physically and challenge taller defenders with skill.
+
+Conclusions and Implications
+Stokes looks capable of making an early impact because his game is well-rounded rather than dependent on pure athleticism or one scoring move. The sequence supports the idea that he can function as both a scorer and a playmaker, especially when surrounded by strong spacing and movement.
+
+Additional Notes
+The commentary identifies passing as “a real underrated characteristic” of Stokes’s game [00:00:05–00:00:15].
+His highlight sequence reinforces the principle that “great offensive players usually can score in multiple ways efficiently” [00:01:51–00:01:59].",16/10/2026
+2027,2025-26,Jordan Smith Jr.,SG,NCAA,19,2,16.5,5.2,3.1,46.8,31,4.95,2.4,1.1,ESPN,https://youtu.be/o-vLonAR3As?si=jtKbE05DHZ2SAnQc ,"Overview
+Arkansas delivered a commanding 98–58 Baha Mar Summer League victory over Carleton, powered by Jordan Smith Jr.’s all-around performance: 20 points, 11 rebounds, and 11 assists. His scoring, transition playmaking, rebounding, and defensive activity set the tone for a team effort marked by pressure defense and fast-break finishes.
+
+The central takeaway is Smith Jr.’s versatility. He impacted virtually every phase of the game, reinforcing the commentator’s assessment that he brings “energy, defense, and… an attitude of winning” [00:00:14].
+
+Key Points
+Smith Jr. started aggressively with athletic finishes and a controlled drive to the basket [00:00:04–00:00:32].
+He showed transition ability with a coast-to-coast finish, using his speed and strength to get to the rim [00:00:53].
+Defensive takeaways fueled Arkansas’s offense:
+Smith Jr. made a steal and found Torrey for a transition finish [00:01:12].
+He added another takeaway later, with his open-court movement compared to a running back [00:01:33–00:01:35].
+His playmaking stood out through passes that created high-percentage scoring opportunities:
+He assisted Bowser on a powerful dunk [00:02:17].
+He delivered a pocket pass to J.J. Andrews in transition [00:02:50].
+Smith Jr. also made a buzzer-beating three-pointer, extending his impact beyond the paint and transition game [00:01:42–00:01:49].
+Arkansas maintained control throughout, closing with a 40-point victory over Carleton [00:03:12–00:03:19].
+Explanation
+A triple-double means reaching double figures in three statistical categories. Smith Jr. recorded one with points, rebounds, and assists—evidence that he was not simply a scorer, but a player who helped create possessions and scoring chances for teammates.
+
+Arkansas’s defensive pressure created turnovers, which led to fast breaks. This is especially effective because a steal can turn defense into an immediate scoring opportunity before the opposing team has time to set up.
+
+Conclusions and Implications
+Smith Jr.’s 20-point, 11-rebound, 11-assist performance demonstrated a complete skill set: finishing, passing, rebounding, defending, and making timely perimeter shots. Arkansas’s 98–58 result also reflected strong team depth, with teammates contributing dunks, deep shots, and transition finishes.
+
+Additional Notes
+The source includes a separate quote referring to an earlier 106–59 exhibition win over the Bahamas [00:00:06–00:00:12]; it appears distinct from the reported 98–58 win over Carleton.
+A commentator predicted Smith Jr. could record many triple-doubles [00:02:08–00:02:11], an opinion supported by his all-around stat line in this game.",16/10/2026
+2027,2025-26,Caleb Holt,SG,NCAA,19,3,17,6.5,2.8,48,33.1,5.1,1.9,0.6,ESPN,https://youtu.be/Kr3U9M1bPw8?si=wQtoX0axrdQebE66 ,"Overview
+Caleb Holt stood out during Arizona’s preseason trip to Lithuania because of his all-around impact. He contributed as a scorer, rebounder, passer, and defender, showing that he can affect possessions in several ways rather than relying on one skill.
+
+His most notable moments combined individual creation with team-oriented play: attacking the basket, finding teammates, fighting for offensive rebounds, and helping disrupt opposing attacks.
+
+Key Points
+Holt helped stop a Ukrainian offensive possession with strong defensive involvement at 00:01:27.
+He scored two points while dealing with foul trouble, recorded as three personal fouls, during the Ukraine sequence at 00:01:37.
+An offensive rebound at 00:01:42 demonstrated his effort and activity around the basket.
+He attacked the rim against Regimantas at 00:02:41, displaying confidence as a driver.
+Holt delivered a pass to Jaruševičius that drew a foul at 00:02:47, highlighting his ability to create opportunities for teammates.
+A spin move against Urmanavičius at 00:02:57 showcased his individual ball-handling and finishing skill.
+Coach Rimas Kurtinaitis frequently used both players in the game against Estonia at 00:02:03, suggesting a willingness to rely on the group’s depth.
+Explanation
+Holt’s value comes from versatility. A player who rebounds can extend possessions; one who passes can turn defensive attention into open looks for teammates; and one who defends can prevent easy scoring chances. Holt showed elements of each role in a short stretch of action.
+
+The pass to Jaruševičius is especially meaningful because it reflects decision-making, not just scoring. When defenders collapse on a driver, recognizing the open teammate can be as valuable as finishing the play personally.
+
+Conclusions and Implications
+Holt’s preseason performance suggests he can provide Arizona with flexible, two-way production. His combination of rim pressure, playmaking, rebounding effort, and defensive activity gives him multiple ways to contribute even when his own shot is not falling.
+
+Additional Notes
+Bryce James also made a long-distance three-pointer at 00:01:06.
+The available source does not provide Holt’s full statistical line or enough detail to evaluate his efficiency across the entire tour.",16/10/2026
+2027,2025-26,Stefan Joksimovic,PG/SG,EuroLeague,18,4,14.8,3.9,5.5,45.1,35.8,,1.5,0.3,No Ceilings,https://youtu.be/OIzooLKapLo?si=Nana98UGSjgrqaNL ,"Overview
+Stefan Joksimovic drives Slovenia’s success through aggressive scoring, timely defensive plays, and fast-break finishing. Although the footage includes moments against multiple opponents, the central takeaway is consistent: Joksimovic repeatedly turns momentum in Slovenia’s favor, especially when turnovers create transition opportunities.
+
+The tone is energetic and celebratory, emphasizing both Joksimovic’s individual skill and Slovenia’s ability to convert defense into efficient offense.
+
+Key Points
+Joksimovic starts efficiently, reaching seven points while shooting 3-for-4 from the field early in the first quarter [00:00:00].
+Slovenia uses its final possession of the opening quarter effectively:
+A pass produces a strong Krampelj finish [00:00:17].
+Joksimovic then drives to the basket with five seconds remaining for a major late-quarter score [00:00:23].
+A Slovenian steal creates a crucial breakaway opportunity, with Joksimovic finishing for two points in a potentially game-deciding moment [00:00:34–00:00:42].
+Slovenia’s transition attack thrives after defensive stops:
+An emphatic block highlights the team’s defensive intensity [00:01:09].
+A Czech turnover leads to a rapid break and Joksimovic’s powerful dunk off Horvath’s setup [00:01:21–00:01:27].
+Joksimovic also stretches defenses with perimeter shooting, hitting another three-pointer after Jerkovic passes out of a double team [00:01:38–00:01:49].
+Another steal produces a “flying finish” from the 17-year-old standout [00:02:03–00:02:12].
+In later action, Joksimovic scores through contact, makes a left-handed finish off a screen, and hits a significant step-back shot late in the game [00:02:34, 00:02:59–00:03:08].
+Larsson provides Sweden’s major scoring output with 29 points [00:03:16].
+Explanation
+Slovenia’s best offense comes from transition: forcing a turnover, pushing the ball quickly, and attacking before the defense can set up. The sequence ending in Joksimovic’s dunk is a clear example—one mistake by Czechia immediately becomes an easy, high-energy Slovenian score [00:01:21–00:01:27].
+
+Joksimovic’s value is not limited to one skill. He scores at the rim, shoots from three-point range, creates offense after steals, and performs in late-game situations. This versatility makes him difficult to defend: opponents cannot simply protect the paint or chase him off the three-point line.
+
+Conclusions and Implications
+Joksimovic emerges as Slovenia’s defining playmaker in the highlights, combining efficient early scoring with decisive plays in pressure moments. Slovenia’s defensive activity and fast-break execution amplify his impact, turning steals and stops into immediate points.
+
+The footage also shows that Slovenia faces capable opposition, particularly Sweden, where Larsson’s 29-point performance demonstrates the need for Slovenia to maintain its defensive intensity [00:03:16].
+
+Additional Notes
+The source contains an apparent age inconsistency: Joksimovic is called a “17-year-old sensation” [00:02:06–00:02:12] but is also described as 25 years old [00:03:20–00:03:25]. The correct age is unclear in source.
+Late missed free throws create tension before Slovenia secures a qualifying point through Omic’s made free throw [00:00:50–00:00:54].",16/10/2026
+2027,2025-26,Bruce Branch III,SF,NCAA,18,5,13.9,4.8,2.1,47.2,38,3.8,1.4,0.4,Tankathon,https://youtu.be/Hjs4TfTLSS0?si=0u1ZK9qoV-Ps7H41 ,"Overview
+Bruce Branch III made an impressive unofficial debut as BYU faced Nebraska in an exhibition at the Marriott Center in Provo. In a game marked by momentum swings and a physical, fast-paced finish, Branch contributed as a scorer, rebounder, and playmaker.
+
+The clearest takeaway is that Branch’s value went beyond his scoring. His smooth shooting, court vision, transition play, and activity on both ends helped BYU secure the win, 72–61 [00:03:37].
+
+Key Points
+BYU entered the exhibition with an almost entirely rebuilt roster; Rob Wright III was identified as the primary returning exception [00:00:17].
+Branch scored his first BYU points by following his own miss, showing effort around the basket [00:00:27].
+His shooting profile stood out: he was credited with shooting 42% from three-point range, combining volume with efficiency [00:00:41].
+Branch displayed playmaking ability with a notable one-handed pass that set up a forceful dunk [00:01:17].
+After a turnover, he quickly pushed offense forward and found Koller inside for an early basket [00:01:31].
+His unofficial debut line was 15 points, 6 rebounds, and 5 assists, reflecting broad impact rather than a one-dimensional performance.
+BYU’s victory came in a tightly contested, “boxing match”-like game with continuous action [00:03:43].
+Explanation
+Branch’s performance matters because a new roster needs players who can fill multiple roles. Scoring is valuable, but his rebounds helped finish possessions and his assists created efficient shots for teammates. His ability to move from defense to offense quickly also fit BYU’s transition opportunities.
+
+The one-handed pass and alley-oop sequence illustrated more than athletic flair: they showed vision and confidence in making difficult reads under pressure [00:01:23]. His three-point shooting adds another layer, forcing defenses to respect him on the perimeter.
+
+Conclusions and Implications
+Branch’s debut suggested he could become a versatile contributor for BYU. He paired efficient shooting with playmaking and effort plays, giving the Cougars options in both half-court and transition offense.
+
+BYU’s exhibition win over Nebraska also offered an encouraging early sign for a roster undergoing major turnover. Branch’s ability to contribute across categories may be especially important as the team builds chemistry.
+
+Additional Notes
+The game’s highlights included several other BYU contributors, including Rob Wright III, Chandler, Koller, and Eason.
+Some names and scoring details in the source are inconsistent, including references to “Bruce Brown III” and an apparent score error. The supported final score is 72–61 [00:03:37]",16/10/2026
+2027,2025-26,Anthony Thompson,PF,NCAA,19,6,12.4,6.2,1.8,51,36.5,4.2,0.9,1.5,No Ceilings,https://youtu.be/2SucQonVYYE?si=LThClkZ28YMjPt1i ,"Summary
+
+Anthony Thompson appears as a primary offensive option and a vocal leader on the floor. He shows a versatile scoring package, willingness to attack closeouts, and confidence in late-clock situations. Defensively he competes consistently, though occasional lapses in positioning appear during transition. Overall, he impacts the game on both ends and is a clear go-to player for his team.
+Offensive strengths
+
+Scoring versatility: Uses dribble penetration, pull-up midrange jumpers, and finishes at the rim. Comfortable scoring off the bounce and in isolation sequences.
+Ball handling under pressure: Keeps control when defenders apply pressure on the perimeter, able to create space with change-of-pace and crossover moves.
+Aggressiveness on drives: Attacks gaps decisively, often forcing help defenders and creating opportunities for teammates.
+Shot confidence: Willing to take contested shots and step into catch-and-shoot opportunities; shows belief in his shot mechanics.
+Playmaking from the ball screen: Recognizes and exploits ball-screen actions—either splitting screens, pulling up, or kicking out to open shooters.
+Situational decision-making: Chooses between finishing himself and finding open teammates rather than forcing low-percentage plays; shows good court awareness in late-clock situations.
+Free-throw aggression (when fouled): Seeks contact and gets to the line, demonstrating a desire to draw fouls in scoring opportunities.
+Offensive areas to improve
+
+Shot selection consistency: Occasionally opts for contested midrange or long two-point shots when better passing options exist; could be more selective when the defense collapses.
+Three-point volume/efficiency: Not a high-volume or highly efficient 3-point shooter in this game; extending range and improving catch-and-shoot percentage would make him more difficult to defend.
+Left-hand finishing: Shows stronger finishing on his dominant side; left-hand finishes and layups can be developed for better balance around the rim.
+Tempo control: In certain possessions, his quick drives can get ahead of the offense, reducing teammates’ opportunities to find spacing; working on pacing the offense and drawing defense before penetrating would increase team efficiency.
+Defensive strengths
+
+On-ball intensity: Plays with energy on the ball, applying pressure to primary ball-handlers and contesting shots when matched up.
+Help defense instincts: Senses when to rotate and provide help in the paint; communicates with teammates and participates in team defensive schemes.
+Rebounding effort: Shows willingness to box out and pursue rebounds, especially on the defensive glass.
+Competitiveness: Plays with urgency and effort—doesn’t shy away from physical matchups and contested plays.
+Defensive areas to improve
+
+Pick-and-roll coverage: Can be caught over-committing on hedges or going under screens at times, which leads to open looks or mismatches; improving on-screen navigation and communication would reduce these breakdowns.
+Transition awareness: Occasionally late to locate an opponent in fast-break situations, which can allow easy scoring opportunities for the other team.
+Fouling/discipline: Shows moments of reaching or ill-timed contests that result in fouls; refining timing and footwork could decrease foul trouble and free-throw opportunities for opponents.
+Playmaking and basketball IQ
+
+Vision and passing: Demonstrates solid court vision—finds cutters and open shooters after drawing defenders. Effective in short-pocket passes and timely kick-outs.
+Decision-making under pressure: Generally makes sound reads against varying defenses; rarely forces risky passes in traffic.
+Leadership: Acts like a team leader—directs teammates, stays engaged in both ends, and makes plays that lift team performance.
+Adaptability: Adjusts to defensive schemes, using counters like step-backs, pull-ups, and changes of speed to keep defenders off balance.
+Physical profile and conditioning
+
+Athleticism: Shows quickness, explosiveness off the bounce, and ability to finish through contact—plays with good burst in short areas.
+Frame and strength: Appears to have a solid youth frame for his age group; can absorb contact but could benefit from strength training to finish more consistently against taller/stronger defenders.
+Stamina: Maintains intensity for extended stretches and is active late in the game, suggesting good conditioning for tournament play.
+Mental makeup and intangibles
+
+Competitiveness: High motor and desire to win; plays hard on both offense and defense.
+Poise: Remains calm in late-game situations and takes on decision-making responsibilities.
+Coachability: Responds to in-game adjustments and communicates with teammates—appears receptive to direction.
+Confidence: High confidence level, sometimes stepping into difficult shots and plays under pressure.
+Coachable points and development plan
+
+Improve three-point shooting: Implement a regimented shooting program emphasizing mechanics, catch-and-shoot reps, and off-the-dribble threes to extend his threat range.
+Strength and finishing: Off-season strength and conditioning focused on lower-body power and upper-body strength will help him finish through contact and absorb screens.
+Left-hand work: Daily reps on finishing with non-dominant hand, including layups, floaters, and contact finishes to become more two-sided at the rim.
+Pick-and-roll defense drills: Work on communication and footwork for hedge/contain decisions and practice switching vs. staying home to lower pick-and-roll breakdowns.
+Decision-making under pressure: Simulate late-clock and double-team scenarios in practice to refine reads, pass choices, and when to pull up versus kick out.
+Conditioning for transition defense: Drills emphasizing sprint-back defense, locating shooters, and transition communication will reduce easy opponent transition points.
+Film review: Study tendencies of defenders and referees to improve shot selection and draw fouls smartly rather than through unnecessary contact.
+Tendencies and scouting tags
+
+Tendencies: Attacks closeouts, prefers driving to the right off the bounce, frequently pulls up in midrange when defense drops, looks for kick-outs after collapsing defense.
+Scouting tags: Primary ball-handler, go-to scorer, clutch-minded, midrange pull-up, penetrator-and-pass, high-motor defender.
+How opponents should game-plan for him
+
+Force him to his weaker side and make him use his left hand more; take away midrange pull-ups with physical closeouts and make him pass.
+Use disciplined on-ball pressure and smart help rotation to limit straight-line drives and challenge his finish at the rim.
+Hit open shooters early when he draws help; force him to be the facilitator rather than the primary scorer.
+Test his three-point consistency by switching defenders and putting versatile wing defenders on him to contest perimeter shots.
+Bottom line Anthony Thompson is a dynamic, confident lead guard with the scoring ability and playmaking vision to control games at this level. He impacts both ends through aggressive drives, smart passes, and active defense. With focused work on three-point efficiency, ambidextrous finishing, pick-and-roll defense, and added strength, he projects as a high-upside prospect who can expand his scoring range and durability while maintaining his leadership role.",16/10/2026
+2027,2025-26,Quentin Coleman,PG,NCAA,19,7,11.4,4.1,4.9,43.5,32.7,3.1,1.8,0.2,ESPN,https://youtu.be/-U9qruDFaaM?si=W5jIF4UA1ESJDXkT ,"Overview
+
+Position/Build: Wing-forward (primary small forward/power forward mix). Listed around 6'4 with a strong, compact frame that plays bigger than his height.
+Role/Usage: High-activity two-way connector who initiates offense off drives and offensive rebounds and functions as a secondary playmaker. Often the engine of his team on both ends, drawing attention inside and creating opportunities for teammates.
+Motor & Intangibles: Exceptional effort and competitiveness. Consistently pursues loose balls and offensive rebounds, shows late-game poise, and competes on every possession. Plays with high basketball IQ — understands spacing, when to attack, and when to kick. Defensive communication and willingness to take charges are pluses.
+Offense — Strengths
+
+Drive and finish: Aggressive attacking instincts. Uses strong shoulders and lower-body leverage to get into the paint off the dribble and finishes through contact, often converting on putbacks and plays off the glass.
+Post toughness: Comfortable operating with his back to the basket in short-roll/post area; uses angles, footwork and physicality to create space for layups or quick turnarounds.
+Rebounding/second-chance scoring: Elite rebounder for his size at the U18 level. Secures offensive rebounds proactively and converts many into immediate putbacks or kick-outs, creating extra possessions.
+Passing & decision-making: Adequate passer for a wing — recognizes help-side rotations, finds open shooters after drawing double teams, and makes timely skip and drop passes. Shows vision in closeout/pressure situations to exploit rotating defenders.
+Mid-range scoring: Effective pull-up game off the dribble and turnaround jumpers from mid-range. Uses change-of-pace and shoulder fakes to gain separation.
+Spot-up shooting: Shows capability to knock down spot-up triples but needs consistency. Has made some catch-and-shoot attempts; shooting mechanics are workable though not yet fully reliable as a primary floor-spacing trait.
+Pace & control: Comfortable pushing in transition and equally effective in half-court sets where he can attack downhill or operate in pick-and-roll/pick-and-pop actions.
+Offense — Areas to Improve
+
+Three-point consistency: While he can step out and attempt threes, his long-range shot percentage and consistency need improvement to become a true floor spacer, especially defending bigger matchups at higher levels.
+Shot selection under pressure: Occasionally forces tough contested shots when double-teamed rather than always opting to reset or move the ball quickly.
+Ball-handling in tight spaces: Good overall, but would benefit from tighter handles to better navigate trapping defenses and create more separation for pull-ups or drives on quicker wings.
+Defense — Strengths
+
+Rebounding & positioning: Strong rebounder from the wing; uses anticipation and physicality to grab contested boards and initiate transition.
+On-ball effort & help defense: Active on-ball defender who applies pressure and uses length and strength to bother ball-handlers. Willing and effective in the help role, contesting shots and rotating quickly.
+Defensive IQ: Reads screens and rotations well; demonstrates awareness of when to hedge, when to drop, and when to recover. Plays passing lanes opportunistically for deflections and turnovers.
+Competes vs. bigger opponents: Despite being undersized for some matchups, he uses strength and leverage to battle post-ups and deter easy interior touches.
+Defense — Areas to Improve
+
+Lateral quickness vs elite wings: May struggle to stay in front of the quickest, most explosive perimeter scorers; needs to refine footwork and possibly improve conditioning/speed to better guard chase-downs.
+Closeout discipline: At times allows shooters a step on catch-and-shoot situations when closing out too upright; needs to be lower and more controlled in closeouts to contest without fouling.
+Physical & Athletic Profile
+
+Strength: Plays stronger than his frame suggests; uses compact build to absorb contact and finish through bodies.
+Mobility: Adequate mobility — quick first step into the lane, solid verticality on finishes and rebounds. Not an elite leaper but times his jumps well.
+Endurance: High stamina and plays with consistent energy across minutes; functions well in high-tempo schemes.
+Playstyle & Fit
+
+Best fit: Versatile frontcourt wing in schemes that value physical, high-effort defenders who can rebound and generate offense close to the rim. Ideal in college systems that emphasize ball movement and that will allow him to attack off closeouts and operate in pick-and-roll or short-roll actions.
+Offensive role possibilities: Secondary initiator, short-roll/pop screener who can slip, offensive rebounder/finisher and occasional shooter. Can run the floor in transition and finish lobs or interior kickouts.
+Defensive role possibilities: Tough perimeter and help defender on switches, rebounder who secures possessions and sparks offense; fits well as a switchable forward on many lineups at the collegiate level.
+Projection
+
+Near-term (college): Immediate high-impact role expected as a rebounder, interior finisher and glue defender. Will contribute minutes early due to motor, toughness and decision-making.
+Long-term (pro potential): With improved perimeter shooting and lateral quickness, projects as a versatile 3-and-D forward capable of guarding multiple positions and spacing the floor. Without those upgrades, projects as a high-level collegiate starter and complementary pro piece who excels in transition, defense and rebounding.
+Summary Quentin Coleman is a high-motor, physical wing who plays bigger than his size. He combines strong rebounding, interior finishing and solid passing vision with competitive defense and excellent effort. The primary growth areas are consistent perimeter shooting and quicker lateral mobility. As he refines those skills he should comfortably transition into a major collegiate role and has the tools to develop into a versatile two-way player at higher levels.",16/10/2026
+2027,2025-26,Colben Landrew,SF,NCAA,19,8,13.1,5,1.9,46.2,34,2.9,1.1,0.5,No Ceilings,https://youtu.be/eQ_OBXIJVs4?si=l0xfS-ZhEvmH6EdZ ,"Overview: Colben Landrew is a modern scoring wing with a strong perimeter offense, good pace in transition, and developing playmaking instincts. At the FIBA U18 Americup he showcased reliable catch-and-shoot ability from deep, the willingness and competence to attack in transition, and competent off-ball movement. His skill set projects as a multi-positional floor spacer who can also initiate actions off pick-and-rolls occasionally and create downhill opportunities in transition. Defensively he shows effort and the ability to contest shots but needs improvement on consistent on-ball strength and defensive awareness in help rotations.
+
+Strengths
+
+Spot-up shooting: Converts at a high clip from beyond the arc for the age group (video notes 42.9% on threes during the competition). Quick release, good shooting mechanics from the catch and from short kick-outs off drives. Comfortable shooting from corner and wing.
+Off-ball movement: Reads the floor and finds space, times cuts and relocations well. Gets open through simple but effective movement, which maximizes his catch-and-shoot effectiveness.
+Transition & pace: Recognizes offensive transition, runs the floor intelligently, and finishes or pulls up from distance. Good timing on streaking threes and makes the right decisions on the break.
+Shot creation in rhythm: Shows the ability to create his own looks off dribble-jumps and pull-up threes. Comfortable attacking closeouts and pulling up rather than forcing contested long twos.
+Passing instincts: Makes timely passes, particularly in read-and-react sequences following penetration or kick-outs. Capable of hit-and-run delivery to streaking teammates; shows vision to swing the ball quickly.
+Competitiveness: Plays with energy, pressures defenses with active movement and requires attention from opponents—can change defensive schemes because of his perimeter threat.
+Areas for development
+
+Strength and finishing through contact: Will benefit from added functional strength to absorb contact on drives and finish through bodies in traffic at the collegiate/pro level.
+Creating off the dribble against length: While effective in youth competition, needs refinement when facing longer, more physical defenders—improve hesitations, change-of-pace, and counters to consistently break down NBA-caliber on-ball defenders.
+Playmaking consistency: Shows flashes of passing, but needs to develop an advanced playmaker’s toolkit—dribble combos, pocket passing under pressure, and the ability to run offense when primary ball-handlers are stifled.
+Defensive awareness and consistency: Active hands and effort are present, yet he can be late on rotations or beaten on drives if overcommitting. Strengthening closeout technique, footwork, and communication will raise his overall defensive impact.
+Rebounding: Will need to improve boxing out and aggressive pursuit of rebounds to maximize value as a 3-and-D wing at higher levels.
+Basketball IQ & Intangibles
+
+Reads defensive positioning well; uses opponent tendencies to find spot-up opportunities.
+Disciplined in spacing and doesn’t force iso possessions often; prefers to operate within team actions.
+Demonstrates coachability: shows a willingness to defer, make the extra pass, and play within the team scheme.
+Competitive motor: consistently engaged on both ends; appears to take pride in defensive contesting and transition effort.
+Fit and Projection
+
+College fit: Immediate fit as a perimeter spacer and secondary ball-handler for programs valuing shooting, pace, and off-ball movement. Can carve out minutes early as a 3-and-D wing while adding strength and defensive polish.
+Role projection: Likely a high-volume catch-and-shoot wing with secondary playmaking duties initially. With added strength and improved on-ball creation, could evolve into a primary perimeter scorer and more versatile two-way wing.
+Long-term ceiling: Solid collegiate starter and rotation player; potential high-level pro prospect if shot creation, strength, and defensive consistency are developed. Best long-term role is as a multi-positional wing who spaces the floor, moves well without the ball, and can take over games offensively in rhythm.
+Skill breakdown (1–10)
+
+3PT shooting: 8 — mechanics and percentage in competition indicate real shooting skill.
+Mid-range/pull-up: 6 — capable but not a primary weapon; effective off closeouts and in transition.
+Ball-handling: 6 — sufficient to create space; needs more advanced moves to consistently beat defenders.
+Passing/vision: 6 — solid passer in motion offense and transition; needs growth as a pick-and-roll initiator.
+Finishing at rim: 6 — able in open court; needs strength and craft in traffic.
+Defense (on-ball): 6 — active and competitive; must improve strength, lateral quickness under pressure, and rotation timing.
+Rebounding: 5 — average for position; can improve with effort and technique.
+Basketball IQ: 7 — reads game well and makes sound decisions.
+Recommendations for development
+
+Strength & conditioning: Implement a targeted program focusing on lower-body and core strength to improve finishing through contact and defensive anchoring, while preserving explosiveness.
+Shooting volume & range: Continue high-volume, game-situation shooting drills (catch-and-shoot, pull-up threes, off-screens) and incorporate contested shooting to translate to higher levels.
+Ball-handling drills: Add advanced two-ball and live-dribble combos, plus counter moves to beat longer defenders and create for others.
+Defensive footwork & IQ: Intensive closeout, slide, and recovery drills; film study focused on rotations and positioning to cut down on late help and blown coverages.
+Playmaking under pressure: Situational drills where he must read help defense, make quick pocket passes, and initiate gravity-creating actions against live resistance.
+Strengthen finishing: Post-up/drive finishing drills against physical defenders and using contact finishes (underarm, off-arm, floaters) to increase efficiency in close quarters.
+Summary assessment Colben Landrew projects as an impactful perimeter scorer with legitimate three-point stroke, strong transition instincts, and promising secondary playmaking ability. With added strength, improved on-ball creation against length, and more consistent defensive fundamentals, he can become a reliable two-way wing and a high-value college contributor. Short-term ceiling: immediate rotation player and floor spacer. Long-term upside: primary perimeter scoring wing and multi-positional defender if development plan is executed.",16/10/2026
+2027,2025-26,Luigi Suigo,C,ABA League,20,9,7.5,4.8,0.4,49.2,27.8,5.6,0.6,1.8,BBRef,https://youtu.be/CMErfLa5Ags?si=WPk1kBt0Zz6cgo8W ,"Overview Luigi Suigo is a physically imposing wing prospect who has developed noticeably in strength, endurance, and scoring consistency during the 2025–26 season with KK Mega Basket. He projects as a multi-positional wing capable of impacting the game on both ends through outside shooting, transition scoring, and improving defensive play. His combination of size, shooting touch, and willingness to run the floor makes him an intriguing NBA Draft candidate.
+
+Measurements & Physical Profile
+
+Position: Wing (SF/PF tweener depending on matchup)
+Frame: Strong, muscular build for a young wing; uses size effectively on drives and when finishing through contact
+Athleticism: Above-average straight-line speed and good stamina; not an elite leaper but explosive enough to finish in transition and on put-backs
+Mobility: Adequate lateral quickness for his size; can chase smaller wings but may struggle versus ultra-quick guards in space
+Offensive Skillset
+
+Shooting: Reliable catch-and-shoot three-point threat with range. Displays a quick release and confidence in taking deep shots, often stretching the defense and creating driving lanes for teammates.
+Spot-up scoring: Very effective as a spot-up shooter off ball movement and skip passes. Cleans up possessions with timely threes that swing momentum.
+Pull-up game: Has a developing pull-up jumper from mid-range and short three; still inconsistent but shows potential as a creating shooter when defenders close space.
+Finishing: Strong at the rim when attacking off drives or in transition, capable of using size to finish through contact and score on put-backs.
+Ball-handling & playmaking: Not a primary playmaker. Handles adequately in transition and on simple pick-and-roll reads; makes the right pass in half-court settings and shows solid court awareness. Can deliver sharp, timely passes in high-speed sequences.
+Decision-making: Generally calm under pressure; picks spots to shoot and looks to return quickly to defense after scoring plays.
+Defensive Skillset
+
+Perimeter defense: Competent on-ball defender against average wings; uses physicality to bother opponents and contest outside shots. Can be vulnerable to sudden direction changes by top-tier quick guards.
+Help and rotations: Shows good defensive instincts in team schemes — hustles back after offensive plays, contests shots, and participates in help-side rotations.
+Rebounding: Active on the glass for a wing; secures defensive rebounds and initiates transition offense.
+Defensive upside: With continued improvement in lateral quickness and footwork, his size and strength project well to guard multiple positions.
+Intangibles & Motor
+
+Energy: High work rate and consistent effort both in transition and on the defensive end. Frequently hustles for loose balls and rebounds.
+Competitiveness: Plays with a confident, composed demeanor; shows willingness to take big shots in key moments.
+Basketball IQ: Understands spacing and team concepts; makes smart plays rather than forcing offense.
+Conditioning: Excellent endurance, able to maintain effectiveness late into games.
+Role Projection & Fit
+
+Short term: 3-and-D wing role in modern systems — spot-up shooting, transition scoring, defensive versatility on the wing, and hustle plays.
+Long term: With improved ball-handling and lateral quickness, could expand into a secondary creator who initiates offense in specific lineups and defends multiple positions. Fits best in systems that value spacing, pace, and switching defense.
+Team fit: Ideal for teams needing wing shooting and physicality on the perimeter. Valuable in pick-and-pop schemes, pace-and-space offenses, and lineups that emphasize defensive switching.
+Strengths
+
+Consistent catch-and-shoot three-point ability with deep range
+Strong frame enables finishing through contact and securing rebounds
+High endurance and transition scoring threat
+Good off-ball movement and timing for spot-up opportunities
+Calm decision-making and reliable hustle plays
+Areas for Improvement
+
+Ball-handling and creating shots consistently off the dribble
+Lateral quickness and footwork to handle elite perimeter players
+Playmaking vision under pressure to become a more consistent secondary creator
+Defensive discipline in isolation situations against smaller, quicker guards
+Summary Luigi Suigo is a physically mature wing prospect with a proven ability to shoot from distance, score in transition, and contribute on defense and the glass. His steady improvement in strength and endurance combined with reliable long-range shooting make him a strong candidate for a 3-and-D role at the next level. With targeted development on ball skills and lateral mobility, he could expand his offensive repertoire and increase his defensive versatility, raising his floor and ceiling as a professional prospect.",16/10/2026
+2027,2025-26,Braylon Mullins,SG,NCAA,20,10,15.3,3.8,2.5,47.9,41.2,7.2,1.3,0.3,ESPN,https://youtu.be/p0PmhuGEru0?si=nTNvBmTF0A9xM0zx ,"Overview Braylon Mullins is a dynamic two-way wing with scoring versatility, playmaking instincts, and impact defensive ability. He combines advanced ball-handling and finishing skills with a reliable perimeter shot, making him a consistent threat in multiple offensive actions. Defensively he shows strong anticipation, shot-contesting ability, and the physicality to guard multiple positions. His poise in late-game situations and ability to finish in traffic elevate his floor-to-floor value.
+
+Strengths
+
+Scoring Versatility: Can score from all three levels — pull-up midrange, catch-and-shoot threes, and finishes at the rim using runners, floaters, and aggressive drives. Comfortable creating his own shot and off-hand finishes in traffic.
+Shot Creation: Uses quick change-of-pace dribbles, step-backs and ball fakes to create space for jumpers. Shows the ability to shoot off screens and on the move, keeping defenders honest.
+Off-ball Movement: Constantly moving without the ball, cutting to the rim and using back-cuts and flare actions effectively. This movement generates easy looks for himself and teammates.
+Playmaking: Good vision for a wing; finds cutters and reads closeouts to deliver timely passes. Can run transition and make the right read on the break.
+Clutch Composure: Demonstrates calm and confidence in late-game situations, capable of making game-deciding shots under pressure.
+Defensive Instincts: Anticipates passing lanes and creates turnovers. Shows toughness in contesting shots and provides help defense that results in blocks and altered attempts.
+Basketball IQ: Makes smart plays, understands spacing and situational needs, and adapts to defensive coverages (e.g., attacking zones or exploiting switching schemes).
+Areas for Improvement
+
+Consistency from deep: While he can knock down big threes, his long-range percentage can fluctuate game-to-game; improved shot selection and a more consistent release would raise his floor.
+Strength and finishing through contact: Effective at finishing, but could add more upper-body strength to absorb contact and convert at a higher rate against physical defenders in the paint.
+Turnover management: Aggressive playmaking can sometimes lead to forced or risky passes; a more measured approach in certain possessions would limit giveaways.
+Defensive discipline on switches: Versatile defender but can be exploited on prolonged switches by bigger, stronger opponents or crafty ball-handlers; improved footwork and leverage in those matchups would help.
+Role & Fit
+
+Primary scoring wing in lineups that ask him to create off the dribble and attack closeouts.
+Secondary ball-handler/playmaker in motion offenses and transition, facilitating for cutters and shooters.
+Switchable perimeter defender in schemes that value versatility and help-side rotation.
+High-leverage option late in games for isolation or pick-and-roll actions where his ability to shoot and finish can decide outcomes.
+Key Tendencies
+
+Prefers to attack off the dribble into a midrange or floater when primary driving lane is threatened.
+Often curls or flare-screens to create catch-and-shoot opportunities; comfortable spotting up and firing quickly.
+Frequently cuts hard to the basket when defenders’ attention is on the ball, creating easy interior looks or drawing fouls.
+Looks to create downhill on transition; pushes the pace when he reads an unsettled defense.
+On defense, he reads passing lanes aggressively and will gamble for steals and charges when the opportunity arises.
+Projection
+
+Immediate contributor at the collegiate or professional level as a two-way wing who can score in isolation, spot up from three, and defend multiple positions.
+With improved three-point consistency and added strength, he projects as a starting-caliber wing who can handle late-game responsibilities and be a primary perimeter defender.
+Summary Braylon Mullins is a confident, multi-dimensional wing whose scoring toolkit and defensive instincts make him a valuable impact player. He can create and convert in high-pressure moments while also contributing as a playmaker and versatile defender. With marginal improvements in strength, shot consistency, and turnover discipline, his upside moves from high-impact role player to reliable go-to wing.",16/10/2026
+2027,2025-26,Thomas Haugh,PF,NCAA,21,11,11.8,7.1,1.6,49.1,35.4,6.8,1,1.1,ESPN,https://youtu.be/CC4rEi2x9IM?si=M40EA4RJwUAyKI6S ,"Overview
+
+Versatile forward who blends inside physicality with perimeter skill. Strong motor and competitive mentality; impacts the game on both ends. Reliable contributor in late-game situations and March pressure environments.
+Physical Profile
+
+Size and Strength: Above-average length and solid frame for a college forward; uses body effectively to seal defenders and absorb contact. Not an elite athlete but plays stronger than metrics suggest.
+Mobility: Adequate lateral quickness for his position. Moves well in short bursts, allowing him to attack closeouts and cut effectively.
+Conditioning and Effort: High activity level—plays hard for 40 minutes, chases loose balls, and pursues offensive rebounds consistently.
+Offensive Skillset
+
+Scoring Inside: Comfortable finishing through contact around the rim. Uses a variety of short-range moves (hook/loop shots, up-and-under) and converts off the glass in traffic. Good feel for spacing and timing on post entries.
+Mid-Range and Perimeter Shooting: Has a serviceable three-point stroke and can hit from beyond the arc, giving him floor-spacing value. Not a volume deep threat, but enough range to pull opposing bigs out of the paint.
+Free-Throw Tendency: Draws fouls frequently thanks to aggressive drives and physical finishing. Converts at the line enough to be a reliable late-game asset.
+Playmaking: Shows the ability to make simple, decisive passes—effective on slips, pick-and-roll reads, and short-range kickouts. Not a primary creator off the dribble but makes the right play in ball-movement schemes.
+Off-Ball Movement: Reads defenses well, makes timely cuts, and finds scoring opportunities via slips and backdoor actions. Good chemistry with perimeter teammates and timely offensive rebounds that lead to second-chance points.
+Defensive Profile
+
+Paint Protection and Interior Defense: Uses size and length to deter easy inside looks. Takes good defensive angles and contests shots without always fouling. Effective in help rotations and rim deterrence.
+Perimeter Defense: Can be challenged by quicker, smaller wings on switches but maintains position and uses reach to disrupt shots and passing lanes. On-ball defense vs. guards can be situational; best defended with help or when matched with similarly sized opponents.
+Rebounding: Active on both ends—brings hustle and timing to both offensive and defensive boards. Not solely reliant on vertical explosiveness; uses positioning and anticipation to secure rebounds.
+Defensive IQ: Smart, disciplined defender who communicates and rotates well. Makes hustle plays—loose ball recoveries, contested outlet passes.
+Tendencies and Intangibles
+
+Aggressiveness: Plays with physicality and a competitive edge. Will attack mismatches and seek contact to earn trips to the line.
+Basketball IQ: Reads game situations, executes coachable plays (slips, screens, rotations) and rarely forces low-percentage actions. Good decision-making in late-game scenarios.
+Leadership and Poise: Composed under pressure; performs in big moments. Brings energy that elevates teammates, especially on hustle plays and defensive stands.
+Fit and Projection
+
+Best Role: High-minute starting forward or primary backup big in systems that value space-and-craft—pick-and-roll/pop actions, slip-and-fill schemes, and inside-out offense. Fits well in teams that emphasize toughness, rebounding, and halfcourt execution.
+NBA/Next-Level Projection: Floor-spacing forward with finishing ability and defensive versatility. Upside hinges on continued perimeter shooting consistency, lateral mobility to guard quicker wings, and incremental playmaking development.
+Areas for Improvement: Consistency from three-point range and catch-and-shoot scenarios; lateral quickness and footwork to improve switchability on defense; increased ball-handling to create more off-the-dribble offense.
+Summary Thomas Haugh provides an impactful mix of interior scoring, physical finishing, and complementary perimeter shooting. He defends the paint effectively, rebounds with effort, and contributes smart, team-oriented playmaking. With continued development of shooting consistency and lateral agility, he projects as a valuable two-way forward in schemes that require toughness, spacing, and reliable finishing.",16/10/2026
+2027,2025-26,Jason Crowe Jr.,PG,NCAA,19,12,19.5,2.9,4.1,42.1,33.8,3.5,1.6,0.1,Tankathon,https://youtu.be/tAY85hCHh3k?si=RVbSOaljBbdFBztU ,"Overview Jason Crowe Jr. is a high-level, five-star guard with elite scoring instincts and a well-rounded offensive arsenal. He combines advanced ball-handling, high-level finishing, and consistent outside shooting with strong competitive instincts and poise in late-game situations. He projects as a primary ball-handler and primary scorer at the collegiate level with strong upside as a two-way playmaker.
+
+Physical Profile
+
+Height/Frame: Prototypical guard size for high-major college programs; wiry but strong enough to absorb contact and finish through traffic. Shows good balance and lower-body strength on drives and contact finishes.
+Athleticism: Explosive first step and above-average short-area quickness. Strong leaper for his size which aids in finishing at the rim and contesting shots on defense.
+Motor: High competitive motor; consistently seeks the ball and impacts the game on both ends. Plays with urgency and a desire to finish.
+Offensive Skillset
+
+Shot Creation: Elite. Generates offense for himself off the bounce and with step-backs, jab-step pull-ups, change-of-pace moves and creative finishes (euro-steps, floaters, spin moves). Comfortable creating separation against closeouts and in isolation.
+Shooting Range & Mechanics: Reliable catch-and-shoot three-point range and capable of converting pull-up threes off screens or step-backs. Mechanics are repeatable; shows confidence to take open looks and contested long-range attempts when needed.
+Finishing: Excellent around the rim. Uses body control, angles, and a variety of finishes (power dunking, tough layups through contact, floaters) to consistently convert in traffic. Shows touch on runners and floater off the dribble.
+Passing & Playmaking: Good vision and passing feel for a primary scorer. Makes timely reads, hits teammates in rhythm when defenses collapse, and can run pick-and-roll actions effectively. Not a traditional distributor but a capable secondary playmaker.
+Ball Handling: Advanced for his age. Tight crossover, hesitation dribble, and change-of-direction moves allow him to beat defenders off the dribble and into scoring opportunities or to create passing lanes.
+Shot Selection & Efficiency: Aggressive but efficient — capable of long scoring runs without forcing poor shots. Converts a variety of shots at a high clip due to good decision-making and finishing ability.
+Defensive Profile
+
+On-Ball Defense: Competitive and engaged. Uses quick hands and anticipation to disrupt passing lanes and force turnovers. Can hold his own on the perimeter due to quick lateral feet and effort.
+Off-Ball Defense: Solid understanding of help principles; recovers well after contests. Can be prone to occasional mental lapses in positioning but generally reliable.
+Rebounding & Hustle Plays: Active rebounder for his position, especially on the defensive end. Will go after loose balls and contributes in transition opportunities off defensive stops.
+Intangibles
+
+Clutch & Mental Makeup: Calm and confident in late-game situations; demonstrated the ability to take and make the game-deciding plays. Competes at a high level in pressure moments and shows leadership by example.
+Work Ethic & Coachability: Appears to be a hard worker with a growth mindset; makes adjustments mid-game and shows polish beyond his age.
+Competitiveness: High — attacks every matchup and thrives when challenged.
+Areas for Improvement
+
+Consistency in playmaking volume: Can expand his assist numbers by further improving reads in accelerated collegiate defenses and trusting playmaking instincts on the move.
+Defensive consistency vs. more physical/longer guards: Needs to refine technique and leverage to handle exceptionally long or physically stronger guards at the next level.
+Turnover management in heavy usage: When carrying an offensive load, he sometimes risks turnovers; tightening ball security in traffic will boost overall efficiency.
+Projection Short term (college): Immediate high-usage scoring guard and primary offensive option. Will contribute early with instant scoring in transition, pick-and-roll, and isolation sets while developing into a more complete playmaker.
+Long term (pro potential): Projects as a two-way scoring guard with starter-level scoring ability and developing playmaking. With continued improvement in shot selection, defensive consistency, and playmaking, he has the upside to be an above-average combo guard at the next level and a potential primary scoring option.
+
+Summary Jason Crowe Jr. is a dynamic scorer with advanced finishing skills, reliable shooting, and confident late-game decision-making. He brings toughness, creativity, and a competitive mindset that translate well to higher levels of play. Continued growth as a playmaker and defensive consistency will elevate him from an elite high school scorer to a full-time two-way lead guard at the collegiate and professional levels.",16/10/2026
+2027,2025-26,Cameron Williams,PF/C,NCAA,19,13,11,7.5,1.1,54,28.5,5.1,0.8,1.9,ESPN,https://youtu.be/LmpdoYW6in0?si=5KyGXF9tCM06xBxy ,"Overview
+
+Position: Wing (shooting guard / small forward)
+Strengths: Elite catch-and-shoot three-point shooting, consistent off-ball movement, poise in late-game situations, solid scoring instincts.
+Areas to improve: Limited creation off the dribble, finishing through contact, defensive consistency against quicker wings.
+Prospect profile: Floor-spacing wing who thrives in motion offenses and as a spot-up threat. Projects as a 3-and-D complementary piece at higher levels if defensive quickness and on-ball fundamentals are developed.
+Offensive Skillset
+
+Shooting: Primary skill. Demonstrates reliable three-point stroke from multiple spots beyond the arc. Accurate catch-and-shoot mechanics and quick release allow him to convert off ball screens and in transition. Shows the ability to hit corner threes and pull-up triples when given space.
+Off-ball movement: Reads defensive rotations well and uses cuts, flare screens, and pindowns to get open. Consistently finds pockets in the defense, which maximizes his shooting opportunities.
+Shot selection: Generally disciplined; prefers open looks and capitalizes on team actions that generate clean shots. Shows good restraint, not forcing difficult pull-ups or contested shots often.
+Ball-handling and creation: More of a secondary creator. Dribble creation is a relative weakness — limited ability to create off the bounce against tight closeouts. Best suited coming off screens or receiving passes in rhythm.
+Finishing: Solid at catch-and-shoot layups and transition finishes. Needs improvement finishing through contact in half-court drives; can struggle against longer, physical defenders near the rim.
+Playmaking: Not primary playmaker. Makes the simple pass and can hit the roll or slip when defenders over-commit. Value as a weak-side cutter and as a passer in ball movement sequences.
+Defensive Profile
+
+On-ball defending: Adequate but inconsistent. Can stay with average wings in spot minutes, but can get beat by quicker guards in isolation. Needs improvement in lateral quickness and footwork to consistently defend ball-handlers.
+Off-ball defense and awareness: Reasonably aware; shows willingness to rotate and contest perimeter shots. Must avoid gambling on steals which can lead to blown coverages.
+Rebounding: Provides modest help on the glass for a wing. Uses positioning and effort to secure defensive rebounds but not a dominant rebounder.
+Defensive upside: With focused development on technique, anticipation, and strength, he can be a reliable rotational defender on the wing — especially in schemes that emphasize switching and team help.
+Physical and Athletic Traits
+
+Size: Typical wing size for college/pro level; enough length to contest shots and be a switchable defender in many matchups.
+Athleticism: Above-average straight-line explosiveness for transition and spot finishes. Lateral quickness is average, which impacts on-ball defense and ability to create off the dribble.
+Conditioning and motor: Plays with consistent energy on offense, shows competitive desire when engaged. Needs to maintain focus defensively throughout games.
+Intangibles
+
+Composure: Displays poise in clutch moments; comfortable taking and making big shots. Crowd reactions indicate confidence under pressure.
+Basketball IQ: Reads team actions well and picks spots to shoot. Makes smart movement without the ball and understands spacing.
+Competitiveness and demeanor: Confident scorer who feeds off momentum. Works within team concepts and benefits from structured offensive systems.
+Role Projection
+
+Short term: High-value rotation player as a catch-and-shoot specialist who spaces the floor and moves well without the ball. Effective in transition and as part of pick-and-pop or off-ball screening schemes.
+Long term: With improvements in ball-handling and defense, projects as a multi-positional wing who contributes both offensively as a reliable three-point threat and defensively in switch-heavy schemes. Best fit on teams that prioritize ball movement and spacing.
+Development Priorities
+
+Improve lateral quickness and on-ball defensive footwork to contain quicker guards and be a dependable switch defender.
+Enhance shot-creation skills — ball-handling drills, change-of-pace moves, and finishing through contact to expand scoring beyond spot-up threes.
+Add strength to better absorb contact when attacking the rim and to hold position on defense and rebounding.
+Continue to refine catch-and-shoot mechanics while adding a consistent mid-range pull-up to diversify offensive arsenal.
+Work on playmaking instincts for occasional secondary-creation duties (dribble hand-offs, short drives and paint reads).
+Summary Cameron Williams is a high-IQ wing with a strong specialty as a catch-and-shoot three-point scorer and smart off-ball mover. He brings instant floor spacing and late-game calm, making him a valuable complimentary piece. His ceiling depends on improvements in defensive quickness and creation off the dribble, but as-is he projects as a dependable 3-and-D role player in structured offensive systems.",16/10/2026
+2027,2025-26,Dylan Mingo,PG,NCAA,19,14,12.1,3.4,4.6,44.2,35,3.4,1.7,0.3,NBA Draft Room,https://youtu.be/8VwdfU0MzzM?si=HUha7XIJinATatUK ,"Overview Dylan Mingo stood out as the primary offensive engine in his camp game, showing a blend of aggressive scoring, advanced playmaking, and competitive toughness. He looks comfortable initiating offense and imposing his will downhill, creating for himself and teammates in halfcourt sets and transition.
+
+Strengths
+
+Aggressive scoring: Consistently attacks the rim with a downhill dribble, using body control and contact balance to finish or draw fouls.
+Playmaking: Can run the offense and create high-quality looks for teammates off drives, kick-outs, and pick-and-roll actions. Sees the floor and times passes well in transition and crowded paint situations.
+Midrange/floater package: Uses pull-up jumpers and floaters to counter shot-blockers and avoid turnovers when space is limited.
+Ball handling under pressure: Maintains control against full-court and on-ball pressure, navigating traps and initiating counters to free teammates.
+Competitiveness and toughness: Plays with a high motor; not afraid to take responsibility late in possessions and absorb contact to finish or get to the line.
+Tempo control: Knows when to push in transition and when to slow the offense to run sets or find the best shot.
+Areas for Improvement
+
+Three-point consistency: Shows range but needs more reliable catch-and-shoot and off-the-dribble three-point shooting to consistently stretch defenses and punish ball-screen hedges.
+Decision-making in traffic: Aggression sometimes leads to forced or risky passes that result in turnovers; improving patience and passing angles in tight windows will increase offensive efficiency.
+Perimeter lateral quickness: Can be vulnerable vs. very shifty, low-center-of-gravity guards on the perimeter; quicker defensive slides and anticipation will help him contain those matchups.
+Shot selection refinement: Occasionally settles for contested midrange or long twos rather than working for cleaner attempts or driving to create better kick-outs.
+Physical & Athletic Profile
+
+Frame and strength: Strong enough to finish through contact and absorb physical play. Handles contact well when attacking the rim.
+Explosiveness: Good downhill burst to separate from slower defenders; adequate verticality to finish above the rim when attacking the paint.
+Conditioning: Shows the stamina to maintain aggression across the game, initiating offense and defending with consistent intensity.
+Playstyle & Fit
+
+Projection: Fits as a lead guard or primary scoring guard at the next level. Best in uptempo systems that allow for transition opportunities and pick-and-roll-heavy sets where he can read and react.
+Role fit: Ideal as a ball-dominant guard who can close games, initiate pick-and-rolls, and create offense for teammates. Also effective as a secondary creator in lineups that need a downhill penetration threat.
+Intangibles
+
+Leadership: Commands the floor with confidence; willing to take key shots and direct teammates.
+Coachability: Responds to coaching during the game, adjusts tempo and reads according to scheme.
+Competitive instinct: High desire to win possessions and impact the game on both ends.
+Summary & Projection Dylan Mingo projects as a high-upside primary ball-handler and scorer who can create for himself and others. If he develops more consistent long-range shooting and tightens decision-making in heavy traffic, he can become a reliable two-way lead guard at the collegiate level and beyond. Teams seeking an assertive playmaker who thrives in transition and pick-and-roll action should consider him a strong fit.",16/10/2026
+2027,2025-26,Baba Oladotun,SF,NCAA,18,15,14.6,4.2,1.7,45.8,39.1,4,0.9,0.7,NBA Draft Room,https://youtu.be/lBJhoO72LeU?si=pyeFeXLoEL__tZFq ,"Overview
+Five-star 2026 recruit who committed to Maryland over Georgetown, Kentucky and Arkansas. Ranked No. 10 overall in the Class of 2026 by 247Sports. Late-blooming jumbo wing whose footwork and ball skills are the most praised parts of his game. Status: incoming freshman, no college games yet.
+
+Strengths (inference from published scouting)
+Three-level scoring, including rising over defenders with touch.
+Footwork, which 247Sports analyst Adam Finkelstein cited as where he stands out most.
+Size and length: listed at 6-10 with a reported 7-1 wingspan.
+Pedigree: USA Basketball junior programmes since 2023, and a finalist for the 2026 Team USA U18 squad.
+
+Areas for Improvement (inference from published scouting)
+Consistency: his 2025-26 season was cut short, so there is little recent playing time to judge.
+Physical development: still growing into his frame, which matters against bigger wings in the Big Ten.
+Injuries: an ankle injury sidelined him early in 2025-26. One source also says he tore an ACL in December 2025, but that page mixes up other players, so it is unverified.
+
+Physical and Athletic Profile
+Height 6-10 on the Maryland roster (other sources say 6-8 and 6-9). Weight 195 lbs. Wingspan 7-1. No verified testing data.
+
+Playstyle and Fit
+Projects as a versatile wing who can operate on the perimeter and attack from mid-range. Whether he becomes a point-forward or a wing scorer depends on how his handle and decision-making develop.
+
+Intangibles
+Maryland native who chose a programme close to family. Came through Kevin Durant’s Team Durant AAU programme. An AAU coach described strong basketball instincts from an early age.
+
+Summary and Projection
+One of the highest-rated freshmen in the 2026 class, with a high ceiling if his size and skills translate. Any projection depends on his first season at Maryland.
+
+Sources: Maryland roster (umterps.com); CBS Sports and Sports Illustrated recruiting coverage; High School on SI; Hoopshq.",16/10/2026
+2027,2025-26,Tounde Yessoufou,SF,NCAA,20,16,13.5,5.9,1.8,48.3,32.4,4.9,1.5,0.8,Tankathon,https://youtu.be/oo45qU4_Vdc?si=b060ETPdls1X3AFd ,"Overview
+2025 consensus top-20 recruit and McDonald’s All-American. Productive freshman season at Baylor, scoring 17.8 points a game on 46.5% shooting, and widely described as a projected NBA lottery prospect. School note: some sources list him at St. John’s for 2026-27 and others still list Baylor, so check before using.
+
+Current Stats (2025-26 Baylor, 34 games, per game)
+Minutes 32.6, points 17.8, rebounds 5.9, assists 1.6, steals 2.0, blocks 0.6, turnovers 1.9.
+Field goal 46.5%, three-point 29.3%, free throw 74.6%.
+Season highs: 37 points against BYU, 27 against Colorado.
+
+Strengths (based on verified stats)
+Scoring volume: 17.8 points on 46.5% shooting is productive for a freshman.
+Defensive activity: 2.0 steals and 0.6 blocks a game suggest active hands and length.
+Rebounding: 5.9 a game is strong for his listed position.
+
+Areas for Improvement (based on verified stats)
+Three-point shooting: 29.3% is below what is usually needed from a primary wing scorer.
+Turnovers: 1.9 a game against 1.6 assists is a low ratio for a player expected to create.
+Free throws: 74.6% is solid but not elite.
+
+Physical and Athletic Profile
+Height 6-5, weight 215 lbs. No verified testing data.
+
+Playstyle and Fit
+Scores at all three levels and rebounds well for his size, so projects as a wing who can play both ends. The key questions are three-point percentage and turnovers.
+
+Intangibles
+No verified information beyond his recruiting profile and reported community work.
+
+Summary and Projection
+Strong freshman campaign on the numbers. If his three-point percentage improves and his turnovers come down, he fits a lottery-level wing profile.
+
+Sources: ESPN player page; RotoWire game logs; lines.com; Stat Sniper; Wikipedia.",16/10/2026
+2027,2025-26,Stefan Vaaks,SG,ACB,20,17,11.2,2.6,2,46,38.5,,1.1,0.1,Hoops Sicko,https://youtu.be/9C3SBHdsOw8?si=IX1LLNVGeQl7izez ,"Overview
+Estonian guard, born May 2005, who played one season at Providence in 2025-26 and has committed to Illinois for 2026-27, keeping three years of eligibility. Estonian League champion in 2025 and a Big East All-Freshman Team selection in 2026. Before college he played for BC Kalev in the Latvia-Estonia league.
+
+Current Stats (2025-26 Providence, 31 games, per game)
+Minutes 31.4, points 15.8, rebounds 2.5, assists 3.2, steals 0.8, blocks 0.3.
+Field goal 40.3%, three-point 35.0%, free throw 83.9%.
+Missed time with a pre-season knee surgery, an undisclosed injury, and an illness.
+
+Strengths (based on verified stats)
+Shooting: 35.0% from three on high volume makes him a real perimeter threat.
+Scoring: 15.8 points a game as a freshman, including a 26-point game against Marquette.
+Free throws: 83.9% is strong.
+
+Areas for Improvement (based on verified stats)
+Efficiency: 40.3% from the field is below what is usually expected from a primary scorer.
+Size: listed at 6-6 or 6-7 with a light build (190 to 212 lbs), which could be tested by bigger college guards.
+Availability: several missed games across the season.
+
+Physical and Athletic Profile
+Height 6-6 to 6-7, weight 190 to 212 lbs (sources differ). No verified testing data.
+
+Playstyle and Fit
+Projects as a combo guard who scores and makes shots from distance. His assist numbers suggest he can handle some playmaking.
+
+Intangibles
+Competed for Estonia’s national team. Head coach Kim English said Providence chose him after watching film and meeting him, citing his skill set and willingness to attack.
+
+Summary and Projection
+A productive freshman who could develop into a reliable scorer at Illinois. The main questions are field-goal efficiency and whether his health holds.
+
+Sources: Providence roster and athletics releases; RotoWire; lines.com; Wikipedia.",16/10/2026
+2027,2025-26,Toni Bryant,C,NCAA,19,18,8.9,8.1,0.5,61.2,,5.3,0.4,2.5,Hoops Sicko,https://youtu.be/tWNdlMugKBo?si=DOfJYGVcPHn9uwyQ ,"Overview
+6-9 power forward from Tampa, Florida. McDonald’s All-American and ESPN 100 recruit, ranked as high as No. 14 nationally. Signed with Missouri in September 2025.
+
+Current Stats
+No college games yet. High school junior year (North Tampa Christian): 21.0 points, 11.8 rebounds, 2.1 assists, 1.5 steals, 6.5 blocks. Shot 66% from the field and 43% from three.
+Senior year (Southeastern Prep Academy): 12.4 points, 8.5 rebounds, 1.6 blocks.
+2026-27 college: season not started.
+
+Strengths (inference from published scouting)
+Works effectively from the post, turning back-to-the-basket possessions into face-up attempts.
+Mid-range catch-and-shoot ability, described as unusual for a big.
+Strong off-ball work in half-court and full-court sets.
+Rim protection, with 6.5 blocks a game as a junior.
+
+Areas for Improvement (inference from published scouting)
+Three-point shooting: a scouting writer says he will be serviceable at best, and his college numbers don’t exist yet.
+Level of competition: his high school production is not a guide to how he will handle college bigs.
+Physical development: his frame changed over the off-season, so consistency is still being established.
+
+Physical and Athletic Profile
+Height 6-9, weight 215 lbs. No verified testing data.
+
+Playstyle and Fit
+Projects as a power forward who scores facing up and from mid-range and works away from the ball. Whether that translates to a ball-screen-heavy college offence is the main test.
+
+Intangibles
+No verified information beyond his background and family, as listed on the Missouri roster.
+
+Summary and Projection
+One of the more established 2026 prospects by recruiting ranking and high school production. Shooting and rebounding at college level are the key questions.
+
+Sources: Missouri roster (mutigers.com); ESPN recruiting profile; RealGM; DraftStack scouting piece.",16/10/2026
+2027,2025-26,Billy Richmond,SG/SF,NCAA,20,19,10.4,4.1,2.2,45.1,31.6,2.8,1.4,0.4,Hoops Sicko,https://youtu.be/LliOhvSQyKE?si=a1v0MudQHMQ6CUF- ,"Overview
+Arkansas sophomore from Memphis, Tennessee, and a four-star Memphis East prospect. He declared for the 2026 NBA Draft, was projected by On3 as a No. 36 pick, then withdrew and returned to Arkansas for 2026-27.
+
+Current Stats (2025-26, 37 games, 19 starts)
+Around 11 points, 4 rebounds and 2 assists a game. Sources differ slightly (points 10.0 to 11.2, rebounds 4.0 to 5.4), so treat these as approximate.
+Career highs: 25 points, 10 rebounds, 6 assists, 3 steals, 3 blocks.
+
+Strengths (inference from published scouting)
+Versatile guard-forward hybrid who can drive to the basket.
+Reliable mid-range jumper.
+Aggressive defender who uses size to guard multiple positions.
+
+Areas for Improvement (inference from published scouting and stats)
+Three-point shooting: shooting volume and efficiency from three are limited in the verified logs.
+Consistency: his scoring varies a lot from game to game.
+Ankle: he left a game with an ankle issue during 2025-26, though he returned.
+
+Physical and Athletic Profile
+Listed at 6-6 (some sources say 6-4), 205 lbs. No verified testing data.
+
+Playstyle and Fit
+Projects as a wing who can guard multiple positions and create offence off the dribble. His NBA draft interest suggests his size and defence are the main draw.
+
+Intangibles
+Chose to return to school, and head coach John Calipari said he was excited by Richmond’s mentality of “let’s do something special.”
+
+Summary and Projection
+A useful sophomore with a versatile skill set rather than a standout scorer. Improved three-point shooting would give him a clearer role.
+
+Sources: On3; Stat Sniper; RotoWire; lines.com; ProBallers.",16/10/2026
+2027,2025-26,Bryson Howard,SF,NCAA,19,20,11.7,5.3,2,47,36.1,3.9,1.2,0.5,Bleacher Report,https://youtu.be/QtodzjID2Dw?si=KioqOdknFt3pA8DR ,"Overview
+Five-star 2026 recruit who committed to Duke over North Carolina and Kentucky. Son of former NBA All-Star Josh Howard. Ranked No. 1 in Texas and No. 12 nationally by the 247Sports composite. Status: incoming freshman, no college games yet.
+
+Current Stats (2025-26 high school, Heritage HS, Frisco TX, senior season)
+22.8 points, 8.5 rebounds, 3.3 assists, 3.2 steals, 1.3 blocks a game. This comes from the Gatorade Texas Player of the Year release, which also names the team as a 5A state champion. Other reports say Heritage reached the state semifinals, so treat the championship claim as unconfirmed.
+Junior season: 17.1 points and 10.2 rebounds over 37 games.
+2026-27 college: season not started.
+
+Strengths (inference from published scouting)
+Shooting: Duke head coach Jon Scheyer called him one of the premier shooters in the country.
+Versatility: can play on and off the ball and defend multiple positions, per Scheyer.
+Finishing: described as a versatile finisher who is almost unstoppable when he gets downhill and catches around the basket.
+
+Areas for Improvement (inference from published scouting)
+Level of competition: his production is from high school, so college scoring and shooting efficiency are untested.
+Ball-handling and creating: the published scouting focuses on shooting and finishing, with less on creating for others.
+
+Physical and Athletic Profile
+Height 6-5, weight 185 to 190 lbs, wingspan reported at 6-11. No verified testing data.
+
+Playstyle and Fit
+Projects as a wing who can shoot, finish and guard multiple positions. Scheyer says Duke’s pace fits his game.
+
+Intangibles
+Gatorade-listed 3.95 weighted GPA. Has volunteered for years with The Josh Howard Foundation, serving meals and packing care packages.
+
+Summary and Projection
+One of the top 2026 wings, and a shooter with a complete-looking high school profile. Whether the shooting translates against college defences is the key question.
+
+Sources: Duke athletics announcement (goduke.com); Gatorade Texas Player of the Year; Sports Illustrated Duke coverage; The Ticket; Field Level Media.",16/10/2026
+2027,2025-26,Shelton Henderson,SF,NCAA,19,21,12.8,6,2.4,49.3,33,4.3,1.3,0.6,NBA Draft Room,https://youtu.be/cOHcDiFBILg?si=gGvZiYLrSdfEfpau ,"Overview
+Five-star 2025 recruit who originally committed to Duke, backed off, and signed with Miami in April 2025. 247Sports ranked him No. 25 overall in his class. Status: sophomore in 2026-27, after a freshman season at Miami.
+
+Current Stats (2025-26, 33 games, Miami)
+Minutes 30.8, points 13.7, rebounds 4.8, assists 2.0, steals 1.1, blocks 0.4.
+Field goal 56.3%, three-point 27.1%, free throw 58.8%.
+Career high: 30 points against Florida International in December 2025.
+Note: free-throw percentage is low for a player who gets to the line as often as he does.
+
+Strengths (based on verified stats and inference from published scouting)
+Finishing: field goal percentage over 56% reflects efficient shot selection near the rim.
+Defence: 1.1 steals a game and described as a solid defender who guards multiple perimeter positions.
+Downhill attacks: described as best when attacking downhill and finishing at the rim.
+
+Areas for Improvement (based on verified stats and inference from published scouting)
+Three-point shooting: 27.1% is a clear weakness, and published scouting says he needs to improve as a perimeter shooter to be a rotation piece in the NBA.
+Free throws: 58.8% is low.
+Consistency: he scored under 19 points in every game during his first month before a breakout.
+
+Physical and Athletic Profile
+Height 6-6 (DraftVision and Lines), weight 240 lbs. Described as strong and physical, though not elite vertically.
+
+Playstyle and Fit
+Projects as a physical two-way wing whose value comes from slashing, toughness and defensive versatility, rather than as a primary creator.
+
+Intangibles
+Said his game is about being versatile. Scouts describe him as a team player who fits within ball movement and spacing.
+
+Summary and Projection
+A productive freshman who could be a valuable physical wing. Improving the three-point shot and free throws would make him a more complete player.
+
+Sources: Lines; RotoWire; CBS Sports; Sports Illustrated; DraftVision; Field Level Media.",16/10/2026
+2027,2025-26,Patrick Ngongba II,C,NCAA,20,22,9.4,6.8,1.3,56.4,,4.7,0.5,1.7,Bleacher Report,https://youtu.be/NEVqwt3FqHI?si=3wC41m-1zaa_Zzku ,"Overview
+Duke sophomore centre from Manassas, Virginia. Former five-star recruit who came through Paul VI Catholic High School. Status: sophomore, with a bigger role expected in 2026-27.
+
+Current Stats (2025-26, 32 games, Duke)
+Minutes 21.9, points 10.1, rebounds 5.8, assists 2.0, blocks 1.1, steals 0.6, turnovers 1.3.
+Field goal 60.6%, three-point 25.8%, free throw 66.4%.
+Freshman season (2024-25): 3.9 points, 2.7 rebounds, 71.9% from the field in about 10.6 minutes a game.
+
+Strengths (inference from published scouting and verified stats)
+Efficiency: 60.6% from the field as a big on a deep roster.
+Rim protection: 1.1 blocks a game in limited minutes.
+Passing: scouts cite his passing instincts and the overlap of passing, vertical spacing and shot-blocking.
+
+Areas for Improvement (based on verified stats)
+Shooting: 66.4% from the line and 25.8% from three limit his offensive range.
+Limited minutes: production is still tied to the role he has been given. Scouts expect this to change.
+
+Physical and Athletic Profile
+Height 6-11, weight 235 to 250 lbs. Described as having a strong frame and an ability to finish above the rim. No verified testing data.
+
+Playstyle and Fit
+Projects as a rim-protecting centre with passing ability who may fit a modern, spaced-out frontcourt.
+
+Intangibles
+Son of a George Mason women’s basketball assistant. No further verified information.
+
+Summary and Projection
+A useful big whose production should increase with a bigger role. Whether his offence grows beyond finishing and passing will decide his projection.
+
+Sources: ESPN; Lines; StatSniper; SI; SportsGrid; CBS Sports draft prospect rankings.",16/10/2026
+2027,2025-26,Deron Rippey Jr.,PG,NCAA,19,23,11.1,3,4.8,43.1,34.5,2.7,1.9,0.1,Hoops Sicko,https://youtu.be/vsTH_1Q6OA8?si=MmoE_i9E5Kcg2GHy ,"Overview
+Five-star 2026 point guard from Brooklyn, New York, who committed to Duke over NC State, Miami, Tennessee and Texas. Ranked No. 1 point guard in the 2026 class by the 247Sports composite. Status: freshman in 2026-27, and he has already played his first Duke game.
+
+Current Stats
+2025-26 high school (Blair Academy, NJ, senior season): 15.7 points, 6.3 assists, 5.3 rebounds, 2.0 steals a game. Gatorade New Jersey Player of the Year. Team went 30-2.
+2024-25 high school (junior season): 16.2 points, 5.3 assists, 4.9 rebounds, 2.2 steals.
+2026-27 college, first game vs. Belmont: 11 points, 2 rebounds, 2 assists, 1 steal in 22 minutes.
+
+Strengths (inference from published scouting)
+Defence: described as a menacing defender with elite athleticism and the ability to set the tone on that end.
+Athleticism: explosive in transition and half-court, uses burst to reach the rim and finish with authority.
+Court vision and feel: described as a true floor general who can initiate the offence, with strong passing and IQ.
+
+Areas for Improvement (inference from published scouting)
+Shooting: scouts say he is still refining his offensive skill set and needs his shooting to take a step forward.
+Size: listed at 6-1 or 6-2 and 175 to 185 lbs, which matters against bigger guards in the ACC.
+
+Physical and Athletic Profile
+Height 6-2 (Gatorade and CBS) or 6-1 (Rivals), weight 180 to 185 lbs. Explosive athletic profile, per scouts. No verified testing data.
+
+Playstyle and Fit
+Projects as a lead guard who can defend, run an offence and finish in transition. His first Duke game suggests he will be used as a floor general from day one.
+
+Intangibles
+Described by Gatorade as inspiring confidence in teammates. Has volunteered with a toy drive and food kitchen near his home in Brooklyn.
+
+Summary and Projection
+One of the best point guards in the 2026 class by ranking. The main questions are shooting and how his size holds up in the ACC.
+
+Sources: Gatorade New Jersey Player of the Year; CBS Sports; On3 Rivals; SI; Field Level Media; Duke athletics coverage.",16/10/2026
+2027,2025-26,Trey McKenney,SG,NCAA,20,24,14.2,4,2.3,44.8,35.6,3.1,1.2,0.2,NBA Draft Room,https://youtu.be/gN5xzKG03tw?si=LcoWdjZCJUiVQ_1k ,"Overview
+Flint, Michigan, native and McDonald’s All-American who was Michigan’s Mr. Basketball. Freshman in 2025-26 and part of the Michigan team that won the 2026 national championship. Status: sophomore in 2026-27.
+
+Current Stats (2025-26 freshman season, Michigan, 34 games)
+Minutes 21.6, points 9.6 (some sources list 9.9), rebounds 2.6, assists 0.9, steals 0.4, blocks 0.0.
+Field goal 44.6%, three-point 37.6%, free throw 91.3%.
+Made 12 threes in the NCAA Tournament, including a key shot in the national championship game against UConn.
+Season high: 16 points in one game.
+
+Strengths (verified stats and inference from published scouting)
+Shooting: 37.6% from three and 91.3% from the line show a reliable shooter.
+Scoring: described as able to score from all three levels and to create his own shot.
+Defence: described as a strong defender with a physical frame.
+
+Areas for Improvement (inference from published scouting and verified stats)
+Playmaking: 0.9 assists a game is low for a guard, though scouts describe him as an underrated initiator.
+Role: he came off the bench for much of the year, so his production as a starter is not yet proven.
+
+Physical and Athletic Profile
+Height 6-4, weight 225 lbs. Described as having a strong frame and physical play style. No verified testing data.
+
+Playstyle and Fit
+Projects as a combo guard who can score off the dribble, shoot from distance and defend. His role is set to grow in 2026-27 after the departure of Michigan’s starting backcourt.
+
+Intangibles
+Son of a Flint family with a basketball legacy: his aunt was Flint’s first female professional player. Captain of his high school team, and described as mature beyond his years.
+
+Summary and Projection
+A high-calibre shooter who will have a bigger role as a sophomore. Improving playmaking and proving he can start would define his projection.
+
+Sources: Michigan athletics roster; RotoWire; ESPN; Lines; UMHoops.",16/10/2026
+2027,2025-26,Christian Collins,PF,NCAA,19,25,11.5,6.9,1.2,52.3,29,4,0.8,1.6,Tankathon,https://youtu.be/CvyAscTXCPI?si=vXPND_4o1rykDdEN ,"Overview
+Five-star 2026 forward from St. John Bosco High School in Bellflower, California. McDonald’s All-American and a Naismith All-American Underclassman Honourable Mention. Ranked No. 5 in ESPN’s SCNEXT Top 100 and No. 5 overall on the 247Sports composite at one point. Committed to USC. Status: incoming freshman, no college games yet.
+
+Current Stats (2025-26 high school, senior season)
+26.1 points, 9.6 rebounds, 3.5 assists a game, per the USC roster bio. He also averaged 17.6 points and 9.7 rebounds across his junior and senior seasons.
+Sources conflict on one figure: USC’s bio also gives 12.0 points and 9.7 rebounds for 2025-26, so check which season that line refers to.
+2025 Nike EYBL (summer circuit): 12.8 points, 8.7 rebounds, 1.6 assists, 2.8 turnovers, 41.9% from the field, 21.2% from three on 2.4 attempts.
+2026-27 college: season not started.
+
+Strengths (inference from published scouting)
+Athleticism: good athlete and transition finisher who gets up well at the rim, including a quick second jump.
+Ball-handling and creating: good foundation as a ball-handler with dribble-drive ability.
+Length: listed with a 7-1 wingspan. Gets low and moves his feet well on the perimeter.
+Motor: described as vocal and consistently playing hard.
+
+Areas for Improvement (inference from published scouting and verified stats)
+Three-point shooting: scouts call him a poor shooter from three, and his EYBL 21.2% was very low.
+Efficiency: his EYBL shooting and turnover numbers show games where production and efficiency drop off.
+Shot: one scouting report describes his shot as unorthodox and flat, and questions whether it extends to college and NBA range.
+
+Physical and Athletic Profile
+Height listed at 6-8 (NBADraft), 6-9 (USC) and 6-8 to 6-9 elsewhere. Weight 200 lbs. Wingspan 7-1 (NBADraft). No verified testing data.
+
+Playstyle and Fit
+Projects as a versatile forward who attacks the rim and creates in transition. His shooting development will decide whether he fits a modern wing-forward role.
+
+Intangibles
+Described as vocal and a hard worker. Played for USA Basketball junior teams and the 2026 Nike Hoop Summit. Scouts rate his leadership and intangibles highly.
+
+Summary and Projection
+One of the most talented freshmen in the 2026 class by athleticism and length. The main question is whether his shooting develops enough to make his game consistent.
+
+Sources: USC roster; NBADraft.net; ESPN; RealGM; SI; Field Level Media.",16/10/2026
+2027,2025-26,Bryson Tiller,PF,NCAA,21,26,12,7.2,1.5,48.9,31.4,3.6,0.7,1.2,Hoops Sicko,https://youtu.be/8Cn7hqlBmI0?si=Aaj1k-dwZatDJghS ,"Overview
+Atlanta native and four-star 2025 recruit who came through Pace Academy and Overtime Elite. Redshirted at Kansas, then played one season there in 2025-26 before transferring to Missouri for 2026-27. Ranked No. 26 by ESPN in the 100 at signing, according to Kansas, and No. 42 in the 2025 class by 247Sports, according to other reporting.
+
+Current Stats (2025-26 Kansas, 35 games, 31 starts)
+Points 7.9, rebounds 6.1, assists 1.0 (35 total), blocks 1.3 (45 total).
+Field goal 44.7 to 44.9%, three-point 26.9%.
+Season high: 21 points in a win over a ranked opponent.
+Note: sources give his field goal percentage slightly differently, so treat the exact figure as approximate.
+
+Strengths (verified stats and inference from published scouting)
+Rim protection: 1.3 blocks a game as a starter.
+Rebounding: 6.1 a game as a starter is solid for his size.
+Size: listed at 6-11 with a 7-3 wingspan, which is rare for a forward.
+Scoring range: scouts describe him as capable of scoring with some range, though the three-point numbers are low.
+
+Areas for Improvement (verified stats)
+Three-point shooting: 26.9% at Kansas is a clear weakness.
+Scoring: 7.9 points a game is limited, and most of his production came on the glass and as a shot-blocker.
+Passing: only 1.0 assist a game.
+
+Physical and Athletic Profile
+Height 6-11 (Kansas and AP), though other listings say 6-8 to 6-10. Weight 210 to 240 lbs, depending on the source. Wingspan 7-3 (Kansas). No verified testing data.
+
+Playstyle and Fit
+Projects as a traditional big who protects the rim and rebounds. Missouri will want him to be a more active offensive piece.
+
+Intangibles
+Son of former NFL player Tony Tiller and has two younger siblings. Also has a family background in Atlanta basketball, and played for the Overtime Elite programme.
+
+Summary and Projection
+A solid rim protector and rebounder with a role-player profile. Improving his offence and shooting would decide whether he becomes a starter at Missouri.
+
+Sources: Kansas athletics; Missouri athletics; RotoWire; ESPN; Lines; AP; KSN.",16/10/2026
+2027,2025-26,Brandon McCoy Jr.,PG,NCAA,19,27,13.4,3.7,4.5,45.2,34,3.8,1.8,0.3,Bleacher Report,https://youtu.be/gtVut_-XWXY?si=DBCLzC33xUUlMc6T ,"Overview
+Consensus five-star 2026 guard from Oakland, California, and a top-20 recruit. Signed with Michigan in April 2026. Injured in Michigan’s European tour and will miss the 2026-27 season. Status: incoming freshman, out for the season.
+
+Current Stats (2025-26 high school, senior season)
+19.2 points, 7.4 rebounds, 3.5 assists, 2.2 steals a game. Helped his team to a 30-1 record and the 2026 CIF-SS Open Division title. Named Trinity League Defensive Player of the Year in 2025.
+Michigan European tour (2026): averaged about 14.5 points, 5 rebounds and 4 steals across his first two games.
+2026-27 college: will not play (ACL injury, right knee).
+
+Strengths (inference from published scouting)
+Scoring: described by Michigan as an explosive scorer.
+Defence: named Trinity League Defensive Player of the Year, and new Michigan coach Mike Boynton Jr. has praised him as a perimeter defender.
+Pro-level length: Rivals described him as having pro-level length and a well-rounded set of tools.
+
+Areas for Improvement (inference from published scouting)
+Build: listed at 6-5 but under 200 lbs, so he may struggle with physicality.
+Health: a right-knee ACL injury will keep him out for the 2026-27 season.
+
+Physical and Athletic Profile
+Height 6-5, weight 200 lbs. No verified testing data.
+
+Playstyle and Fit
+Projects as a two-way guard who can score and defend. The injury means his fit at Michigan will be unknown until 2027-28.
+
+Intangibles
+Respectfully asks for “junior” to be used in references. Has represented USA Basketball, winning gold at the 2024 FIBA U17 World Cup and 2025 FIBA U19 World Cup.
+
+Summary and Projection
+One of the most decorated guards of the 2026 class on paper, but the ACL injury means his college career will start late. The ranking and USA Basketball record are verified, and his college impact is not yet known.
+
+Sources: Michigan athletics roster and signing release; AP; Rivals; RotoWire; Michigan roster.",16/10/2026
+2027,2025-26,Amare Bynum,C,NCAA,20,28,9,7.4,1.1,55.6,22,4.1,0.5,1.8,Hoops Sicko,https://youtu.be/HKI6V2E3qRE?si=9vtrj68C6nxsQqwz ,"Overview
+Four-star 2025 recruit from Omaha, Nebraska, who played his high school senior year at Link Academy. Ohio State’s roster lists him at 6-8 and 240 lbs. Status: sophomore in 2026-27 after a freshman season at Ohio State.
+
+Current Stats (2025-26 freshman season, Ohio State, 33 games)
+Minutes 28.2, points 9.7, rebounds 4.8, assists 1.1, steals 0.5, blocks 0.8.
+Field goal 50.2%, three-point 31.8%, free throw 72.9%.
+Season high: 18 points against Indiana, and a 17-point game earlier in the season.
+
+Strengths (verified stats and inference from published scouting)
+Efficiency: 50.2% from the field as a freshman.
+Shot blocking: 0.8 blocks a game.
+Versatility: described as live-bodied, energetic and able to shoot from the perimeter.
+
+Areas for Improvement (verified stats and inference from published scouting)
+Three-point shooting: 31.8% is below what is needed from a frontcourt player on the perimeter.
+Defence: scouts say he struggled to guard quicker players in space and was targeted in some matchups.
+Free throws: 72.9% is below average for a big.
+
+Physical and Athletic Profile
+Height 6-8, weight 240 lbs (Ohio State roster). No verified testing data.
+
+Playstyle and Fit
+Projects as a physical frontcourt player who can rebound and finish, with a jump shot that could expand his role. With Bruce Thornton gone, he is expected to take on more scoring.
+
+Intangibles
+His father, Omar Bynum, played four seasons at Iowa State (2000-03). No further verified information.
+
+Summary and Projection
+A good freshman with a clear base in rebounding and efficiency. Developing his perimeter defence and three-point shot would decide whether he becomes a top frontcourt player in the Big Ten.
+
+Sources: Ohio State roster; RotoWire; Lines; SportsNaut; Sportskeeda.",16/10/2026
+2027,2025-26,Ivan Kharchenkov,SF,NCAA,20,29,10.3,4,1.7,44,34.9,2.9,1.1,0.3,Fansided,https://youtu.be/4dqQiSEeVzM?si=NsBoO_vzIWUaYJLx ,"Overview
+German forward from Munich who came through Bayern Munich. He won the 2025 Bundesliga title with Bayern and played 23 EuroLeague games in 2024-25. He joined Arizona as a freshman in 2025-26 and was a regular starter. Status: sophomore in 2026-27, returning to Arizona.
+
+Current Stats (2025-26 freshman season, Arizona)
+Points 10.4, rebounds 4.3, assists 2.3, steals 1.4 a game, in 39 appearances. ESPN lists 21 games and 21 starts, so check the appearance count.
+Field goal 49 to 51%, three-point 31.5 to 31.7%, free throw 72 to 75%.
+Minutes about 28 a game.
+Season high: 26 points against Memphis in a Hoops HQ-noted game.
+
+Strengths (verified stats and inference from published scouting)
+Efficiency: about 50% from the field for a freshman guard-forward.
+Playmaking: 2.3 assists a game, with a season-high of 8 assists in one game.
+Defence: 1.4 steals a game and a season-high five steals against Alabama, which Arizona called a first for a true freshman against a Top 25 opponent.
+
+Areas for Improvement (verified stats)
+Three-point shooting: about 31.5% is below what is needed for a primary wing.
+Turnovers: about 1.5 a game is high relative to his assists.
+Free throws: 72 to 75% is only average.
+
+Physical and Athletic Profile
+Height 6-7 (Arizona), with other listings at 6-7 and 2.01 m. Weight 230 lbs (Arizona roster). No verified testing data.
+
+Playstyle and Fit
+Projects as a versatile forward who can play across the frontcourt and handle some playmaking. His European experience and size make him a good fit for a switchable role.
+
+Intangibles
+Played in the Bundesliga and EuroLeague before joining Arizona. Named the first true freshman to post five steals against a Top 25 opponent in the 2025-26 season.
+
+Summary and Projection
+A productive, efficient freshman with international pedigree. Improving his three-point shooting and reducing turnovers would make him a more complete player.
+
+Sources: Arizona athletics roster; ESPN; RotoWire; Lines; HoopsHQ; PHNX Sports.",16/10/2026
+2027,2025-26,Dame Sarr,SG,NCAA,21,30,11.5,3.2,2.1,46.3,37,3.6,1.4,0.4,NBA Draft Room,https://youtu.be/H8BVjANtGqw?si=pbD59FJwwgovlejY ,"Overview
+International guard from Duke’s 2025 class, described by CBS as one of basketball’s top international prospects. Played his freshman season at Duke in 2025-26 and was a regular starter for part of it. Status: sophomore in 2026-27.
+
+Current Stats (2025-26 Duke, freshman season)
+Points 6.1 to 6.4, rebounds 3.6 to 3.8, assists 1.0 to 1.1, steals 1.0, blocks 0.3 to 0.4. Minutes about 23 a game.
+Field goal 40.4%.
+Sources differ slightly on exact figures, so treat these as approximate.
+Season high: 19 points against Army West Point, and 19 points against Florida State earlier.
+Note: his scoring was inconsistent, and he was used in a bigger guard role after Caleb Foster’s absence.
+
+Strengths (inference from published scouting and verified stats)
+Shooting: he hit several threes in a game in the 2025-26 season, and showed range on the perimeter.
+Size for a guard: listed at 6-8 with a 190 lb frame.
+Defensive activity: 1.0 steal a game.
+
+Areas for Improvement (verified stats)
+Efficiency: 40.4% from the field is low for a guard who is expected to score.
+Consistency: his scoring went through long quiet stretches, including several games with no three-pointers.
+Playmaking: 1.1 assists a game is low for a guard.
+
+Physical and Athletic Profile
+Height listed at 6-8 (Stat Sniper, Rotowire) and 6-6 in some other listings, weight 190 lbs. No verified testing data.
+
+Playstyle and Fit
+Projects as a wing-guard who can shoot, defend and rebound for his size. His role is unclear until Duke’s 2026-27 rotation is set.
+
+Intangibles
+Duke was described as his dream school. No further verified information.
+
+Summary and Projection
+A useful, long guard who showed flashes but was inconsistent as a freshman. Consistent shooting and better efficiency would define his development.
+
+Sources: Rotowire; Stat Sniper; SportBusy; CBS Sports; Bebasket.",16/10/2026
+2027,2025-26,Tyler Tanner,PG,NCAA,20,31,12.3,2.8,4.4,43.9,36.2,3,1.6,0.1,Fansided,https://youtu.be/WSGMhU1JM_g?si=2KNY9E_VmaHyxQJ3 ,"Overview
+Brentwood, Tennessee, native and Gatorade Tennessee Player of the Year. Sophomore at Vanderbilt in 2025-26 (not a freshman, as some listings say). First Team All-SEC, SEC All-Defensive Team and an AP All-American honourable mention. He declared for the 2026 NBA Draft in April but kept his college eligibility. I couldn’t confirm from the sources whether he returned to Vanderbilt or stayed in the draft, so check that before using.
+
+Current Stats (2025-26 Vanderbilt, sophomore season, 36 games)
+Points 19.5, assists 5.1, rebounds 3.6, steals 2.4, blocks 0.3.
+Field goal 49%, three-point 37%, free throw 85%.
+Minutes about 33 a game.
+Set Vanderbilt single-season records for assists (184) and steals (86).
+Season high: 37 points against Oklahoma.
+
+Strengths (verified stats and inference from published scouting)
+Scoring: 19.5 a game as a sophomore at 49% from the field.
+Playmaking: 5.1 assists a game, and scouts describe him as a primary creator.
+Defence: 2.4 steals a game and an SEC All-Defensive Team selection.
+Shooting: 37% from three, and 85% at the line.
+
+Areas for Improvement (inference from published scouting)
+Size: measured at 5-10 3/4 and 167 lbs at the NBA combine, which is small for a point guard.
+Consistency: some of his efficiency depends on tempo, and his shooting numbers at the combine (67.5% in shooting drills) were slightly lower than the college numbers.
+
+Physical and Athletic Profile
+Height 5-10 3/4 (combine measurement), 6-0 (Vanderbilt listing). Weight 167 lbs (combine), 175 lbs (Vanderbilt). No verified athletic testing data beyond the combine shooting drills.
+
+Playstyle and Fit
+Projects as a primary creator who can steer an offence and score off movement. Scouts compare him to Chris Paul, Kyrie Irving and Ty Lawson, and he may start as a sixth man before becoming a starter.
+
+Intangibles
+Parents both played basketball at Rice. Described as a true competitor who makes the players around him better.
+
+Summary and Projection
+One of the most productive guards in the SEC in 2025-26. His size is the main concern, and the 2026-27 status needs to be confirmed.
+
+Sources: Vanderbilt athletics; RealGM; Proballers; NBA.com draft profile; Nashville Post; Lines; Rotowire.",16/10/2026
+2027,2025-26,Miikka Muurinen,PF,NCAA,20,32,10.8,5.7,1.3,49,37.8,3.3,0.8,1.4,Bleacher Report,https://youtu.be/kkxZTt7Zq6o?si=Gy2NJu5dq3pfztyc ,"Overview
+Finnish forward and five-star recruit from Järvenpää, Finland, who signed with Arkansas. He wasn’t ranked in the ESPN top 100 because he didn’t play high school basketball in 2025-26, but ESPN’s scouting grade of 95 would have placed him among the top five high school recruits. He played professionally for KK Partizan in Belgrade. Status: freshman in 2026-27.
+
+Current Stats (2025-26 KK Partizan, professional)
+Euroleague: 6 games, about 11 minutes a game, 0.2 points a game, and 0 rebounds.
+ABA League: season-best 10 points against KK Split on December 28, 2025.
+FIBA EuroBasket 2025 with Finland: 6.6 points and 1.9 rebounds a game over eight games. Named the first ever FIBA EuroBasket Rising Star award winner.
+2026 Nike Hoop Summit: 10 points, 8 rebounds and 2 steals in a start for Team World.
+2026-27 college: season not started.
+
+Strengths (inference from published scouting)
+Size and length: listed at 6-11 to 7-0 with a 215 lb frame, which is rare for a forward.
+Versatility: described as a W/F who can play multiple positions.
+International pedigree: has competed against high-level professional and national team players.
+
+Areas for Improvement (verified stats and inference)
+Limited production: his pro and international minutes are small, so there is little verified data on how he would perform at college level.
+Role: his professional minutes were limited, so his ability to be a regular rotation player is not yet proven.
+
+Physical and Athletic Profile
+Height listed as 6-11 (Arkansas), 7-0 (Rotowire) or 6-10 (Duke interest reports). Weight 200 to 215 lbs. No verified testing data.
+
+Playstyle and Fit
+Projects as a versatile forward with size who can rebound and play in the frontcourt. His college role at Arkansas is still unclear.
+
+Intangibles
+Has represented Finland at several international competitions, including the FIBA World Cup 2027 European Qualifiers, 2024 Olympic Qualifying Tournament and 2023 U16 EuroBasket. Duke, Kentucky, Michigan and North Carolina were among his finalists.
+
+Summary and Projection
+A talented, large forward with international experience but little verified production. Projection depends on how quickly he adapts to college play in his first season.
+
+Sources: Arkansas athletics roster and signing release; Euroleague.net; RotoWire; Bebasket; Field Level Media; Inside The Hall.",16/10/2026
+2027,2025-26,Alex Wilkins,SF,NCAA,20,33,11,4.9,1.8,46.5,34.1,2.5,1.2,0.6,Hoops Sicko,https://youtu.be/ApAAMLJ5O4Q?si=YsS61EP8RN192_v- ,"Overview
+Mattapan, Massachusetts, native and Brooks School graduate. Freshman point guard at Furman in 2025-26, where he was named a finalist for the Kyle Macy Award for top freshman in Division I, and First Team All-Southern Conference (second team by some listings). He transferred to Kentucky in August 2026. Status: sophomore in 2026-27 with three seasons of eligibility.
+
+Current Stats (2025-26 Furman, freshman season, 34 to 35 games)
+Points 17.7 to 17.8, assists 4.7 to 5.0, rebounds 2.0, steals 0.8, blocks 0.1.
+Field goal 45.6 to 46%, three-point 30.4 to 33%, free throw 80 to 82%.
+Minutes about 30 a game.
+Season high: 34 points against UNC Greensboro in the SoCon semifinal, a Furman freshman record.
+SoCon Tournament MVP, averaging 21.7 points in the tournament.
+
+Strengths (verified stats and inference from published scouting)
+Scoring: 17.8 a game as a freshman, and a team-high figure at Furman.
+Playmaking: 4.7 assists a game as a freshman point guard.
+Tournament production: 21.7 points a game in the SoCon Tournament.
+Free throws: 80 to 82% shows he is comfortable at the line.
+
+Areas for Improvement (verified stats)
+Three-point efficiency: 30 to 33% is below what is expected of a primary scorer.
+Field goal efficiency: 46% for a high-volume guard is average.
+Turnovers: about 4 a game, which is high for a point guard.
+Defence: 0.8 steals and 0.1 blocks suggest limited defensive playmaking.
+
+Physical and Athletic Profile
+Height 6-5 to 6-6 (sources differ), weight 170 lbs. No verified testing data. The light frame is the main physical concern.
+
+Playstyle and Fit
+Projects as a scoring point guard who can run an offence and create for others. At Kentucky he is expected to compete for a starting guard role immediately.
+
+Intangibles
+Named among the top freshmen in the country by his conference and an All-Southern Team selection. Attended the Brooks School in Massachusetts and played AAU ball for the Middlesex Magic.
+
+Summary and Projection
+A productive, high-scoring freshman point guard. His size and defensive impact are the main concerns for the next level.
+
+Sources: Furman athletics; Furman Kyle Macy release; RealGM; RotoWire; ESPN; WKYT.",16/10/2026
+2027,2025-26,Amari Allen,SF,NCAA,20,34,12.1,5.2,2,45,35.2,2.8,1.1,0.4,Fansided,https://youtu.be/3vkE9kc4zBc?si=sr1_jLTzS-0Ddui8 ,"Overview
+Green Bay, Wisconsin, native and 2025 Wisconsin Gatorade Player of the Year. Freshman at Alabama in 2025-26, where he was named to the SEC All-Freshman Team and was a three-time SEC Freshman of the Week. He declared for the 2026 NBA Draft, withdrew, and returned to Alabama for 2026-27.
+
+Current Stats (2025-26 Alabama, freshman season, 32 games, 24 starts)
+Points 11.4 (some sources say 11.6), rebounds 6.9, assists 3.1, steals 1.1, blocks 0.7.
+Field goal around 45%.
+Ranked sixth in the SEC for rebounds per game and tied for 10th with five double-doubles.
+Season high: 25 points at Vanderbilt in January.
+Season high: 13 rebounds against Mississippi State.
+
+Strengths (verified stats and inference from published scouting)
+Rebounding: 6.9 a game, which is strong for a wing, and nine games with 10 or more rebounds.
+Playmaking: 3.1 assists a game, with scouts describing him as a connective playmaker who reads plays quickly.
+Spot-up shooting: scouts call him a reliable spot-up shooter who can attack closeouts.
+Defence: head coach Nate Oats described him as an elite defender.
+
+Areas for Improvement (verified stats)
+Efficiency: about 45% from the field is below what is expected from a primary scorer.
+Scoring consistency: double-figure scoring in 20 games, but not all the time.
+Shooting range: the three-point numbers are not clearly documented in the sources.
+
+Physical and Athletic Profile
+Height 6-8 (Alabama roster), 6-5 (NBA profile), 6-7 (some other sources). Weight 205 lbs. No verified testing data.
+
+Playstyle and Fit
+Projects as a versatile wing who rebounds from the forward position and can make the right pass. The NBA draft buzz and his return to school suggest he is seen as a potential lottery-level wing.
+
+Intangibles
+Spent a season at IMG Academy before returning home to finish high school. Coach Nate Oats praised his competitiveness, high character and unselfishness.
+
+Summary and Projection
+A high-IQ, productive freshman with a strong rebounding profile. Shooting efficiency and scoring consistency will shape how he develops at Alabama.
+
+Sources: Alabama athletics roster; NBA.com draft profile; RotoWire; ProBallers; WVUA 23; CBS Sports via On3.",16/10/2026
+2027,2025-26,David Punch,PF,NCAA,21,35,9.5,6.3,1.4,48.7,32,3.2,0.9,1,Hoops Sicko,https://youtu.be/HlSDxoy_TaQ?si=tUJOjw-CpnbTBzW9 ,"Overview
+Harker Heights, Texas, native and 2024 high school recruit ranked about No. 100 by ESPN. He developed from a bench forward at TCU into one of the Big 12’s better rebounders in 2025-26, earning honourable mention All-Big 12. He signed with Texas in April 2026. Status: junior in 2026-27.
+
+Current Stats (2025-26 TCU, sophomore season, 34 games)
+Points 14.1, rebounds 6.8, assists 2.0, blocks 1.9, steals 1.3.
+Minutes about 30 a game.
+Field goal 50.3%, three-point 23.9%, free throw 65.3%.
+Reached double figures in scoring 26 times and had five double-doubles.
+Season high: 26 points, seven rebounds and four blocks against Oklahoma State in the Big 12 Tournament.
+Freshman season (2024-25): 6.5 points and 4.4 rebounds in 32 games.
+
+Strengths (verified stats and inference from published scouting)
+Rebounding and rim protection: 6.8 rebounds and 1.9 blocks a game as a sophomore.
+Size and versatility: 6-7, 246 lbs, with defensive versatility.
+Efficiency: 50.3% from the field is solid for a forward.
+Motor: his rebounding and defensive numbers rose sharply in one year.
+
+Areas for Improvement (verified stats and inference)
+Three-point shooting: 23.9% is the biggest concern. Scouts say he will need to improve as a perimeter shooter to earn an NBA spot.
+Free throws: 65.3% is low.
+Turnovers: 1.7 a game is high for his assist total.
+
+Physical and Athletic Profile
+Height 6-7, weight 246 lbs (Texas roster). No verified testing data.
+
+Playstyle and Fit
+Projects as a physical power forward who rebounds and defends. Texas will need him to add shooting range to fit a modern frontcourt.
+
+Intangibles
+Son of David Punch Sr. and Felisha Provost. Described by TCU coverage as a key catalyst for the team’s success.
+
+Summary and Projection
+A productive, physical forward who turned into a rebounding force in one season. His shooting range will decide his next step.
+
+Sources: Texas athletics; TCU roster; RotoWire; ESPN; Stat Sniper; SI.",16/10/2026
+2027,2025-26,Alijah Arenas,SG,NCAA,20,36,16.2,4,2.6,43.7,35.5,3,1.3,0.3,NBA Draft Room,https://youtu.be/DMTqBMZEq54?si=7unjEcKsWbBsSTcL ,"Overview
+Son of former NBA All-Star Gilbert Arenas, and a five-star 2025 recruit who reclassified from 2026. He was USC’s highest-ranked commit since Isaiah Collier in 2023. Freshman in 2025-26, and a projected top pick by some mock drafts. He announced a return to USC for 2026-27.
+
+Current Stats (2025-26 USC, 14 games)
+Points 14.1, rebounds 2.9, assists 2.1, steals 0.9, blocks 0.5.
+Minutes about 28 a game.
+Field goal 34.1%, three-point 21.3%, free throw 79.2%.
+He missed the first two months of the season after knee surgery, so the sample is short.
+Freshman of the Week in February 2026, after scoring 20-plus points in consecutive games. Season high: 29 points in a win over USC’s rivals.
+
+Strengths (inference from published scouting and verified stats)
+Scoring: 20-plus points in several games once healthy, and described as a phenomenal scorer by coach Eric Musselman.
+Size for a guard: listed at 6-6 to 6-7 with a 199 lb frame.
+Pedigree: 29.5 points a game in his high school senior year (2024-25), and one of California’s all-time leading high school scorers.
+
+Areas for Improvement (verified stats)
+Shooting efficiency: 34.1% from the field and 21.3% from three are both very low.
+Availability: knee surgery and a serious car accident in spring 2025 limited his preparation and his season.
+Turnovers: his games often came with several turnovers, so decision-making needs work.
+
+Physical and Athletic Profile
+Height 6-6 (USC roster) and 6-7 (other sources). Weight 199 lbs. No verified testing data. Recovery from knee surgery and the 2025 accident are the main physical questions.
+
+Playstyle and Fit
+Projects as a scoring guard who can create his own shot. Eric Musselman will expect him to be a primary offensive piece in 2026-27.
+
+Intangibles
+Grew up around basketball, with a father who was a three-time All-Star, and uncles who are former NBA champions. Teammates and coaches have praised his work ethic.
+
+Summary and Projection
+A high-ceiling scorer with a lot to prove after an injury-affected freshman year. His efficiency and health in 2026-27 will decide his projection.
+
+Sources: USC roster; CBS Sports; Rotowire; Lines; SI; Larry Brown Sports.",16/10/2026
+2027,2025-26,Juke Harris,SG,NCAA,21,37,12,3.5,1.9,44.5,36.8,2.9,1,0.3,Hoops Sicko,https://youtu.be/zS4UMPl-lrQ?si=F2zBJYPHyYD4dQRH ,"Overview
+Chicago-born or Salisbury, North Carolina native (sources differ) and Second Team All-ACC selection at Wake Forest in 2025-26. Transferred to Tennessee in May 2026 after declaring for the NBA Draft and then returning to college. Tennessee lists him as a junior with two seasons of eligibility.
+
+Current Stats (2025-26 Wake Forest, 35 to 38 games)
+Points 21.3 to 21.8, rebounds 6.3 to 6.5, assists 1.6 to 1.9, steals 1.4 to 1.5, blocks 0.4.
+Field goal 44.9%, three-point 31.4%, free throw 78.6%.
+Minutes about 33.5 a game.
+Season high: 38 points against Boston College (12 of 19 from the field, six three-pointers).
+Had the largest scoring increase in the country from 2024-25 to 2025-26, going from about 6 points to over 20.
+
+Strengths (verified stats and inference from published scouting)
+Scoring volume: over 21 points a game as a sophomore.
+Rebounding: 6 to 7 rebounds a game from the guard position.
+Scoring range: scouts describe him as an explosive scorer who can take over games.
+
+Areas for Improvement (verified stats)
+Efficiency: 44.9% from the field and 31.4% from three is below what is expected from a high-volume scorer.
+Playmaking: only 1.6 assists a game.
+Turnovers: about 2 a game is high.
+
+Physical and Athletic Profile
+Height 6-7 (Tennessee and Stat Sniper) or 6-5 (older listings), weight 200 lbs. No verified testing data.
+
+Playstyle and Fit
+Projects as a combo guard who can score in bunches and rebound from the perimeter. At Tennessee, he will be a primary scoring option under Rick Barnes.
+
+Intangibles
+Described by Tennessee’s Rick Barnes as explosive and humble, with a good family background.
+
+Summary and Projection
+A high-volume scorer who improved a lot in one year. Efficiency and playmaking are the two areas to watch as he takes on a bigger role at Tennessee.
+
+Sources: University of Tennessee athletics; RotoWire; ESPN; Stat Sniper; Wake Forest roster.",16/10/2026
+2027,2025-26,Ikenna Alozie,SG,NCAA,20,38,11.4,4.3,2.2,45.6,31,2.4,1.6,0.5,Hoops Sicko,https://youtu.be/jnuv9YSG-5A?si=nbobh8qn2uPlrh-T ,"Overview
+Lagos, Nigeria native from Dream City Christian in Glendale, Arizona. Four to five-star 2026 recruit, ranked No. 6 point guard nationally by on3/Rivals and a consensus top-20 prospect. Signed with Houston in November 2025. Status: freshman in 2026-27, with four years of eligibility.
+
+Current Stats
+No college games yet.
+2024-25 Utah Prospects (summer circuit): 15.5 points, 6.5 rebounds, 2.6 assists, 44.6% from the field, 29 steals in 20 games.
+Summer 2025 Peach Jam (first three games): 11.7 points, 7.3 rebounds, 2.7 assists.
+2025-26 high school (Dream City Christian): not verified.
+2026-27 college: season not started.
+
+Strengths (inference from published scouting)
+Athleticism: described by Houston as highly explosive and strong and well built.
+Toughness: Kelvin Sampson’s staff describe him as tough with an old-school mentality.
+Scoring at all three levels: described by Rivals as scoring from all three levels, including dunks in traffic.
+Defence: named as one of his main strengths by scouts, and he has been described as a tough defensive assignment.
+
+Areas for Improvement (inference from published scouting)
+Physical adjustment: 247Sports analyst Adam Finkelstein says he will need time to adjust to the physicality of college basketball.
+Ball skills: Finkelstein says his untapped upside depends on continued progress in ball skills and the nuances of the point guard position.
+
+Physical and Athletic Profile
+Height listed at 6-2 (Houston) to 6-4 (some scouting reports). Weight 180 to 185 lbs. Described as strong and athletic. No verified testing data.
+
+Playstyle and Fit
+Projects as a lead guard or combo guard who can score in transition and in the half court. Houston’s system will ask him to run the point.
+
+Intangibles
+Described as having an old-school players mentality and being no-nonsense off the court. He chose Houston over Alabama, Arizona, Kansas, Kentucky, Louisville and others.
+
+Summary and Projection
+A top-20 guard prospect who is physically ready for college, with his point guard skills the main development area. Projection depends on how his ball-handling and decision-making translate at Houston.
+
+Sources: University of Houston athletics; Rivals; SI; Zagsblog; Field Level Media; Sportskeeda.",16/10/2026
+2027,2025-26,Malachi Moreno,C,NCAA,21,39,9.1,8.6,0.7,59.2,,5,0.4,2.3,NBA Draft Room,https://youtu.be/pAq2RGJj3t4?si=2WO-OL7KzhDk4kGe ,"Overview
+Georgetown, Kentucky native and 2025 McDonald’s All-American and Kentucky’s Mr. Basketball. Ranked No. 25 in the 2025 class by 247Sports. Freshman in 2025-26 and an SEC All-Freshman Team selection. He declared for the 2026 NBA Draft but kept his college eligibility and announced he would return to Kentucky if he stayed in college.
+
+Current Stats (2025-26 Kentucky, freshman season, 26 games, 20 starts)
+Points 7.8 to 8.4, rebounds 6.3 to 6.6, assists 1.7, steals 0.6, blocks 1.5 to 1.7.
+Field goal 58.2 to 58.8%, free throw 69.1%.
+Minutes about 22 a game.
+Led Kentucky in rebounding and blocks, with three double-doubles.
+Season high: 17 points, 8 rebounds, 6 assists and 4 steals against Mississippi State.
+
+Strengths (verified stats and inference from published scouting)
+Efficiency: 58% from the field as a freshman.
+Rim protection: 1.5 blocks a game in 22 minutes.
+Rebounding: 6.3 a game led the team, and he was on the SEC All-Freshman Team.
+Defensive upside: described by SI as having enough upside as a defender to earn a spot in the draft.
+
+Areas for Improvement (verified stats)
+Free throws: 69.1% is below what is needed from a regular big.
+Offence: 7.8 to 8.4 points a game, with no three-point attempts to speak of.
+Playmaking: 1.7 assists a game is limited.
+
+Physical and Athletic Profile
+Height 7-0, weight 243 to 250 lbs (NBA profile and Herald-Leader). No verified testing data.
+
+Playstyle and Fit
+Projects as a rim-protecting centre who rebounds and defends, with limited offence so far. His fit will depend on whether he can develop a reliable shot and free throw.
+
+Intangibles
+Older brother Michael played at Eastern Kentucky. Credited by coach Mark Pope as one of the season’s highlights for his early growth.
+
+Summary and Projection
+A productive, efficient freshman centre whose defence is his calling card. Improving his free throws and adding some offence would be the next step.
+
+Sources: Kentucky athletics roster; NBA.com draft profile; Rotowire; ESPN; Lexington Herald-Leader; SI.",16/10/2026
+2027,2025-26,Alex Condon,C,NCAA,21,40,10.5,7.9,1.5,53.4,29.5,5.5,0.6,1.8,Hoops Sicko,https://youtu.be/eqx056bYCwM?si=pVxd7LhmH1D1Xl-o ,"Overview
+Perth, Australia native and graduate of the BA Centre of Excellence/NBA Global Academy. Florida’s starting forward on the 2025 NCAA champion team and a 2025 All-SEC third team selection. Tested the NBA Draft after his sophomore year, then returned to Florida for his junior season. He announced he will return for his senior season in 2026-27.
+
+Current Stats (2025-26 Florida, junior season, 34 games)
+Points 15.0 to 15.1, rebounds 7.5 to 7.6, assists 3.5 to 3.6, blocks 1.3 to 1.4.
+Field goal 55.6%, career-best shooting and rebounding averages.
+Averaged 19.3 points over the final 10 games.
+Season high: 26 points in a win over a conference opponent.
+
+Strengths (verified stats and inference from published scouting)
+Efficiency: 55.6% from the field is strong for a forward.
+Playmaking: 3.6 assists a game as a 6-11 forward, which is unusual. Florida’s record shows he is one of few Florida players 6-9 or taller to reach 100 assists in a season.
+Rebounding and rim protection: 7.5 rebounds and 1.4 blocks a game.
+
+Areas for Improvement (verified stats)
+Consistency: he scored 19-plus in only five of his first 25 games, and a late-season ankle injury hurt his numbers.
+Three-point range: there is no verified three-point data in the sources I found.
+
+Physical and Athletic Profile
+Height 6-11, weight 230 to 236 lbs. No verified testing data.
+
+Playstyle and Fit
+Projects as a versatile forward or centre who can pass, rebound and protect the rim. His 2026-27 season as a senior will decide whether his NBA stock rises.
+
+Intangibles
+Played at the NBA Global Academy in Australia, the same programme as Josh Giddey and Patty Mills. Described by Florida as a national champion and a starter for a team with a strong culture.
+
+Summary and Projection
+A high-IQ forward with a proven record of production. He is a likely first-round pick if he continues his improvement as a senior.
+
+Sources: Florida athletics roster; OnlyGators; ESPN; RotoWire; Stat Sniper; Proballers.",16/10/2026
+2027,2025-26,Hugo Yimga Moukouri,SF,LNB Élite,19,41,11.9,4.5,1.6,47.1,33.8,,1,0.4,NBA Draft Room,https://youtu.be/NV04dzXkB6U?si=J8Uu1Dn4cHW8mXw6 ,"Overview
+French forward who joined Nanterre 92 in Betclic Élite (France’s top men’s league, sometimes listed as LNB Élite) at age 16. He was named the league’s Best Young Player for 2025-26 at age 17. He has represented France at youth level, including the FIBA U17 World Cup and the 2025 U18 EuroBasket.
+
+Current Stats (2025-26 Nanterre, Betclic Élite)
+Points 8.9, rebounds 3.8, 18 minutes a game.
+Field goal 61.4%, three-point 40.5%.
+Sources also give national-league averages of about 10.4 points and 5.4 rebounds, so treat the exact figures as approximate.
+2026-27 Nanterre: two games, 9.0 points and 5.5 rebounds a game.
+
+Strengths (verified stats and inference from published scouting)
+Shooting efficiency: 61.4% from the field and 40.5% from three for a teenager in the French top flight.
+Size: listed at 6-8 (203 cm) and 219 lbs for a wing.
+Early experience: playing professional minutes at age 16 and 17.
+
+Areas for Improvement (verified stats and inference)
+Role and minutes: 18 minutes a game limits his development and makes his data harder to judge.
+Physicality: at 219 lbs, he will need to add strength to guard grown men in European and NBA-style matchups.
+
+Physical and Athletic Profile
+Height 6-8 (203 cm), weight 219 lbs. No verified testing data.
+
+Playstyle and Fit
+Projects as a wing who can shoot and make plays. Scouts in France treat him as one of the country’s top young prospects.
+
+Intangibles
+At 17 he was described as one of the league’s great revelations, and coach Julien Mahé spoke highly of him when he joined the club.
+
+Summary and Projection
+A young, efficient French prospect who has already shown he can produce in a top professional league. Minutes and physical development are the next steps.
+
+Sources: Wikipedia (LNB Élite and player page); LNB.fr; RealGM; Bebasket; EuroBasket.com; Flashscore.",16/10/2026
+2027,2025-26,Mackenzie Mgbako,SF/PF,NCAA,22,42,14.8,5.1,1.3,46.2,37.1,4.1,0.8,0.5,Hoops Sicko,https://youtu.be/E8R__Rg0MgM?si=qq_R23U6DxCkpmYt ,"Overview
+Franklin, New Jersey, native and Roselle Catholic graduate. 2023 McDonald’s All-American and Big Ten co-Freshman of the Year at Indiana. Transferred to Texas A&M and played only seven games in 2025-26 before a foot injury ended his season. He is planning to return to Texas A&M for 2026-27.
+
+Current Stats (2025-26 Texas A&M, 7 games)
+Points 10.4, rebounds 4.9, assists 1.3, steals 0.6, blocks 0.1.
+Minutes 18.7 a game.
+Field goal 39.0%, three-point 34.3%, free throw 88.2%.
+Foot injury in December 2025 ended his season early.
+
+Previous seasons at Indiana:
+2023-24 (freshman): 12.2 points, 4.1 rebounds, 1.2 turnovers, 33 games, 27 minutes.
+2024-25 (sophomore): 12.2 points, 4.6 rebounds, 32 games, 25 minutes.
+Career high: 31 points against SIU Edwardsville.
+
+Strengths (verified stats and inference from published scouting)
+Scoring: 12.2 points a game at Indiana twice, and 10.4 points in limited minutes at A&M.
+Free throws: 88.2% in 2025-26, and 82% for his career.
+Size and length: 6-9, 225 lbs.
+
+Areas for Improvement (verified stats)
+Efficiency: 39% from the field across his career, and 34% from three.
+Availability: only seven games in 2025-26 because of injury.
+Playmaking: 1.3 assists a game is limited for a forward.
+
+Physical and Athletic Profile
+Height 6-9, weight 225 lbs. No verified testing data beyond a G League Elite Camp appearance in 2025, where he averaged 20.5 points in two games.
+
+Playstyle and Fit
+Projects as a versatile wing-forward who can score from multiple levels. A healthy 2026-27 season at Texas A&M would show whether he can be an efficient regular.
+
+Intangibles
+Father-led family background in New Jersey basketball. Earlier coverage described him as a projected NBA draft pick.
+
+Summary and Projection
+A talented, efficient scorer with a limited recent sample. His health and field goal percentage in 2026-27 will decide his projection.
+
+Sources: Texas A&M athletics roster; RealGM; RotoWire; ESPN; SI; Stat Sniper.",16/10/2026
+2027,2025-26,Na'jai Hines,C,NCAA,20,43,8.4,7.6,0.6,57.1,,3.8,0.5,1.9,Fansided,https://youtu.be/EcuGa64Tql0?si=1Vw3qSoYyFBAzchx ,"Overview
+Plainfield, New Jersey, native, ranked No. 1 player in New Jersey in the 2025 class by 247Sports. Freshman at Seton Hall in 2025-26, where he came off the bench. He transferred to UConn for 2026-27 and is expected to be a starter.
+
+Current Stats (2025-26 Seton Hall, freshman season, 31 to 33 games, mostly off the bench)
+Points 6.4 to 6.5, rebounds 5.5 to 5.8, assists 0.6 to 0.7, steals 0.3 to 0.4, blocks 2.2 to 2.3.
+Minutes about 18 a game.
+Field goal 60.2%, free throw 69%.
+Led the Big East in blocks per game (2.2).
+Scored in double figures 11 times and had four double-doubles.
+Absences: missed games with an ankle issue and an illness.
+
+Strengths (verified stats and inference from published scouting)
+Rim protection: 2.2 blocks a game, the Big East’s best.
+Efficiency: 60.2% from the field.
+Rebounding: 5.5 a game in limited minutes.
+Senior-year production: 18.8 points, 16.9 rebounds and 3.5 blocks in high school, with a double-double in every game.
+
+Areas for Improvement (verified stats)
+Playmaking and offence: 0.6 assists a game and little offensive role so far.
+Conditioning and weight: he weighed about 278 lbs during much of 2025-26 and has since lost about 10 lbs.
+Free throws: 69% is below what is expected from a big.
+
+Physical and Athletic Profile
+Height 6-10 to 6-11 (sources differ), weight 265 to 278 lbs. No verified testing data. Summer weight loss may affect mobility.
+
+Playstyle and Fit
+Projects as a traditional rim-protecting centre. His role at UConn will depend on how far his weight loss improves his mobility and conditioning.
+
+Intangibles
+One of 14 children, a two-sport athlete who also received football offers as a tight end. He is studying sports media. Nicknamed “Big Jah” and “Terminator.”
+
+Summary and Projection
+A shot-blocking centre with a clear defensive identity but a limited offensive profile so far. His 2026-27 role will show whether he can grow beyond defence.
+
+Sources: UConn athletics roster; Seton Hall roster; RotoWire; Stat Sniper; CBS Sports.",16/10/2026
+2027,2025-26,Milan Momcilovic,PF,NCAA,22,44,12.5,4.2,1.4,44.9,38,4.4,0.6,0.9,Hoops Sicko,https://youtu.be/SlsZdARSyTs?si=4PXxaWWclwX8VZmb ,"Overview
+Pewaukee, Wisconsin, native and Iowa State forward who led the nation in three-point shooting in 2025-26. Second-team All-Big 12. He declared for the NBA draft, withdrew, and committed to Kentucky as a transfer for 2026-27.
+
+Current Stats (2025-26 Iowa State, 37 games, 30.5 minutes)
+Points 16.9, rebounds 3.1.
+Three-point 48.7% on 7.5 attempts a game, the best in the NCAA.
+Made at least five threes in ten games, including eight in one Big 12 Tournament game against Arizona.
+Season high: 34 points with eight threes at Cincinnati.
+Iowa State went 29-8 and reached the Sweet 16.
+
+Strengths (verified stats and inference from published scouting)
+Shooting: NCAA-best 48.7% from three.
+Two-way play: described by SI as having elite two-way skills, with the size and athleticism to guard forwards on the perimeter.
+Basketball IQ: scouts praise his high IQ on offence.
+
+Areas for Improvement (verified stats and inference)
+Rebounding: 3.1 a game is low for a 6-8 forward.
+Playmaking and creation: his offence is mostly catch-and-shoot, so his ability to create off the dribble is unproven.
+Consistency: some games produced far fewer points, including a 2-of-6 three-point game during a 20-point scoring stretch.
+
+Physical and Athletic Profile
+Height 6-8 (ESPN and Kentucky lists) or 6-9 (Kentucky’s earlier roster), weight 220 to 225 lbs. Described as athletic enough to defend on the perimeter. No verified testing data.
+
+Playstyle and Fit
+Projects as a three-and-D wing who can stretch the floor. Scouts see him as a second-round pick with a clear role as a shooter.
+
+Intangibles
+High basketball IQ, and described as a competitor who takes big shots. Nicknamed “MoneyMil” and “Serbian Sniper”. Favourite player is Stephen Curry.
+
+Summary and Projection
+One of the best shooters in college basketball, with the role and size to play at the next level. Rebounding and creating off the dribble are the next steps.
+
+Sources: Kentucky athletics roster; Iowa State coverage (AP, ESPN); SI; Wikipedia; Stat Sniper; Action News Jax (AP).",16/10/2026
+2027,2025-26,Motiejus Krivas,C,NCAA,22,45,8.8,6.9,0.9,56,,4.9,0.3,1.7,NBA Draft Room,https://youtu.be/pNNqb0aoRww?si=MD44yy8bfkrJ0E2l ,"Overview
+Lithuanian centre from Šiauliai, who came through Kaunas Žalgiris II and joined Arizona in 2023. He was a First Team All-Big 12 and Big 12 All-Defensive Team selection in 2025-26, and a late first-round prospect who considered the 2026 NBA Draft before returning for his senior season.
+
+Current Stats (2025-26 Arizona, junior season)
+Points 10.4 (some sources say 10.5), rebounds 8.2, assists 1.1, blocks 1.9 (73 total, 17th nationally).
+Minutes 25.3 a game.
+Field goal 56.9%.
+Opponents shot 36.7% when he was on the court, the lowest in the country according to CBB Analytics.
+Season high: 15 rebounds and six blocks at Kansas.
+Freshman season (2023-24): 5.4 points and 4.2 rebounds in 36 games off the bench.
+Missed most of 2024-25 with a lower-leg injury and surgery.
+2026-27 college: season not started.
+
+Strengths (verified stats and inference from published scouting)
+Rim protection: 1.9 blocks a game, and the lowest opponent field goal percentage in the country.
+Rebounding: 8.2 a game as a junior, second on the team behind a senior.
+Efficiency: 56.9% from the field.
+Size and mobility: 7-2 with the foot speed and length to defend in space.
+
+Areas for Improvement (verified stats and inference)
+Offence: mostly finishing and post play, with a developing mid-range game.
+Injury history: the 2024-25 lower-leg injury cost him most of a season.
+Free throws: career 77.8% as a freshman, so consistency at the line is still a question.
+
+Physical and Athletic Profile
+Height 7-2, weight 255 to 260 lbs. No verified testing data.
+
+Playstyle and Fit
+Projects as a rim-protecting centre who defends and rebounds. Another season could move him into the first round.
+
+Intangibles
+Played for Lithuania at FIBA U20 level, including the 2023 European Championship. Named to the all-tournament team at the ANGT in 2022.
+
+Summary and Projection
+One of the best defensive bigs in college basketball and a first-round candidate for 2027. His offence is the main development area.
+
+Sources: Arizona athletics roster; AP; RotoWire; Stat Sniper; Arizona Sports.",16/10/2026
+2027,2025-26,Amani Hansberry,PF,NCAA,22,46,10.2,6.1,1.3,48.5,32.6,3.7,0.9,0.8,Hoops Sicko,https://youtu.be/rU9hFNBD49U?si=7RpNxXgSBM6S1iZ- ,"Overview
+Silver Spring, Maryland native from Mount Saint Joseph in Baltimore. Started at Illinois, transferred to West Virginia, then to Virginia Tech for 2025-26. Junior in 2026-27.
+
+Current Stats (2025-26 Virginia Tech, 30 games, 18 to 22 starts)
+Points 14.3, rebounds 7.4, assists 2.4, steals about 1.0.
+Minutes 30.7 a game.
+Field goal 49.2%, three-point 35.4%, free throw 73.6%.
+Season high: 17 points, 15 rebounds, two blocks and two steals in a triple-overtime win over Virginia.
+Season high: 18 points and six assists against Western Carolina.
+
+Previous seasons (West Virginia, 2024-25): 9.8 points, 6.5 rebounds, 1.4 assists in 31 games, 24 starts.
+
+Strengths (verified stats and inference from published scouting)
+Rebounding: 7.4 a game for a 6-8 forward.
+Efficiency: 49.2% from the field and 35.4% from three.
+Versatility: he has shown he can play multiple frontcourt roles, and he has a double-double in several games.
+
+Areas for Improvement (verified stats)
+Free throws: 73.6% is below what is needed for a primary scorer.
+Turnovers: about 3 a game, which is high for his assist total.
+Availability: he was listed on injury reports during the season, and a lower-body injury cost him games at West Virginia.
+
+Physical and Athletic Profile
+Height 6-8, weight 240 lbs. No verified testing data.
+
+Playstyle and Fit
+Projects as a physical forward who can rebound and score inside. Scouts would want to see more consistency as a playmaker and shooter.
+
+Intangibles
+Son of Paul and Angela Hansberry. Has been a transfer twice, so his adaptability has been tested.
+
+Summary and Projection
+A productive, physical forward with strong rebounding and efficient shooting. Consistency and health are the main points to watch in his final season.
+
+Sources: Virginia Tech roster (hokiesports.com); ProBallers; RotoWire; Stat Sniper; Lines.",16/10/2026
+2027,2025-26,Jeremy Fears Jr.,PG,NCAA,22,47,8.5,2.6,5.2,42.4,31,3,1.7,0.1,Bleacher Report,https://youtu.be/MdjoQez7nS0?si=LNY2lrO--xccvWO4 ,"Overview
+Joliet, Illinois native and La Lumiere graduate. Redshirt sophomore point guard, Wooden Award All-American selection and captain, who led Michigan State in scoring and set the school’s assist record. He withdrew from the 2026 NBA Draft and is returning for 2026-27.
+
+Current Stats (2025-26 Michigan State, 35 games)
+Points 15.2 to 15.7, rebounds 2.4, assists 9.4 (school record 328 total), steals 1.1 to 1.3.
+Minutes 32.4 a game.
+Field goal 43.1%, three-point 32.1%, free throw 88.5%.
+Season highs include 26 points against Illinois and 22 against Duke-area opponents earlier in the year.
+Michigan State went 27-8 and 15-5 in the Big Ten.
+Previous season (2024-25): 7.2 points, 5.4 assists, 39.7% from the field.
+
+Strengths (verified stats and inference from published scouting)
+Playmaking: 9.4 assists a game is one of the best numbers in the country.
+Scoring improvement: from 7.2 points to 15.2 in one year.
+Free throws: 88.5% is elite for a guard.
+Basketball IQ: scouts describe him as one of the best playmakers in the country, with control over tempo.
+
+Areas for Improvement (verified stats and inference)
+Shooting efficiency: 43.1% from the field and 32.1% from three. The Michigan State staff want him closer to 40% from the field.
+Turnovers: about 2.4 a game, which is high for a point guard.
+Size: 6-2, 190 lbs, which is a concern for defending bigger guards.
+
+Physical and Athletic Profile
+Height 6-2, weight 180 to 190 lbs. No verified testing data.
+
+Playstyle and Fit
+Projects as a lead point guard who can run an offence and score when needed. Scouts see him as a top-two-round pick with more upside if he improves his shooting.
+
+Intangibles
+Captain and Wooden Award All-American. Michigan State’s first Wooden All-American since Cassius Winston.
+
+Summary and Projection
+One of the best passers in college basketball and a major piece of Michigan State’s return. Shooting efficiency will decide whether he becomes a first-round player.
+
+Sources: Michigan State athletics release; RotoWire; ESPN; Stat Sniper; SI; Spartan Avenue.",16/10/2026
+2027,2025-26,Ruben Prey,PF/C,NCAA,21,48,9,6.5,1.1,51.2,26.8,3.3,0.7,1.3,Bleacher Report,https://youtu.be/okGYdEDi848?si=xohENY8BittHUesF ,"Overview
+Lisbon, Portugal native who came through Joventut Badalona in Spain’s ACB. Joined St. John’s and was a rotation big in 2025-26. Sophomore in 2025-26 and junior in 2026-27.
+
+Current Stats (2025-26 St. John’s, 37 games, one start)
+Points 4.3, rebounds 2.1, assists 0.8, blocks 0.7, steals 0.4.
+Minutes about 10.7 a game.
+Field goal 50.5%, three-point 62.5% (15 of 24), free throw 67.2%.
+Shot 88.9% from the field in the three NCAA Tournament games, including 12 points against Duke in the Sweet 16.
+Previous season (2024-25): 1.6 points and 1.5 rebounds in 33 games.
+
+Strengths (verified stats and inference from published scouting)
+Shooting: 62.5% from three on a small sample, and he scored in double figures in the tournament.
+Size: 6-11, 230 lbs, with a frame to play in the post.
+Improvement: his scoring went from 1.6 points to 4.3 in one year.
+
+Areas for Improvement (verified stats)
+Playing time: 10.7 minutes a game limits how much his numbers show.
+Rebounding and defence: 2.1 rebounds and 0.7 blocks a game are modest for a 6-11 big.
+Shot volume: his three-point sample is small, so the 62.5% should not be read as proven.
+
+Physical and Athletic Profile
+Height 6-11, weight 230 lbs. No verified testing data.
+
+Playstyle and Fit
+Projects as a reserve big who can stretch the floor. With Zuby Ejiofor graduating, he is the main candidate for a bigger role in 2026-27.
+
+Intangibles
+Son of Catrin Prey and David Pinto. Played in Spain’s youth system before arriving in the US.
+
+Summary and Projection
+A developing big whose strongest number is a small sample of three-point shooting. A bigger role in 2026-27 would show whether his growth continues.
+
+Sources: St. John’s athletics roster; RealGM; RotoWire; Stat Sniper; Lines.",16/10/2026
+2027,2025-26,Tahaad Pettiford,PG,NCAA,21,49,11.2,2.5,3.8,43,34.5,2.6,1.5,0.2,Tankathon,https://youtu.be/G4UTKm_6Hm4?si=hDgmP2AYTC45q-ET ,"Overview
+Jersey City, New Jersey native and 2024 McDonald’s All-American from Hudson Catholic. SEC All-Freshman in 2024. Sophomore point guard at Auburn in 2025-26, and returning for a third season in 2026-27.
+
+Current Stats (2025-26 Auburn, sophomore season, 38 games, 36 starts)
+Points 15.4 to 15.6, rebounds 3.0, assists 3.8, steals 1.1, blocks 0.6.
+Minutes 32.3 a game.
+Field goal 39.3%, three-point 29.0%, free throw 82.5%.
+Led the Players Era Festival in scoring at 22.3 points a game.
+Previous season (2024-25): 11.6 points, 2.2 rebounds, 3.0 assists in 38 games, one start.
+
+Strengths (verified stats and inference from published scouting)
+Scoring: 15.4 points a game as a sophomore starter.
+Free throws: 82.5%.
+Quickness and transition: described as explosive and effective in fast-paced situations.
+
+Areas for Improvement (verified stats and inference)
+Efficiency: 39.3% from the field and 29% from three.
+Size: 6-1, 170 lbs, which is light for a point guard in the SEC.
+Turnovers and playmaking: 3.8 assists against an unknown turnover total, so his decision-making needs checking.
+
+Physical and Athletic Profile
+Height 6-1, weight 169 to 170 lbs. No verified testing data. A 2023 247Sports piece covered his injury recovery, though I haven’t seen the details.
+
+Playstyle and Fit
+Projects as a scoring point guard who can attack in transition. His build and shooting efficiency will decide his ceiling.
+
+Intangibles
+Auburn’s seventh-ever McDonald’s All-American. Auburn’s coach Bruce Pearl has described him as one of the team’s key players.
+
+Summary and Projection
+A talented, quick guard with scoring ability but limited size and efficiency. A better shooting year in 2026-27 would define his development.
+
+Sources: Auburn athletics roster; Wikipedia; RotoWire; Stat Sniper; Lines; Sportskeeda.",16/10/2026
+2027,2025-26,Terrance Arceneaux,SG/SF,NCAA,23,50,8.1,4.3,1.2,45,35,3.5,1.4,0.7,Tankathon,https://youtu.be/yV3j_n-VXhQ?si=b8TB_eXDogKAgYP0 ,"Overview
+Jersey City, New Jersey native and 2024 McDonald’s All-American from Hudson Catholic. SEC All-Freshman in 2024. Sophomore point guard at Auburn in 2025-26, returning for a third season in 2026-27.
+
+Current Stats (2025-26 Auburn, sophomore season, 38 games, 36 starts)
+15.4 points, 3.0 rebounds, 3.8 assists, 1.1 steals and 0.6 blocks in 32.3 minutes per game. Shot 39.3% from the field, 29.0% from three and 82.5% from the free-throw line. Led the Players Era Festival in scoring at 22.3 points per game and led Auburn with 145 assists.
+
+Previous season, 2024-25: 11.6 points, 2.2 rebounds and 3.0 assists in 38 games, with one start.
+
+Strengths (verified stats and inference from published scouting)
+
+Scoring: Averaged 15.4 points as a sophomore starter and scored 585 points across the season, ranking 15th on Auburn’s single-season scoring list.
+
+Free throws: 82.5% from the line, a strong indicator of touch and ability to convert under pressure.
+
+Quickness and transition: Described as explosive and effective in fast-paced situations, with the profile of a guard who can create early offense.
+
+Shot creation: His scoring jump from 11.6 to 15.4 points per game came while moving into a full-time starting role, suggesting he can carry more offensive responsibility.
+
+Areas for Improvement (verified stats and inference)
+
+Efficiency: 39.3% from the field and 29.0% from three are below the level you want from a lead guard, especially after shooting 42.1% from the field and 36.6% from three as a freshman.
+
+Size: Listed at 6-1 and around 169-170 pounds, which is light for an SEC point guard and could create finishing and defensive concerns against bigger backcourts.
+
+Turnovers and playmaking: He averaged 3.8 assists and 2.2 turnovers, so the assist-to-turnover ratio is positive, but his decision-making in half-court settings still needs closer film review.
+
+Three-point consistency: The drop from 36.6% to 29.0% is the main development question; improving shot selection and catch-and-shoot reliability would materially raise his ceiling.
+
+Physical and Athletic Profile
+6-1, approximately 169-170 pounds. No verified wingspan, vertical or combine-style testing data included here. His quickness, burst and ability to play at speed appear to be core athletic strengths, but his frame will need to hold up against physical college and professional guards.
+
+Playstyle and Fit
+Projects as a scoring point guard who can attack in transition, generate his own shot and provide secondary playmaking. His best fit is likely as a lead or combo guard allowed to hunt offense, ideally alongside a bigger defensive guard and spacing bigs. His shooting efficiency and size will ultimately determine whether he projects as a high-level starter or a microwave scoring reserve.
+
+Intangibles
+Auburn’s seventh-ever McDonald’s All-American. Bruce Pearl has described him as one of the team’s key players, and he returned for a third college season rather than leaving after his sophomore year.
+
+Summary and Projection
+A talented, quick scoring guard with real shot-making ability, free-throw touch and transition juice, but limited size and inconsistent shooting efficiency. A stronger three-point season in 2026-27, combined with improved physical strength and half-court decision-making, would define his draft trajectory and long-term role.
+
+Sources: Auburn athletics roster; ESPN; Wikipedia; RotoWire; Sportskeeda; Yahoo Sports; 247Sports.",16/10/2026
+2027,2025-26,Jalil Bethea,SG,NCAA,21,51,11.5,3,2.1,44.1,37.2,2.8,1.1,0.3,Tankathon,https://youtu.be/ima9egW-12g?si=Fw3ZVTaFBU6gfOKY ,"Overview
+Philadelphia native and former five-star recruit, now a sophomore guard at Alabama. Played a reduced role in 2025-26 after a larger freshman workload.
+
+Current Stats (2025-26 Alabama, sophomore season, 26 games)
+3.9 points, 1.7 rebounds and 0.5 assists in 7.9 minutes per game. Shot 37.5% from the field, 31.4% from three and 80.6% from the free-throw line.
+
+Previous season, 2024-25: 7.1 points, 2.1 rebounds and 1.2 assists in 31 games.
+
+Strengths (verified stats and inference from published scouting)
+
+Free-throw touch: 80.6% from the line supports legitimate shooting feel.
+
+Perimeter shooting potential: 31.4% from three on limited volume, with prior shooting pedigree suggesting room to develop into a reliable catch-and-shoot wing.
+
+Size for a guard: Listed at 6-5, 192 pounds, giving him useful wing dimensions.
+
+Scoring flashes: Scored a career-high 21 points against UTSA, showing he can heat up when given opportunity.
+
+Areas for Improvement (verified stats and inference)
+
+Efficiency: 37.5% from the field and 31.4% from three need to rise for him to earn a bigger role.
+
+Playmaking: 0.5 assists per game shows very little creation or connective playmaking in his current role.
+
+Opportunity: His minutes fell sharply from 19.0 to 7.9 per game, so he needs to convert limited chances into consistent production.
+
+Physical and Athletic Profile
+6-5, approximately 192 pounds. No verified athletic testing data included here. His size is a real positive for a shooting-guard projection.
+
+Playstyle and Fit
+Projects as a wing scorer and spot-up threat rather than a primary creator. Best fit is in a spaced, fast system where he can attack closeouts, make open threes and defend multiple perimeter positions.
+
+Intangibles
+Former high-major recruit with a strong developmental pedigree, but his sophomore season suggests he needs a clearer role and more consistent confidence.
+
+Summary and Projection
+A tools-based wing with shooting touch and size, but currently unproven as an efficient, high-minutes contributor. His development depends on turning shooting feel into consistent three-point production and adding simple playmaking.
+
+Sources: Alabama athletics; ESPN; USbasket.
+",16/10/2026
+2027,2025-26,DJ Wagner,PG/SG,NCAA,22,52,11,2.4,3.5,42.3,31.5,2.1,1.3,0.1,Tankathon,https://youtu.be/PPsVkNf_o0s?si=j8Te3bdtvb18yEOg ,"Overview
+Former Kentucky guard who transferred to Arkansas and played his junior season there in 2025-26. A former high-profile recruit with NBA lineage, now projecting as a backup/rotation guard rather than a high-usage lead creator.
+
+Current Stats (2025-26 Arkansas, junior season, 35 games, 19 starts)
+7.4 points, 1.6 rebounds, 2.4 assists, 0.9 steals and 0.3 blocks in 23.6 minutes per game. Shot 42.9% from the field, 34.6% from three and 72.4% from the free-throw line.
+
+Previous seasons: 11.2 points and 3.6 assists at Kentucky in 2024-25; 9.9 points and 3.3 assists as a Kentucky freshman in 2023-24.
+
+Strengths (verified stats and inference from published scouting)
+
+Efficiency improvement: Career-best 42.9% from the field and 34.6% from three.
+
+Ball security: 85 assists against only 23 turnovers, an excellent 3.7:1 assist-to-turnover ratio.
+
+Size for a guard: 6-4, approximately 194 pounds, giving him the frame to play either backcourt spot.
+
+Experience: Three seasons of high-major basketball with prior starting experience at Kentucky and Arkansas.
+
+Areas for Improvement (verified stats and inference)
+
+Creation load: His scoring and assist numbers dropped sharply from his Kentucky seasons, indicating a more limited on-ball role.
+
+Free throws: 72.4% is below the standard for a guard with his experience.
+
+Athletic separation: His modest rebounding and steal rates suggest he is not an elite athlete or high-impact defender; film is needed to confirm his ability to create against length.
+
+Physical and Athletic Profile
+6-4, approximately 194 pounds. Solid size for a combo guard, though his current production profile suggests he is more of a controlled connector than an explosive athlete.
+
+Playstyle and Fit
+Projects as a secondary ball-handler, low-mistake connector and spot-up threat. Best fit is next to a primary creator, where he can defend a bigger guard, make open shots and keep the offense organised.
+
+Intangibles
+Strong basketball background and high-major experience, with a clear ability to fit into a structured system rather than force the action.
+
+Summary and Projection
+A experienced, low-turnover combo guard whose shooting improved but whose creation and athletic upside remain limited. His path is as a reliable depth guard who can stabilise a second unit, not currently a lead initiator.
+
+Sources: Arkansas/Maryland athletics; ESPN; CBS Sports; RotoWire; Scout Basketball.",16/10/2026
+2027,2025-26,Cameron Houindo,PF,LNB Élite,19,53,9.4,5.8,1,49.5,28,,0.9,1.1,NBA Draft Room,https://youtu.be/-u-tisLqpBU?si=Qz1upImjygZBOYAR ,"Overview
+French 2008-born forward who moved from Pôle France to Cedevita Olimpija in Ljubljana in summer 2025. He is one of the leading European prospects in his age group and won FIBA U16 EuroBasket MVP in 2024 while leading France to the title.
+
+Current Stats (2025-26 Cedevita Olimpija)
+In senior ABA League action, he appeared in limited minutes and averaged roughly 2.6 points and 1.5 rebounds per game.
+
+In EuroCup/ABA senior competition, he played five games at 9.3 minutes per game, averaging 0.8 points, 0.6 rebounds and 1.0 assist.
+
+At youth level, he was far more productive: 22.0 points and 7.5 rebounds per game in the EuroLeague NextGen Ulm Qualifier, winning tournament MVP, then 21.0 points and 9.7 rebounds at the Finals in Athens.
+
+Strengths (verified stats and inference from published scouting)
+
+Youth-level scoring: 33 points in an ANGT game against U18 EA7 Emporio Armani Milan shows real scoring upside for his age.
+
+Rebounding and motor: 9.7 rebounds per game at the NextGen Finals suggests he can impact the game physically against peers.
+
+Size and mobility: Listed at 206 cm, with a profile built around explosiveness and frontcourt versatility.
+
+International pedigree: FIBA U16 EuroBasket MVP and a key role in France’s 2024 title run.
+
+Areas for Improvement (verified stats and inference)
+
+Senior-level adjustment: His senior minutes and production remain limited, so he must prove his youth dominance translates against stronger, older competition.
+
+Efficiency: His limited senior sample includes poor shooting numbers, including 20% from the field in EuroCup/ABA play.
+
+Physical development: Born in 2008, he is still early in his strength and maturity curve.
+
+Physical and Athletic Profile
+206 cm, born January 2008. A long, athletic forward with encouraging mobility and explosive traits, but still developing physically.
+
+Playstyle and Fit
+Projects as a mobile, energetic forward who can rebound, finish in transition and develop into a multi-position defender. Best fit is a developmental European environment where he can earn minutes gradually rather than being forced into a major senior role too early.
+
+Intangibles
+His youth accolades and tournament MVP performances show a high competitive level, but his current professional role is still very small.
+
+Summary and Projection
+A high-upside French forward with strong youth production, athleticism and international pedigree, but very limited senior-level evidence. His development depends on adding strength, improving efficiency and earning consistent professional minutes.
+
+Sources: Cedevita Olimpija; ABA League; RealGM; Wikipedia; BeBasket; Proballers.",16/10/2026
+2027,2025-26,Pavle Backo,C,ABA League,19,54,8.7,6.4,0.7,55.1,,,0.4,1.4,NBA Draft Room,https://youtu.be/WHRAubvbG9w?si=c6UIyXcdWbYD_2Qj ,"Overview
+Serbian 2007-born big man playing for Mega Basket in the ABA League system. He has also represented Serbia at U18 level and has strong youth-production numbers.
+
+Current Stats (2025-26 / recent ABA and youth data)
+In ABA League 2026-27 action, he averaged 7.5 points, 3.5 rebounds and 0.5 assists in 21 minutes across two games, shooting 38.5% from the field.
+
+In EuroBasket U18 play, he averaged 16.7 points, 5.8 rebounds, 1.2 blocks and 0.5 assists in 20.9 minutes over six games, shooting 61.3% from the field, 46.2% from three and 94.7% from the line.
+
+Strengths (verified stats and inference from published scouting)
+
+Interior scoring: 61.3% shooting and 65.3% on two-point attempts at U18 level show strong finishing around the basket.
+
+Free-throw shooting: 94.7% from the line in U18 play is an unusually strong indicator of touch for a young center.
+
+Three-point potential: 46.2% from three on 2.2 attempts per game at U18 level suggests stretch-big potential, though the sample is small.
+
+** rim protection:** 1.2 blocks per game in U18 competition supports a basic protective presence.
+
+Areas for Improvement (verified stats and inference)
+
+Turnovers: 3.2 turnovers against 0.5 assists at U18 level is a major concern for a big man.
+
+Senior-level efficiency: His limited ABA sample shows 38.5% shooting, so he must prove his youth-level finishing translates.
+
+Physical readiness: At 2.10 metres and born in 2007, he is still developing the strength needed for regular senior competition.
+
+Physical and Athletic Profile
+2.10 metres, born November 2007. A modern-size center with encouraging shooting indicators, but still early in his physical development.
+
+Playstyle and Fit
+Projects as a skilled stretch center who can finish inside, space the floor and protect the rim. Best fit is in a developmental European environment before any NBA evaluation becomes serious.
+
+Intangibles
+His U18 production and shooting numbers are encouraging, but the large turnover rate and limited senior minutes mean his readiness is still uncertain.
+
+Summary and Projection
+A intriguing young Serbian center with size, touch and stretch potential, but major decision-making and physical-development questions. He is a long-term developmental prospect rather than an immediate impact player.
+
+Sources: ABA League; RealGM; Scout Basketball; BeBasketball.",16/10/2026
+2027,2025-26,Jamari Phillips,SG,NCAA,21,55,10.1,3.2,1.9,43.7,35.4,2.1,0.9,0.2,NBA Draft Room,https://youtu.be/N5lW1K7Lxi4?si=4AcCGoPIpK1gLMeP ,"Overview
+Sophomore shooting guard at Oregon who spent two quiet seasons with the Ducks before entering the transfer portal.
+
+Current Stats (2025-26 Oregon, sophomore season, 26 games)
+2.7 points, 0.9 rebounds and 0.5 assists in 11.4 minutes per game. Shot 31.5% from the field, 29.5% from three and 83.3% from the free-throw line.
+
+Strengths (verified stats and inference from published scouting)
+
+Free-throw touch: 83.3% from the line supports real shooting mechanics and touch.
+
+Catch-and-shoot potential: Pre-college scouting described him as a constant threat to make shots off the catch or dribble, with 37% three-point shooting and 80% free-throw shooting in EYBL play.
+
+Spot-up role: His college profile is currently that of a low-usage wing who can provide spacing when called upon.
+
+Areas for Improvement (verified stats and inference)
+
+Efficiency: 31.5% from the field and 29.5% from three are well below the level needed for a shooting-guard role.
+
+Decision-making: Scouts previously flagged questionable shot selection and turnovers exceeding assists.
+
+Production: 2.7 points and 0.5 assists in 11.4 minutes show he has not yet translated his shooting potential into consistent college impact.
+
+Physical and Athletic Profile
+No verified height, weight or athletic testing data included here. His profile is currently defined more by shooting potential than by measurable physical tools.
+
+Playstyle and Fit
+Projects as a movement shooter and low-usage wing. Best fit is a system that gives him simple catch-and-shoot chances while hiding him from heavy creation duties.
+
+Intangibles
+He has kept a professional shooting stroke and free-throw number despite limited minutes, which suggests some underlying skill, but his overall college impact has been minimal.
+
+Summary and Projection
+A developmental shooter whose college production has not matched his pre-college reputation. He needs a fresh role, improved shot selection and much better efficiency to become a rotation-level guard.
+
+Sources: Oregon athletics; CBS Sports; 247Sports; RotoWire.",16/10/2026
+2027,2025-26,Rueben Chinyelu,C,NCAA,22,56,6.5,6.8,0.4,62,,4.5,0.3,2.1,NBA Draft Room,https://youtu.be/3p9bCUxVHcQ?si=hwSQSqzsVj7Ct55E ,"Overview
+Junior center at Florida who moved into a full-time starting role in 2025-26 after two previous college seasons. A high-level rebounder and efficient interior scorer.
+
+Current Stats (2025-26 Florida, junior season, 25 games, 25 starts)
+11.7 points, 11.8 rebounds, 0.6 assists, 1.1 blocks and 0.7 steals in 24.4 minutes per game. Shot 60.7% from the field, 68.5% from the free-throw line and attempted only two threes.
+
+Strengths (verified stats and inference from published scouting)
+
+Rebounding: 11.8 rebounds per game, including 4.2 offensive rebounds, makes him one of the stronger college rebounders.
+
+Interior efficiency: 60.7% from the field reflects a reliable finisher around the rim.
+
+Second-chance impact: His offensive-rebounding volume creates extra possessions and easy scoring chances.
+
+Durability and experience: Three college seasons and a growing starting role show continued physical and tactical development.
+
+Areas for Improvement (verified stats and inference)
+
+Range: Essentially no three-point threat, with only two career attempts.
+
+Playmaking: 0.6 assists per game shows limited passing or hub potential.
+
+Fouls: 3.0 personal fouls per game in 24.4 minutes is a concern for a starting center.
+
+Defensive versatility: His profile suggests a traditional, physical interior defender rather than a switchable modern big; film is needed to confirm lateral movement.
+
+Physical and Athletic Profile
+No verified height, weight, wingspan or testing data included here. His statistical profile points to a strong, physical, possession-controlling center.
+
+Playstyle and Fit
+Projects as a traditional rebounding and finishing center. Best fit is next to spacing bigs and creators, where he can screen, roll, clean the glass and defend the paint.
+
+Intangibles
+His jump from 6.0 to 11.7 points and 6.6 to 11.8 rebounds shows a major year-over-year leap in role and production.
+
+Summary and Projection
+A high-level college rebounder and efficient rim finisher, but a limited modern offensive big. His professional ceiling depends on defensive mobility, foul control and whether he can add any credible shooting or passing.
+
+Sources: Florida athletics via ESPN; CBS Sports; RotoWire; Gaussian Hoops.",16/10/2026
+2027,2025-26,Moustapha Thiam,C,NCAA,20,57,7.2,7.1,0.3,58.3,,4.1,0.2,2.4,NBA Draft Room,https://youtu.be/UfaBL8ajZno?si=MVznV6Yd-8WZmuMK ,"Overview
+Sophomore center at Cincinnati who built on a productive freshman season with a larger role in 2025-26. A rim-protecting, efficient interior scorer with some perimeter shooting potential.
+
+Current Stats (2025-26 Cincinnati, sophomore season, 31 games)
+12.8 points, 7.1 rebounds, 0.5 assists, 1.6 blocks and 0.8 steals in 27.2 minutes per game. Shot 52.5% from the field, 28.8% from three and 63.3% from the free-throw line.
+
+Previous season, 2024-25: 10.4 points, 6.4 rebounds and 2.6 blocks in 28.7 minutes per game.
+
+Strengths (verified stats and inference from published scouting)
+
+Rim protection: 1.6 blocks per game, following 2.6 as a freshman, shows a consistent shot-blocking presence.
+
+Interior efficiency: 52.5% from the field supports reliable finishing near the basket.
+
+Perimeter curiosity: 28.8% from three is not efficient yet, but the fact he takes threes gives him developmental stretch potential.
+
+Defensive activity: 0.8 steals and 1.6 blocks suggest he can impact possessions beyond the box score.
+
+Areas for Improvement (verified stats and inference)
+
+Free throws: 63.3% from the line is a concern for a center with shooting ambitions.
+
+Three-point efficiency: 28.8% needs major improvement before defences genuinely respect him outside.
+
+Playmaking: 0.5 assists per game shows very little passing value.
+
+Foul discipline: 2.0 fouls in 27.2 minutes is manageable but needs to stay controlled as his role grows.
+
+Physical and Athletic Profile
+No verified height, weight, wingspan or testing data included here. His statistical profile points to a long, active, shot-blocking center.
+
+Playstyle and Fit
+Projects as a defensive anchor and vertical-spacing big. Best fit is with guards who can create and wings who can space the floor, allowing him to protect the rim, roll hard and occasionally pop.
+
+Intangibles
+He maintained strong block numbers while increasing his scoring role, which is a positive sign for his defensive foundation.
+
+Summary and Projection
+A legitimate rim protector with efficient interior scoring and developmental shooting upside. His ceiling depends on improving free throws, three-point accuracy and passing; his floor is as a defensive-minded backup center.
+
+Sources: Cincinnati athletics via ESPN; CBS Sports; RotoWire; 247Sports.",16/10/2026
+2027,2025-26,Sayon Keita,C,NCAA,21,58,6.8,6.5,0.5,56.7,,3.9,0.4,2,NBA Draft Room,https://youtu.be/B-sXD271Efg?si=p89QQmH27pnw1mYe ,"Overview
+Mali-born, Spain-developed freshman center at North Carolina, previously with FC Barcelona. He reclassified into the 2026 class and committed to UNC in April 2026.
+
+Current Stats (2025-26 FC Barcelona)
+In six EuroLeague games, he averaged 2.5 points, 1.5 rebounds, 0.5 steals and 0.2 blocks in 8.6 minutes per game, shooting 58.3% from the field.
+
+In Spanish league play, he averaged 0.9 points and 1.3 rebounds in 5.5 minutes across nine games.
+
+Strengths (verified stats and inference from published scouting)
+
+Elite length: Measured 6-foot-10¾ with a 7-foot-7 wingspan and 9-foot-4½ standing reach at the NBPA Top 100 Camp.
+
+Rim protection: Averaged 3.2 blocks per game at a major U.S. high-school camp and 4.0 blocks per game at the NBA Academy Games.
+
+Mobility: Scouts describe him as a big mover with quick feet, the ability to run the floor, defend ball screens in multiple ways and potentially switch.
+
+Finishing and lob threat: A bouncy finisher who separates quickly as a roller and projects as a lob target.
+
+Areas for Improvement (verified stats and inference)
+
+Strength: His frame is still undeveloped, and physicality against older college bigs is viewed as his biggest immediate challenge.
+
+Offensive polish: His senior-level scoring is minimal, and he remains largely a finisher rather than a self-creator.
+
+Free throws: Limited senior sample shows 50% from the line in EuroLeague and 33.3% in Spanish league play.
+
+Experience: Only 15 senior appearances across EuroLeague and Spanish league play, so his college readiness is still uncertain.
+
+Physical and Athletic Profile
+7-0, approximately 205-215 pounds, with a reported 7-foot-5 to 7-foot-7 wingspan. Exceptional length, mobility and defensive tools for his age.
+
+Playstyle and Fit
+Projects as a long, active rim protector, vertical spacer and lob finisher. Best fit is a system that lets him screen, roll, protect the paint and defend in space while he adds strength and offensive skill.
+
+Intangibles
+Defensive MVP at a major invitational camp and strong showings at the NBA Academy Games and EuroLeague NextGen suggest high-level competitive instincts.
+
+Summary and Projection
+A high-upside, long-term developmental center with rare length, mobility and rim-protection instincts. His NBA ceiling is significant, but he is raw, light and still needs to prove he can handle physical college competition.
+
+Sources: ESPN; 247Sports; Chapelboro; USA Today; ShamSports; RotoWire.
+",16/10/2026
+2027,2025-26,Cheickh Niang,SF,NCAA,21,59,9.8,4.5,1.3,45.2,31.2,2.2,1.2,0.5,NBA Draft Room,https://youtu.be/31niIA48VY4?si=FJih4JnOTzPPbs6v ,"Overview
+French wing playing for Dolomiti Energia Trento in Italy’s Serie A. He is the younger brother of Saliou Niang and is viewed as an interesting long-term European wing prospect.
+
+Current Stats (2025-26 Trento, Serie A)
+6.3 points, 2.0 rebounds and 0.3 assists per game. Shot 38.9% on two-point attempts and 35.3% from three.
+
+Strengths (verified stats and inference from published scouting)
+
+Three-point shooting: 35.3% from three is a positive early indicator for a wing.
+
+Positional size: Listed at 196 cm, giving him solid wing dimensions.
+
+Perimeter role: His statistical profile suggests a low-usage, spacing-oriented wing rather than a primary creator.
+
+Areas for Improvement (verified stats and inference)
+
+Interior efficiency: 38.9% on two-point attempts is low, suggesting finishing, strength or shot selection issues inside the arc.
+
+Playmaking: 0.3 assists per game shows very little creation or connective passing.
+
+Rebounding: 2.0 rebounds per game is modest for a 6-foot-5 wing.
+
+Physical and Athletic Profile
+196 cm. No verified wingspan, weight or athletic testing data included here. His profile currently points to a perimeter wing with shooting potential rather than an elite athlete or physical force.
+
+Playstyle and Fit
+Projects as a spot-up wing and secondary connector. Best fit is in a structured European or college system where he can take open threes, defend a perimeter spot and grow into a larger role.
+
+Intangibles
+Playing meaningful Serie A minutes at a young age is a positive developmental sign, even if his overall production remains modest.
+
+Summary and Projection
+A young perimeter wing with credible three-point shooting and useful size, but limited all-around production. His development depends on improving interior finishing, rebounding and playmaking.
+
+Sources: Olympics.com; Gaussian Hoops; Envergure.
+",16/10/2026
+2027,2025-26,Silas Demary Jr.,PG,NCAA,21,60,9.7,3.8,2.5,43.4,30.4,3.2,1.5,0.4,ESPN,https://youtu.be/jZSEa8Lulm0?si=OJTAffQib35bVZWJ ,"Overview
+Senior guard at UConn who previously played at Georgia. A experienced, high-assist point guard with strong shooting numbers and a clear connector profile.
+
+Current Stats (2025-26 UConn, senior season, 39 games)
+10.1 points, 4.5 rebounds, 5.9 assists, 1.6 steals and 0.3 blocks in 28.4 minutes per game. Shot 44.6% from the field, 38.5% from three and 80.1% from the free-throw line.
+
+Previous seasons: 13.5 points and 3.1 assists at Georgia in 2024-25; 9.7 points and 2.5 assists as a Georgia freshman in 2023-24.
+
+Strengths (verified stats and inference from published scouting)
+
+Playmaking: 5.9 assists per game ranks among the better college guard marks, with a strong 2.7:1 assist-to-turnover ratio.
+
+Shooting: 38.5% from three and 80.1% from the line support a legitimate spacing threat.
+
+Efficiency: 44.6% from the field is a clear improvement from 39.6% the previous season.
+
+Defense: 1.6 steals per game suggests active hands and useful perimeter defensive engagement.
+
+Areas for Improvement (verified stats and inference)
+
+Creation ceiling: His scoring dropped from 13.5 to 10.1 points per game, suggesting he is more of an organised facilitator than a high-volume scorer.
+
+Postseason production: He averaged 4.8 points on 30.8% shooting in postseason play, raising questions about his ability to raise his level against tougher defences.
+
+Athletic upside: His modest block and rebound numbers suggest he is not an elite athlete; film is needed to assess his ability to create separation.
+
+Physical and Athletic Profile
+No verified height, weight, wingspan or testing data included here. His profile is built around feel, decision-making, shooting and defensive activity rather than overwhelming physical tools.
+
+Playstyle and Fit
+Projects as a low-mistake, pass-first point guard who can shoot, defend his position and run an offence. Best fit is next to a scoring guard or wing, where he can organise the offence without needing to carry the scoring load.
+
+Intangibles
+Three seasons of college experience, steady assist production and improved efficiency point to a mature, system-friendly guard.
+
+Summary and Projection
+A reliable, experienced combo/point guard with strong passing, shooting and defensive activity. His professional ceiling depends on whether he can create more efficiently against high-level athletes, but his floor is as a steady backup or rotation guard.
+
+Sources: UConn athletics via ESPN; CBS Sports; FOX Sports.",16/10/2026
